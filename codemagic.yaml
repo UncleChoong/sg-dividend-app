@@ -60,13 +60,13 @@ workflows:
         script: keychain add-certificates
       - name: Set up code signing settings
         script: xcode-project use-profiles
-      - name: Increment build number
-        script: |
-          cd ios
-          agvtool new-version -all $(($(app-store-connect get-latest-app-store-build-number "$APP_STORE_APP_ID") + 1))
       - name: Flutter iOS build
         script: |
+          NEXT_BUILD=$(($(app-store-connect get-latest-app-store-build-number "$APP_STORE_APP_ID") + 1))
+          echo "Building with --build-number=$NEXT_BUILD"
           flutter build ipa --release \
+            --build-name=0.1.0 \
+            --build-number=$NEXT_BUILD \
             --dart-define=UNIVERSE_URL="$UNIVERSE_URL" \
             --export-options-plist=/Users/builder/export_options.plist
     artifacts:

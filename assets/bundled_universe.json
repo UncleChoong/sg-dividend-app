@@ -1,0 +1,17 @@
+{
+  "generated_at": "2026-05-27T00:00:00+08:00",
+  "schema_version": 1,
+  "universe": [
+    {"ticker":"D05","name":"DBS Group","sector":"Banks","price":42.10,"yield_pct":5.1,"score":18,"score_breakdown":{"sector":2,"mcap":0,"div_vol":0,"payout":5,"price_vol":11},"lot_size":100,"div_history_5y":[1.92,1.62,1.44,1.20,1.20]},
+    {"ticker":"O39","name":"OCBC","sector":"Banks","price":15.20,"yield_pct":5.6,"score":15,"score_breakdown":{"sector":2,"mcap":0,"div_vol":0,"payout":3,"price_vol":10},"lot_size":100,"div_history_5y":[0.85,0.84,0.68,0.53,0.53]},
+    {"ticker":"U11","name":"UOB","sector":"Banks","price":29.80,"yield_pct":5.4,"score":17,"score_breakdown":{"sector":2,"mcap":0,"div_vol":0,"payout":4,"price_vol":11},"lot_size":100,"div_history_5y":[1.70,1.50,1.35,0.78,1.30]},
+    {"ticker":"Z74","name":"Singtel","sector":"Telco","price":3.50,"yield_pct":5.2,"score":25,"score_breakdown":{"sector":15,"mcap":0,"div_vol":5,"payout":0,"price_vol":5},"lot_size":100,"div_history_5y":[0.15,0.149,0.09,0.075,0.175]},
+    {"ticker":"A17U","name":"Ascendas REIT","sector":"REITs","price":2.60,"yield_pct":5.9,"score":42,"score_breakdown":{"sector":27,"mcap":0,"div_vol":0,"payout":10,"price_vol":5},"lot_size":100,"div_history_5y":[0.155,0.152,0.150,0.149,0.146]},
+    {"ticker":"C38U","name":"CapitaLand Integrated Commercial Trust","sector":"REITs","price":2.05,"yield_pct":5.5,"score":40,"score_breakdown":{"sector":27,"mcap":0,"div_vol":0,"payout":8,"price_vol":5},"lot_size":100,"div_history_5y":[0.106,0.104,0.098,0.087,0.108]},
+    {"ticker":"M44U","name":"Mapletree Logistics Trust","sector":"REITs","price":1.40,"yield_pct":6.1,"score":45,"score_breakdown":{"sector":27,"mcap":3,"div_vol":0,"payout":10,"price_vol":5},"lot_size":100,"div_history_5y":[0.086,0.090,0.085,0.082,0.081]},
+    {"ticker":"S63","name":"ST Engineering","sector":"Industrials","price":4.30,"yield_pct":3.7,"score":22,"score_breakdown":{"sector":17,"mcap":0,"div_vol":0,"payout":0,"price_vol":5},"lot_size":100,"div_history_5y":[0.16,0.16,0.16,0.15,0.15]},
+    {"ticker":"S68","name":"Singapore Exchange","sector":"Industrials","price":11.20,"yield_pct":3.0,"score":20,"score_breakdown":{"sector":17,"mcap":0,"div_vol":0,"payout":0,"price_vol":3},"lot_size":100,"div_history_5y":[0.34,0.32,0.32,0.30,0.30]},
+    {"ticker":"ES3","name":"SPDR STI ETF","sector":"Other","price":3.50,"yield_pct":3.8,"score":23,"score_breakdown":{"sector":22,"mcap":0,"div_vol":0,"payout":0,"price_vol":1},"lot_size":100,"div_history_5y":[0.12,0.12,0.11,0.10,0.13]},
+    {"ticker":"QL3","name":"iShares USD Asia High Yield Bond ETF","sector":"Other","price":8.10,"yield_pct":7.3,"score":38,"score_breakdown":{"sector":22,"mcap":5,"div_vol":5,"payout":0,"price_vol":6},"lot_size":100,"div_history_5y":[0.61,0.59,0.55,0.50,0.45]}
+  ]
+}

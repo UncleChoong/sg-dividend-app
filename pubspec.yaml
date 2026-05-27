@@ -1,0 +1,29 @@
+name: sg_dividend
+description: Singapore dividend portfolio optimizer (educational).
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.5.1
+  dio: ^5.4.0
+  fl_chart: ^0.68.0
+  shared_preferences: ^2.2.2
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  glados: ^0.2.0
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/bundled_universe.json

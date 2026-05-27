@@ -87,6 +87,31 @@ void main() {
       expect(r.lines.length, greaterThanOrEqualTo(5));
     });
 
+    test('residual pass does not blow through diversification caps', () {
+      // Universe with only 2 sectors; the greedy pass leaves a chunk of residual.
+      final u = Universe(
+        generatedAt: DateTime.now(), schemaVersion: 1,
+        tickers: [
+          mk('B1', sector: 'Banks', score: 10, yieldPct: 6.0),
+          mk('B2', sector: 'Banks', score: 12, yieldPct: 5.5),
+          mk('U1', sector: 'Utilities', score: 15, yieldPct: 4.0),
+        ],
+      );
+      final r = optimize(capitalSgd: 10000, risk: RiskLevel.aggressive, universe: u);
+      for (final l in r.lines) {
+        expect(l.sgdAllocated, lessThanOrEqualTo(2500.01),
+            reason: '${l.ticker.ticker} > 25% after residual pass');
+      }
+      final perSector = <String, double>{};
+      for (final l in r.lines) {
+        perSector[l.ticker.sector] =
+            (perSector[l.ticker.sector] ?? 0) + l.sgdAllocated;
+      }
+      for (final v in perSector.values) {
+        expect(v, lessThanOrEqualTo(4000.01));
+      }
+    });
+
     test('projected income equals sum of line incomes', () {
       final u = Universe(
         generatedAt: DateTime.now(), schemaVersion: 1,

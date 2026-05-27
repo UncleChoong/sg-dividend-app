@@ -60,7 +60,13 @@ Allocation optimize({
       ..sort((a, b) => a.ticker.score.compareTo(b.ticker.score));
     for (final l in sortedByScore) {
       final lotCost = l.ticker.price * l.ticker.lotSize;
-      final extra = (remaining / lotCost).floor();
+      // Compute per-ticker and per-sector headroom so the residual pass cannot
+      // blow through the 25% / 40% caps enforced by the greedy pass above.
+      final tickerHeadroom = maxTickerSgd - l.sgdAllocated;
+      final sectorHeadroom = maxSectorSgd - (sectorSpent[l.ticker.sector] ?? 0);
+      final effectiveRoom = [remaining, tickerHeadroom, sectorHeadroom]
+          .reduce((a, b) => a < b ? a : b);
+      final extra = (effectiveRoom / lotCost).floor();
       if (extra >= 1) {
         final addCost = extra * lotCost;
         final addIncome = addCost * (l.ticker.yieldPct / 100.0);
@@ -70,6 +76,8 @@ Allocation optimize({
             lots: l.lots + extra,
             sgdAllocated: l.sgdAllocated + addCost,
             projectedAnnualIncome: l.projectedAnnualIncome + addIncome);
+        sectorSpent[l.ticker.sector] =
+            (sectorSpent[l.ticker.sector] ?? 0) + addCost;
         remaining -= addCost;
         break;
       }

@@ -15,3 +15,4 @@ android/key.properties
 android/app/key.jks
 *.iml
 .idea/
+cert_private_key.pem

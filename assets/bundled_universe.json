@@ -1,17 +1,760 @@
 {
-  "generated_at": "2026-05-27T00:00:00+08:00",
+  "generated_at": "2026-05-28T01:28:17.088593+08:00",
   "schema_version": 1,
   "universe": [
-    {"ticker":"D05","name":"DBS Group","sector":"Banks","industry":"Banks","description":"Singapore's largest bank by assets, with pan-Asian operations across 18 markets. A consistent dividend payer with strong CET-1 capital ratios.","market_cap_sgd":150000000000,"price":42.10,"yield_pct":5.1,"score":18,"score_breakdown":{"sector":2,"mcap":0,"div_vol":0,"payout":5,"price_vol":11},"lot_size":100,"div_history_5y":[1.92,1.62,1.44,1.20,1.20]},
-    {"ticker":"O39","name":"OCBC","sector":"Banks","industry":"Banks","description":"Oversea-Chinese Banking Corporation, the second-largest bank in Singapore by assets, with a strong insurance arm via Great Eastern.","market_cap_sgd":85000000000,"price":15.20,"yield_pct":5.6,"score":15,"score_breakdown":{"sector":2,"mcap":0,"div_vol":0,"payout":3,"price_vol":10},"lot_size":100,"div_history_5y":[0.85,0.84,0.68,0.53,0.53]},
-    {"ticker":"U11","name":"UOB","sector":"Banks","industry":"Banks","description":"United Overseas Bank, one of Singapore's three major local banks, with a growing ASEAN retail franchise following its Citigroup consumer acquisition.","market_cap_sgd":50000000000,"price":29.80,"yield_pct":5.4,"score":17,"score_breakdown":{"sector":2,"mcap":0,"div_vol":0,"payout":4,"price_vol":11},"lot_size":100,"div_history_5y":[1.70,1.50,1.35,0.78,1.30]},
-    {"ticker":"Z74","name":"Singtel","sector":"Telco","industry":"Telco","description":"Singapore's largest telecommunications group by revenue, with regional associates spanning Australia (Optus), India (Airtel), and Southeast Asia.","market_cap_sgd":28000000000,"price":3.50,"yield_pct":5.2,"score":25,"score_breakdown":{"sector":15,"mcap":0,"div_vol":5,"payout":0,"price_vol":5},"lot_size":100,"div_history_5y":[0.15,0.149,0.09,0.075,0.175]},
-    {"ticker":"A17U","name":"Ascendas REIT","sector":"REITs","industry":"REITs","description":"Singapore's largest industrial REIT by market cap, owning business parks, logistics, and data centre assets across Singapore, Australia, and the US.","market_cap_sgd":12000000000,"price":2.60,"yield_pct":5.9,"score":42,"score_breakdown":{"sector":27,"mcap":0,"div_vol":0,"payout":10,"price_vol":5},"lot_size":100,"div_history_5y":[0.155,0.152,0.150,0.149,0.146]},
-    {"ticker":"C38U","name":"CapitaLand Integrated Commercial Trust","sector":"REITs","industry":"REITs","description":"Singapore's largest retail-and-office REIT, owning flagship malls such as Plaza Singapura and CapitaSpring office tower.","market_cap_sgd":14000000000,"price":2.05,"yield_pct":5.5,"score":40,"score_breakdown":{"sector":27,"mcap":0,"div_vol":0,"payout":8,"price_vol":5},"lot_size":100,"div_history_5y":[0.106,0.104,0.098,0.087,0.108]},
-    {"ticker":"M44U","name":"Mapletree Logistics Trust","sector":"REITs","industry":"REITs","description":"Pan-Asian logistics REIT managing warehouses and distribution centres across nine countries including Singapore, China, Japan, and Australia.","market_cap_sgd":7000000000,"price":1.40,"yield_pct":6.1,"score":45,"score_breakdown":{"sector":27,"mcap":3,"div_vol":0,"payout":10,"price_vol":5},"lot_size":100,"div_history_5y":[0.086,0.090,0.085,0.082,0.081]},
-    {"ticker":"S63","name":"ST Engineering","sector":"Industrials","industry":"Industrials","description":"Singapore-listed global technology, defence, and engineering group with operations in aerospace MRO, smart city, and defence electronics.","market_cap_sgd":12000000000,"price":4.30,"yield_pct":3.7,"score":22,"score_breakdown":{"sector":17,"mcap":0,"div_vol":0,"payout":0,"price_vol":5},"lot_size":100,"div_history_5y":[0.16,0.16,0.16,0.15,0.15]},
-    {"ticker":"S68","name":"Singapore Exchange","sector":"Industrials","industry":"Industrials","description":"SGX operates Singapore's securities and derivatives exchanges, providing multi-asset clearing and index services across Asian markets.","market_cap_sgd":11000000000,"price":11.20,"yield_pct":3.0,"score":20,"score_breakdown":{"sector":17,"mcap":0,"div_vol":0,"payout":0,"price_vol":3},"lot_size":100,"div_history_5y":[0.34,0.32,0.32,0.30,0.30]},
-    {"ticker":"ES3","name":"SPDR STI ETF","sector":"Other","industry":"Other","description":"Exchange-traded fund tracking the Straits Times Index, offering diversified exposure to Singapore's 30 largest listed companies in a single instrument.","market_cap_sgd":1500000000,"price":3.50,"yield_pct":3.8,"score":23,"score_breakdown":{"sector":22,"mcap":0,"div_vol":0,"payout":0,"price_vol":1},"lot_size":100,"div_history_5y":[0.12,0.12,0.11,0.10,0.13]},
-    {"ticker":"QL3","name":"iShares USD Asia High Yield Bond ETF","sector":"Other","industry":"Other","description":"Bond ETF providing exposure to USD-denominated high-yield debt issued by Asia-Pacific companies, offering monthly income distributions.","market_cap_sgd":800000000,"price":8.10,"yield_pct":7.3,"score":38,"score_breakdown":{"sector":22,"mcap":5,"div_vol":5,"payout":0,"price_vol":6},"lot_size":100,"div_history_5y":[0.61,0.59,0.55,0.50,0.45]}
+    {
+      "div_history_5y": [
+        2.85,
+        2.1109090000000004,
+        2.09091,
+        1.309092,
+        0.927272
+      ],
+      "lot_size": 100,
+      "name": "DBS Group",
+      "price": 62.0,
+      "score": 17,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 2
+      },
+      "sector": "Banks",
+      "ticker": "D05",
+      "yield_pct": 4.0528,
+      "description": "Singapore's largest bank by assets, with operations across Asia. A consistent dividend payer with strong CET-1 capital ratios.",
+      "market_cap_sgd": 175000000000,
+      "industry": "Banks"
+    },
+    {
+      "div_history_5y": [
+        0.98,
+        0.86,
+        0.8,
+        0.56,
+        0.40900000000000003
+      ],
+      "lot_size": 100,
+      "name": "OCBC",
+      "price": 23.36,
+      "score": 17,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 2
+      },
+      "sector": "Banks",
+      "ticker": "O39",
+      "yield_pct": 3.6,
+      "description": "Second-largest Singapore bank, with strong presence in Greater China and Southeast Asia. Steady semi-annual dividend record.",
+      "market_cap_sgd": 105000000000,
+      "industry": "Banks"
+    },
+    {
+      "div_history_5y": [
+        2.27,
+        1.73,
+        1.6,
+        1.2,
+        0.99
+      ],
+      "lot_size": 100,
+      "name": "United Overseas Bank",
+      "price": 37.72,
+      "score": 17,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 2
+      },
+      "sector": "Banks",
+      "ticker": "U11",
+      "yield_pct": 4.115,
+      "description": "Third local bank, with major Southeast Asia regional franchise. Reliable dividend, conservative balance sheet.",
+      "market_cap_sgd": 63000000000,
+      "industry": "Banks"
+    },
+    {
+      "div_history_5y": [
+        0.182,
+        0.089,
+        0.13,
+        0.119,
+        0.069
+      ],
+      "lot_size": 100,
+      "name": "Singtel",
+      "price": 4.48,
+      "score": 40,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 15
+      },
+      "sector": "Telco",
+      "ticker": "Z74",
+      "yield_pct": 4.0749,
+      "description": "Largest Singapore telco, with regional stakes in Optus (Australia), Bharti Airtel (India), and others. Yield-focused after asset rationalisation.",
+      "market_cap_sgd": 74000000000,
+      "industry": "Telco"
+    },
+    {
+      "div_history_5y": [
+        0.062,
+        0.07200000000000001,
+        0.05,
+        0.064,
+        0.05
+      ],
+      "lot_size": 100,
+      "name": "StarHub",
+      "price": 1.02,
+      "score": 64,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 14,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 15
+      },
+      "sector": "Telco",
+      "ticker": "CC3",
+      "yield_pct": 5.8824,
+      "description": "Singapore's second-largest telecom. Smaller scale than Singtel; dividend cut in recent years as fixed-line revenue declined.",
+      "market_cap_sgd": 1800000000,
+      "industry": "Telco"
+    },
+    {
+      "div_history_5y": [
+        0.059278,
+        0.128084,
+        0.10056,
+        0.08421000000000001,
+        0.109655
+      ],
+      "lot_size": 100,
+      "name": "Keppel DC REIT",
+      "price": 2.28,
+      "score": 45,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 10
+      },
+      "sector": "Utilities",
+      "ticker": "AJBU",
+      "yield_pct": 3.4061,
+      "description": "Singapore's pure-play data centre REIT, with assets across Asia-Pacific and Europe. Beneficiary of AI/cloud capex.",
+      "market_cap_sgd": 4500000000,
+      "industry": "Utilities"
+    },
+    {
+      "div_history_5y": [
+        0.0539,
+        0.0533,
+        0.0527,
+        0.0519,
+        0.0511
+      ],
+      "lot_size": 100,
+      "name": "NetLink NBN Trust",
+      "price": 0.985,
+      "score": 30,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 5,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 10
+      },
+      "sector": "Utilities",
+      "ticker": "CJLU",
+      "yield_pct": 4.3748,
+      "description": "Owner of Singapore's nationwide fibre broadband network. Regulated returns, defensive yield play.",
+      "market_cap_sgd": 3800000000,
+      "industry": "Utilities"
+    },
+    {
+      "div_history_5y": [
+        0.15158,
+        0.14965,
+        0.15644,
+        0.15471000000000001,
+        0.09338
+      ],
+      "lot_size": 100,
+      "name": "Ascendas REIT",
+      "price": 2.52,
+      "score": 52,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "A17U",
+      "yield_pct": 6.1905,
+      "description": "Singapore's largest industrial REIT, with logistics, business space, and data centre assets across SG, Australia, US, Europe.",
+      "market_cap_sgd": 11500000000,
+      "industry": "REITs"
+    },
+    {
+      "div_history_5y": [
+        0.1026,
+        0.130118,
+        0.106324,
+        0.055755,
+        0.117395
+      ],
+      "lot_size": 100,
+      "name": "CapitaLand Integrated Commercial Trust",
+      "price": 2.29,
+      "score": 62,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "C38U",
+      "yield_pct": 5.0655,
+      "description": "Largest Singapore retail+office REIT. Anchor assets include Plaza Singapura, Funan, Asia Square. Defensive blue-chip REIT.",
+      "market_cap_sgd": 15000000000,
+      "industry": "REITs"
+    },
+    {
+      "div_history_5y": [
+        0.07585,
+        0.08559,
+        0.09034,
+        0.07508,
+        0.093877
+      ],
+      "lot_size": 100,
+      "name": "Mapletree Logistics Trust",
+      "price": 1.19,
+      "score": 67,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "M44U",
+      "yield_pct": 6.1345,
+      "description": "Asia-Pacific logistics REIT with 180+ properties across 9 countries. Dividend pressure from rising rates.",
+      "market_cap_sgd": 6800000000,
+      "industry": "REITs"
+    },
+    {
+      "div_history_5y": [
+        0.0797,
+        0.0856,
+        0.0909,
+        0.1008,
+        0.09709999999999999
+      ],
+      "lot_size": 100,
+      "name": "Mapletree Pan Asia Commercial Trust",
+      "price": 1.28,
+      "score": 67,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "N2IU",
+      "yield_pct": 6.25,
+      "description": "Office-retail REIT covering SG, HK, China, Japan, Korea. Higher leverage and FX exposure than peers.",
+      "market_cap_sgd": 6700000000,
+      "industry": "REITs"
+    },
+    {
+      "div_history_5y": [
+        0.13219999999999998,
+        0.1352,
+        0.1343,
+        0.1383,
+        0.133779
+      ],
+      "lot_size": 100,
+      "name": "Mapletree Industrial Trust",
+      "price": 1.95,
+      "score": 62,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "ME8U",
+      "yield_pct": 6.5128,
+      "description": "Industrial + data centre REIT. ~55% US data centres, ~40% Singapore industrial. Active capital recycling.",
+      "market_cap_sgd": 6400000000,
+      "industry": "REITs"
+    },
+    {
+      "div_history_5y": [
+        0.06503,
+        0.06488,
+        0.07259,
+        0.09174,
+        0.08647
+      ],
+      "lot_size": 100,
+      "name": "Suntec REIT",
+      "price": 1.47,
+      "score": 65,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 3,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "T82U",
+      "yield_pct": 4.7619,
+      "description": "Office + retail REIT centred on Suntec City Mall and One Raffles Quay. Higher debt cost sensitivity.",
+      "market_cap_sgd": 4200000000,
+      "industry": "REITs"
+    },
+    {
+      "div_history_5y": [
+        0.12113,
+        0.12002600000000001,
+        0.121102,
+        0.12187,
+        0.119139
+      ],
+      "lot_size": 100,
+      "name": "Frasers Centrepoint Trust",
+      "price": 2.26,
+      "score": 64,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 2,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "J69U",
+      "yield_pct": 5.3982,
+      "description": "Suburban Singapore retail REIT - Causeway Point, Northpoint City, Tampines 1. Defensive consumer staples mix.",
+      "market_cap_sgd": 4100000000,
+      "industry": "REITs"
+    },
+    {
+      "div_history_5y": [
+        0.0595,
+        0.068,
+        0.0704,
+        0.07619999999999999,
+        0.07680000000000001
+      ],
+      "lot_size": 100,
+      "name": "Frasers Logistics & Commercial Trust",
+      "price": 0.985,
+      "score": 73,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 6,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "BUOU",
+      "yield_pct": 6.0204,
+      "description": "Australia/Europe-focused logistics + commercial REIT. Higher growth profile but FX-exposed.",
+      "market_cap_sgd": 3600000000,
+      "industry": "REITs"
+    },
+    {
+      "div_history_5y": [
+        0.1003,
+        0.2002,
+        0.1461,
+        0.1063,
+        0.13369999999999999
+      ],
+      "lot_size": 100,
+      "name": "Parkway Life REIT",
+      "price": 4.0,
+      "score": 73,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 11,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "C2PU",
+      "yield_pct": 4.42,
+      "description": "Asia's largest listed healthcare REIT - Singapore + Japan hospitals/nursing homes. CPI-linked rentals.",
+      "market_cap_sgd": 2700000000,
+      "industry": "REITs"
+    },
+    {
+      "div_history_5y": [
+        0.0513,
+        0.0601,
+        0.0714,
+        0.059,
+        0.0751
+      ],
+      "lot_size": 100,
+      "name": "CapitaLand China Trust",
+      "price": 0.66,
+      "score": 84,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 17,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "AU8U",
+      "yield_pct": 7.2727,
+      "description": "China retail + business park REIT. Subject to China property/consumer sentiment headwinds.",
+      "market_cap_sgd": 1300000000,
+      "industry": "REITs"
+    },
+    {
+      "div_history_5y": [
+        0.0322,
+        0.0249,
+        0.030699999999999998,
+        0.0316,
+        0.0377
+      ],
+      "lot_size": 100,
+      "name": "Mapletree Industrial Trust (units)",
+      "price": 0.485,
+      "score": 87,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "M1GU",
+      "yield_pct": 7.2165,
+      "description": "Alternative Mapletree industrial-focused REIT vehicle. Smaller scale than M44U.",
+      "market_cap_sgd": 1500000000,
+      "industry": "REITs"
+    },
+    {
+      "div_history_5y": [
+        0.26,
+        0.14,
+        0.13,
+        0.07,
+        0.06
+      ],
+      "lot_size": 100,
+      "name": "Sembcorp Industries",
+      "price": 6.21,
+      "score": 52,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 37
+      },
+      "sector": "Business Trusts",
+      "ticker": "U96",
+      "yield_pct": 4.0193,
+      "description": "Energy + urban infrastructure conglomerate, transitioning to renewables. Improving dividend trajectory.",
+      "market_cap_sgd": 11000000000,
+      "industry": "Industrials"
+    },
+    {
+      "div_history_5y": [
+        0.05500000000000001,
+        0.03,
+        null,
+        null,
+        null
+      ],
+      "lot_size": 100,
+      "name": "SATS",
+      "price": 3.56,
+      "score": 62,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 37
+      },
+      "sector": "Business Trusts",
+      "ticker": "S58",
+      "yield_pct": 2.0772,
+      "description": "Airline ground handling + in-flight catering. Recovering post-COVID with WFS acquisition.",
+      "market_cap_sgd": 3900000000,
+      "industry": "Industrials"
+    },
+    {
+      "div_history_5y": [
+        0.17,
+        0.16,
+        0.16,
+        0.22,
+        0.15000000000000002
+      ],
+      "lot_size": 100,
+      "name": "ST Engineering",
+      "price": 11.1,
+      "score": 42,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "S63",
+      "yield_pct": 1.6057,
+      "description": "Defence, aerospace, smart-cities conglomerate. Stable order book, reliable dividend grower.",
+      "market_cap_sgd": 13400000000,
+      "industry": "Industrials"
+    },
+    {
+      "div_history_5y": [
+        0.024622,
+        0.0224,
+        0.02334,
+        0.019449999,
+        0.019839000000000002
+      ],
+      "lot_size": 100,
+      "name": "Thai Beverage",
+      "price": 0.45,
+      "score": 57,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Consumer",
+      "ticker": "Y92",
+      "yield_pct": 1.3626,
+      "description": "Thailand's largest beverage producer (Chang Beer). Stable cash flows, listed on SGX.",
+      "market_cap_sgd": 11500000000,
+      "industry": "Consumer"
+    },
+    {
+      "div_history_5y": [
+        1.4308448,
+        1.5074972,
+        1.4180694,
+        1.149786,
+        0.66432081
+      ],
+      "lot_size": 100,
+      "name": "Jardine Cycle & Carriage",
+      "price": 30.0,
+      "score": 47,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Consumer",
+      "ticker": "C07",
+      "yield_pct": 3.601,
+      "description": "Astra International (Indonesia) majority owner. Auto, financial services, agribusiness exposure.",
+      "market_cap_sgd": 7000000000,
+      "industry": "Consumer"
+    },
+    {
+      "div_history_5y": [
+        0.33999999999999997,
+        0.33999999999999997,
+        0.32999999999999996,
+        0.36,
+        0.19
+      ],
+      "lot_size": 100,
+      "name": "Keppel Corp",
+      "price": 10.84,
+      "score": 42,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "BN4",
+      "yield_pct": 3.0714,
+      "description": "Asset-light infrastructure, real estate, asset management. Spun off offshore marine in 2024.",
+      "market_cap_sgd": 12500000000,
+      "industry": "Industrials"
+    },
+    {
+      "div_history_5y": [
+        0.14,
+        0.16999999999999998,
+        0.16999999999999998,
+        0.16499999999999998,
+        0.20500000000000002
+      ],
+      "lot_size": 100,
+      "name": "Wilmar International",
+      "price": 3.52,
+      "score": 57,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Consumer",
+      "ticker": "F34",
+      "yield_pct": 3.0447,
+      "description": "Asia's leading agribusiness - edible oils, sugar, grains. Commodity-cycle exposed.",
+      "market_cap_sgd": 18000000000,
+      "industry": "Consumer"
+    },
+    {
+      "div_history_5y": [
+        0.39249999999999996,
+        0.35,
+        0.33,
+        0.32,
+        0.32
+      ],
+      "lot_size": 100,
+      "name": "Singapore Exchange",
+      "price": 21.8,
+      "score": 32,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "S68",
+      "yield_pct": 1.8528,
+      "description": "Operator of SGX itself. Diversified across cash equities, derivatives, FX. Monopoly profile.",
+      "market_cap_sgd": 13500000000,
+      "industry": "Industrials"
+    },
+    {
+      "div_history_5y": [
+        0.18,
+        0.15899999999999997,
+        0.133,
+        0.11199999999999999,
+        0.09
+      ],
+      "lot_size": 100,
+      "name": "SPDR Straits Times Index ETF",
+      "price": 5.125,
+      "score": 57,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Other",
+      "ticker": "ES3",
+      "yield_pct": 3.5,
+      "description": "Tracks the FTSE Straits Times Index - the 30 largest SGX stocks. Most widely held SG ETF.",
+      "market_cap_sgd": 1700000000,
+      "industry": "Other"
+    },
+    {
+      "div_history_5y": [
+        0.638462,
+        0.694352,
+        0.65948,
+        0.520626,
+        0.397478
+      ],
+      "lot_size": 100,
+      "name": "iShares USD Asia HY Bond ETF",
+      "price": 8.62,
+      "score": 67,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Other",
+      "ticker": "QL3",
+      "yield_pct": 7.3103,
+      "description": "Asian high-yield USD bond exposure. Higher yield, higher credit risk than government bonds.",
+      "market_cap_sgd": 300000000,
+      "industry": "Other"
+    },
+    {
+      "div_history_5y": [
+        0.1795,
+        0.15739999999999998,
+        0.13040000000000002,
+        0.1046,
+        0.1057
+      ],
+      "lot_size": 100,
+      "name": "Nikko AM STI ETF",
+      "price": 5.223999977111816,
+      "score": 67,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Other",
+      "ticker": "G3B",
+      "yield_pct": 3.65,
+      "description": "Alternative STI tracker - same underlying as ES3 but different fee/structure. Used for SRS investing.",
+      "market_cap_sgd": 800000000,
+      "industry": "Other"
+    }
   ]
 }

@@ -146,11 +146,33 @@ For release builds:
 flutter build apk --release --dart-define=UNIVERSE_URL=https://<your-r2-url>/sg_dividend_universe.json
 ```
 
-### 9. Apple/Google publishing (when ready)
+### 9. iOS publishing via Codemagic (no Mac needed)
 
-- Apple Developer Program: S$133/yr — sign up at developer.apple.com
-- Google Play Console: US$25 one-time — play.google.com/console
-- iOS .ipa requires macOS + Xcode 15+. The plan's Task 16 (in `sg-dividend-app/docs/superpowers/plans/2026-05-27-sg-dividend-app.md`) has the exact archive/upload steps.
+A `codemagic.yaml` is committed at repo root. Set up once:
+
+1. **Sign up at codemagic.io** with your GitHub account (free tier: 500 build-min/month, plenty for ~20 iOS builds).
+2. **Apple Developer Program** ($99 USD/yr): sign up at developer.apple.com — required to publish to TestFlight or App Store.
+3. **App Store Connect → Users and Access → Integrations → App Store Connect API**: create a new API key with "App Manager" role. Save:
+   - The `.p8` private key file
+   - The 10-char Key ID
+   - The Issuer ID (UUID)
+4. **App Store Connect → My Apps → +**: create an app record. Bundle ID = `sg.dividend.sgDividend`. Save the numeric App ID from the URL.
+5. **In Codemagic dashboard**:
+   - Add this GitHub repo as an application.
+   - Teams → Integrations → App Store Connect → add the API key from step 3, name the integration `codemagic` (matches the yaml).
+   - App settings → Environment variables → group `app_store`: `APP_STORE_APP_ID` (numeric ID from step 4).
+   - App settings → Environment variables → group `app_secrets`: `UNIVERSE_URL` = public R2 URL of your JSON.
+6. **Trigger first build**: Workflows → `ios-testflight` → Start new build → master/main branch.
+
+First successful build will land in TestFlight under "Internal testers" group within ~20 min. Add yourself + friends as internal testers in App Store Connect to start collecting feedback.
+
+If you ever get a Mac later, you can still do the local archive path (`flutter build ipa --release --dart-define=UNIVERSE_URL=…` then Xcode → Archive → Distribute). Codemagic is just the convenient cloud equivalent.
+
+### 10. Google Play (optional, only if you ever change your mind about Android)
+
+- Google Play Console: US$25 one-time at play.google.com/console
+- Build via `flutter build appbundle --release --dart-define=UNIVERSE_URL=…` (needs Android Studio installed locally, or use Codemagic's Android workflow)
+- Skipped for now since you want iOS only.
 
 ---
 

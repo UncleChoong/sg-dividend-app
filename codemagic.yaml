@@ -1,0 +1,92 @@
+# Codemagic CI/CD config — iOS build + TestFlight upload
+#
+# Setup steps (do these once in the Codemagic web dashboard):
+#   1. Sign up at https://codemagic.io with your GitHub account
+#   2. Add this repo (sg-dividend-app) as an application
+#   3. App settings → Code signing → iOS:
+#        - Either: upload your distribution certificate + provisioning profile
+#        - Or (recommended): connect via App Store Connect API key, let Codemagic auto-manage signing
+#   4. App settings → Environment variables → add a group called `app_store`:
+#        - APP_STORE_CONNECT_PRIVATE_KEY (the .p8 file contents, marked Secure)
+#        - APP_STORE_CONNECT_KEY_IDENTIFIER (10-char key ID)
+#        - APP_STORE_CONNECT_ISSUER_ID (UUID)
+#        - APP_STORE_APP_ID (numeric, from App Store Connect after creating the app record)
+#   5. Environment variables → add a group called `app_secrets`:
+#        - UNIVERSE_URL (the public R2 URL of sg_dividend_universe.json — set this once data pipeline is live)
+#   6. Trigger first build (manual): Workflows → ios-testflight → Start new build
+#
+# Free tier: 500 build-minutes/month — enough for ~20 iOS builds.
+
+workflows:
+  ios-testflight:
+    name: iOS TestFlight build
+    max_build_duration: 60
+    integrations:
+      app_store_connect: codemagic   # name of the API key integration you set up in step 3
+    environment:
+      groups:
+        - app_store
+        - app_secrets
+      flutter: 3.44.0
+      xcode: latest
+      cocoapods: default
+      ios_signing:
+        distribution_type: app_store
+        bundle_identifier: sg.dividend.sgDividend
+    scripts:
+      - name: Get Flutter packages
+        script: flutter pub get
+      - name: Pod install
+        script: |
+          cd ios
+          pod install
+      - name: Flutter analyze
+        script: flutter analyze
+      - name: Flutter unit tests
+        script: flutter test
+      - name: Set up code signing
+        script: xcode-project use-profiles
+      - name: Increment build number
+        script: |
+          cd ios
+          agvtool new-version -all $(($(app-store-connect get-latest-app-store-build-number "$APP_STORE_APP_ID") + 1))
+      - name: Flutter iOS build
+        script: |
+          flutter build ipa --release \
+            --dart-define=UNIVERSE_URL="$UNIVERSE_URL" \
+            --export-options-plist=/Users/builder/export_options.plist
+    artifacts:
+      - build/ios/ipa/*.ipa
+      - /tmp/xcodebuild_logs/*.log
+      - flutter_drive.log
+    publishing:
+      app_store_connect:
+        auth: integration
+        submit_to_testflight: true
+        beta_groups:
+          - Internal testers
+
+  ios-debug-build:
+    name: iOS debug build (no TestFlight upload)
+    max_build_duration: 30
+    environment:
+      groups:
+        - app_secrets
+      flutter: 3.44.0
+      xcode: latest
+      cocoapods: default
+    scripts:
+      - name: Get Flutter packages
+        script: flutter pub get
+      - name: Pod install
+        script: |
+          cd ios
+          pod install
+      - name: Flutter tests
+        script: flutter test
+      - name: Build unsigned iOS app
+        script: |
+          flutter build ios --release --no-codesign \
+            --dart-define=UNIVERSE_URL="$UNIVERSE_URL"
+    artifacts:
+      - build/ios/iphoneos/*.app

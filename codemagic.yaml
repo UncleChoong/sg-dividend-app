@@ -42,11 +42,19 @@ workflows:
           pod install
       - name: Initialize keychain
         script: keychain initialize
+      - name: Decode signing private key
+        script: |
+          echo "$CM_CERTIFICATE_PRIVATE_KEY_B64" | base64 -d > /tmp/cert_key.pem
+          if [ ! -s /tmp/cert_key.pem ]; then
+            echo "ERROR: decoded key file is empty — CM_CERTIFICATE_PRIVATE_KEY_B64 may be unset or malformed"
+            exit 1
+          fi
+          echo "Key decoded, $(wc -l < /tmp/cert_key.pem) lines"
       - name: Fetch or create signing files (verbose)
         script: |
           app-store-connect fetch-signing-files "$BUNDLE_ID" \
             --type IOS_APP_STORE \
-            --certificate-key=@env:CM_CERTIFICATE_PRIVATE_KEY \
+            --certificate-key=@file:/tmp/cert_key.pem \
             --create \
             --verbose
       - name: List fetched signing files

@@ -11,6 +11,7 @@ Allocation optimize({
   required int capitalSgd,
   required RiskLevel risk,
   required Universe universe,
+  Set<String>? includedIndustries,
 }) {
   if (capitalSgd < _belowMinCapital) {
     return const Allocation(
@@ -19,8 +20,14 @@ Allocation optimize({
   }
 
   final maxScore = risk.maxScore;
-  final eligible = universe.tickers.where((t) => t.score <= maxScore).toList()
+  var eligible = universe.tickers.where((t) => t.score <= maxScore).toList()
     ..sort((a, b) => b.yieldPct.compareTo(a.yieldPct));
+
+  if (includedIndustries != null && includedIndustries.isNotEmpty) {
+    eligible = eligible
+        .where((t) => includedIndustries.contains(t.industry))
+        .toList();
+  }
 
   final maxTickerSgd = capitalSgd * _maxPerTicker;
   final maxSectorSgd = capitalSgd * _maxPerSector;

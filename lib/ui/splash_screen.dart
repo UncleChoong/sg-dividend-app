@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:sg_dividend/data/models.dart';
 import 'package:sg_dividend/data/universe_repository.dart';
 import 'package:sg_dividend/theme.dart';
-import 'package:sg_dividend/ui/input_screen.dart';
+import 'package:sg_dividend/ui/landing_screen.dart';
 
 final universeRepoProvider = Provider((_) => UniverseRepository());
 final universeProvider = FutureProvider<Universe>((ref) async {
@@ -32,7 +32,8 @@ class SplashScreen extends ConsumerWidget {
                   decoration: BoxDecoration(
                     color: AppColors.error.withValues(alpha: 0.12),
                     shape: BoxShape.circle,
-                    border: Border.all(color: AppColors.error.withValues(alpha: 0.3), width: 1),
+                    border: Border.all(
+                        color: AppColors.error.withValues(alpha: 0.3), width: 1),
                   ),
                   child: const Icon(Icons.warning_amber_rounded,
                       size: 32, color: AppColors.error),
@@ -51,7 +52,16 @@ class SplashScreen extends ConsumerWidget {
               ]),
             ),
           ),
-          data: (u) => InputScreen(universe: u),
+          data: (u) {
+            WidgetsBinding.instance.addPostFrameCallback((_) {
+              if (context.mounted) {
+                Navigator.of(context).pushReplacement(
+                  MaterialPageRoute(builder: (_) => const LandingScreen()),
+                );
+              }
+            });
+            return const _PendleLoader();
+          },
         ),
       ),
     );
@@ -88,7 +98,7 @@ class _PendleLoader extends StatelessWidget {
         ),
         const SizedBox(height: 24),
         Text(
-          'SG Dividend',
+          'APY',
           style: GoogleFonts.inter(
             color: AppColors.textPrimary,
             fontSize: 20,

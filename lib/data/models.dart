@@ -46,6 +46,9 @@ class Ticker {
   final String ticker;
   final String name;
   final String sector;
+  final String industry;
+  final String description;
+  final double? marketCapSgd;
   final double price;
   final double yieldPct;
   final int score;
@@ -57,6 +60,9 @@ class Ticker {
     required this.ticker,
     required this.name,
     required this.sector,
+    this.industry = '',
+    this.description = '',
+    this.marketCapSgd,
     required this.price,
     required this.yieldPct,
     required this.score,
@@ -69,15 +75,30 @@ class Ticker {
         ticker: j['ticker'] as String,
         name: j['name'] as String,
         sector: j['sector'] as String,
+        industry: (j['industry'] as String?) ?? (j['sector'] as String),
+        description: (j['description'] as String?) ?? '',
+        marketCapSgd: j['market_cap_sgd'] == null
+            ? null
+            : (j['market_cap_sgd'] as num).toDouble(),
         price: (j['price'] as num).toDouble(),
         yieldPct: (j['yield_pct'] as num).toDouble(),
         score: j['score'] as int,
-        scoreBreakdown: ScoreBreakdown.fromJson(j['score_breakdown'] as Map<String, dynamic>),
+        scoreBreakdown: ScoreBreakdown.fromJson(
+            j['score_breakdown'] as Map<String, dynamic>),
         lotSize: j['lot_size'] as int,
         divHistory5y: (j['div_history_5y'] as List)
             .map((e) => e == null ? null : (e as num).toDouble())
             .toList(),
       );
+
+  double get threeYearCumulativeYieldPct => price > 0
+      ? (divHistory5y
+                  .take(3)
+                  .whereType<double>()
+                  .fold<double>(0, (a, b) => a + b) /
+              price *
+              100)
+      : 0;
 }
 
 @immutable

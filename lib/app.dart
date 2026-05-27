@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:sg_dividend/theme.dart';
+import 'package:sg_dividend/ui/disclaimer_screen.dart';
 import 'package:sg_dividend/ui/splash_screen.dart';
 
 class SgDividendApp extends ConsumerWidget {
@@ -9,12 +10,15 @@ class SgDividendApp extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return MaterialApp(
-      title: 'SG Dividend Optimizer',
+      title: 'APY',
       theme: AppTheme.dark(),
       darkTheme: AppTheme.dark(),
       themeMode: ThemeMode.dark,
       home: const SplashScreen(),
       debugShowCheckedModeBanner: false,
+      routes: {
+        '/disclaimer': (_) => const DisclaimerScreen(),
+      },
     );
   }
 }

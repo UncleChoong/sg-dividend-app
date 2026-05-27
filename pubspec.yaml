@@ -1,5 +1,5 @@
 name: sg_dividend
-description: Singapore dividend portfolio optimizer (educational).
+description: APY — Singapore dividend yield optimizer.
 publish_to: 'none'
 version: 0.1.0+1
 

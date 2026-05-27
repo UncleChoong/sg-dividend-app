@@ -16,6 +16,7 @@ class ResultScreen extends StatelessWidget {
   final int horizonYears;
   final bool drip;
   final int monthlySgd;
+  final Set<String>? includedIndustries;
 
   const ResultScreen({
     super.key,
@@ -25,11 +26,16 @@ class ResultScreen extends StatelessWidget {
     required this.horizonYears,
     required this.drip,
     required this.monthlySgd,
+    this.includedIndustries,
   });
 
   @override
   Widget build(BuildContext context) {
-    final alloc = optimize(capitalSgd: capital, risk: risk, universe: universe);
+    final alloc = optimize(
+        capitalSgd: capital,
+        risk: risk,
+        universe: universe,
+        includedIndustries: includedIndustries);
     final fmt = NumberFormat.currency(locale: 'en_SG', symbol: 'S\$', decimalDigits: 0);
 
     if (alloc.lines.isEmpty) {

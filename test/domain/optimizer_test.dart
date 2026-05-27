@@ -4,12 +4,15 @@ import 'package:sg_dividend/domain/optimizer.dart';
 
 Ticker mk(String t, {
   String sector = 'Banks',
+  String? industry,
   double price = 10.0,
   double yieldPct = 5.0,
   int score = 20,
   int lotSize = 100,
 }) => Ticker(
-      ticker: t, name: t, sector: sector, price: price, yieldPct: yieldPct,
+      ticker: t, name: t, sector: sector,
+      industry: industry ?? sector,
+      price: price, yieldPct: yieldPct,
       score: score,
       scoreBreakdown: const ScoreBreakdown(sector: 5, mcap: 0, divVol: 0, payout: 5, priceVol: 10),
       lotSize: lotSize,
@@ -120,6 +123,23 @@ void main() {
       final r = optimize(capitalSgd: 10000, risk: RiskLevel.aggressive, universe: u);
       final sum = r.lines.fold<double>(0, (a, l) => a + l.projectedAnnualIncome);
       expect((r.projectedAnnualIncome - sum).abs(), lessThan(0.01));
+    });
+
+    test('industry filter excludes specified sectors', () {
+      final u = Universe(
+        generatedAt: DateTime.now(), schemaVersion: 1,
+        tickers: [
+          mk('B1', sector: 'Banks'), mk('R1', sector: 'REITs', score: 35),
+          mk('R2', sector: 'REITs', score: 30),
+          mk('U1', sector: 'Utilities'), mk('T1', sector: 'Telco'),
+          mk('I1', sector: 'Industrials'),
+        ],
+      );
+      final r = optimize(
+        capitalSgd: 10000, risk: RiskLevel.aggressive, universe: u,
+        includedIndustries: {'Banks', 'REITs'},
+      );
+      expect(r.lines.every((l) => l.ticker.sector == 'Banks' || l.ticker.sector == 'REITs'), isTrue);
     });
   });
 }

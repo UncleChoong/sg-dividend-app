@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="sg_dividend"
+        android:label="APY"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

@@ -75,6 +75,13 @@ Source script at `scripts/enrich_bundled_json.py` — re-run after each data pip
 
 Commit: `61655a5`
 
+### 5a. Data pipeline emits enrichment too
+After the bundled JSON was generated, I also patched the **data pipeline** itself (`sg-dividend-data` repo) to inject the same curated descriptions, industries, and market caps into every R2-published JSON. The curated dict lives at `sg_dividend_data/enrichment.py` and is the single source of truth — update there to change descriptions across both bundled + R2 versions.
+
+This means: when you set up R2 and the daily refresh runs, the production JSON will have full description / industry / market_cap_sgd fields out of the box. The Stock Detail screen will look populated even on fresh data.
+
+Data repo commit: `e64714c`. 39 pytest pass.
+
 ### 6. App Store submission materials
 Drafted everything you'll need for public launch:
 - **APP_STORE_METADATA.md** — name, subtitle, description, keywords, reviewer notes
@@ -83,7 +90,9 @@ Drafted everything you'll need for public launch:
 - **docs/index.html** — simple landing page at the GH Pages URL
 - **LAUNCH_CHECKLIST.md** — step-by-step phases from Phase 1 (friends) to Phase 5 (post-launch marketing)
 
-GitHub Pages is already enabled via API. The privacy URL will be live at `https://unclechoong.github.io/sg-dividend-app/privacy.html` within ~30 seconds of the most recent push (which is happening now).
+GitHub Pages is already enabled via API and **the privacy URL is LIVE** at `https://unclechoong.github.io/sg-dividend-app/privacy.html` — verified returning HTTP 200 with the APY-branded content. You can paste this directly into App Store Connect's privacy policy field whenever you're ready to submit.
+
+The marketing landing page is also live at the bare URL `https://unclechoong.github.io/sg-dividend-app/`.
 
 Commit: `67c28b3`
 

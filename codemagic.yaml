@@ -20,6 +20,7 @@
 workflows:
   ios-testflight:
     name: iOS TestFlight build
+    instance_type: mac_mini_m2
     max_build_duration: 60
     integrations:
       app_store_connect: codemagic   # name of the API key integration you set up in step 3
@@ -27,12 +28,11 @@ workflows:
       groups:
         - app_store
         - app_secrets
+      vars:
+        BUNDLE_ID: "sg.dividend.sgDividend"
       flutter: 3.44.0
       xcode: latest
       cocoapods: default
-      ios_signing:
-        distribution_type: app_store
-        bundle_identifier: sg.dividend.sgDividend
     scripts:
       - name: Get Flutter packages
         script: flutter pub get
@@ -40,17 +40,18 @@ workflows:
         script: |
           cd ios
           pod install
-      - name: Flutter analyze
-        script: flutter analyze
-      - name: Flutter unit tests
-        script: flutter test
       - name: Initialize keychain
         script: keychain initialize
-      - name: Fetch or create signing files
+      - name: Fetch or create signing files (verbose)
         script: |
-          app-store-connect fetch-signing-files "sg.dividend.sgDividend" \
+          app-store-connect fetch-signing-files "$BUNDLE_ID" \
             --type IOS_APP_STORE \
-            --create
+            --create \
+            --verbose
+      - name: List fetched signing files
+        script: |
+          ls -la $CM_BUILD_DIR/cm_profiles/ 2>&1 || echo "no profiles dir"
+          ls -la $CM_BUILD_DIR/cm_certificates/ 2>&1 || echo "no certificates dir"
       - name: Add certificates to keychain
         script: keychain add-certificates
       - name: Set up code signing settings

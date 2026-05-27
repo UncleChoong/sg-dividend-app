@@ -42,10 +42,14 @@ workflows:
           pod install
       - name: Initialize keychain
         script: keychain initialize
+      - name: Generate code signing private key
+        script: |
+          openssl genrsa -out /tmp/codemagic_cert_key.pem 2048
       - name: Fetch or create signing files (verbose)
         script: |
           app-store-connect fetch-signing-files "$BUNDLE_ID" \
             --type IOS_APP_STORE \
+            --certificate-key=@file:/tmp/codemagic_cert_key.pem \
             --create \
             --verbose
       - name: List fetched signing files

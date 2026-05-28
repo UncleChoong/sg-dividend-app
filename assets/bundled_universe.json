@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T18:11:06.260677+08:00",
+  "generated_at": "2026-05-28T18:35:11.954807+08:00",
   "schema_version": 1,
   "universe": [
     {
@@ -26,7 +26,7 @@
       },
       "sector": "Banks",
       "ticker": "D05",
-      "yield_pct": 4.0645
+      "yield_pct": 5.0379
     },
     {
       "description": "Second-largest Singapore bank, with strong presence in Greater China and Southeast Asia. Steady semi-annual dividend record.",
@@ -52,7 +52,7 @@
       },
       "sector": "Banks",
       "ticker": "O39",
-      "yield_pct": 3.6
+      "yield_pct": 4.2746
     },
     {
       "description": "Third local bank, with major Southeast Asia regional franchise. Reliable dividend, conservative balance sheet.",
@@ -78,7 +78,7 @@
       },
       "sector": "Banks",
       "ticker": "U11",
-      "yield_pct": 4.1357
+      "yield_pct": 4.8023
     },
     {
       "description": "Largest Singapore telco, with regional stakes in Optus (Australia), Bharti Airtel (India), and others. Yield-focused after asset rationalisation.",
@@ -104,16 +104,16 @@
       },
       "sector": "Telco",
       "ticker": "Z74",
-      "yield_pct": 4.1295
+      "yield_pct": 4.1743
     },
     {
       "description": "Thailand's largest beverage producer (Chang Beer). Stable cash flows, listed on SGX.",
       "div_history_5y": [
         0.024622,
         0.0224,
-        0.0233219993,
-        0.019434999300000002,
-        0.0198237003
+        0.023328001600000002,
+        0.0194400006,
+        0.0198288016
       ],
       "industry": "Consumer",
       "lot_size": 100,
@@ -130,16 +130,16 @@
       },
       "sector": "Consumer",
       "ticker": "Y92",
-      "yield_pct": 1.3778
+      "yield_pct": 5.5382
     },
     {
       "description": "Astra International (Indonesia) majority owner. Auto, financial services, agribusiness exposure.",
       "div_history_5y": [
-        1.43304,
-        1.5098099,
-        1.420245,
-        1.15155,
-        0.66534001
+        1.4327151000000002,
+        1.5094678,
+        1.4199229999999998,
+        1.151289,
+        0.6651892100000001
       ],
       "industry": "Consumer",
       "lot_size": 100,
@@ -156,7 +156,7 @@
       },
       "sector": "Consumer",
       "ticker": "C07",
-      "yield_pct": 3.7667
+      "yield_pct": 4.8071
     },
     {
       "description": "Airline ground handling + in-flight catering. Recovering post-COVID with WFS acquisition.",
@@ -182,7 +182,7 @@
       },
       "sector": "Business Trusts",
       "ticker": "S58",
-      "yield_pct": 1.9663
+      "yield_pct": 1.4474
     },
     {
       "description": "Defence, aerospace, smart-cities conglomerate. Stable order book, reliable dividend grower.",
@@ -208,7 +208,7 @@
       },
       "sector": "Industrials",
       "ticker": "S63",
-      "yield_pct": 1.6216
+      "yield_pct": 2.0833
     },
     {
       "description": "Real estate asset manager \u2014 ~S$130bn AUM across REITs, private funds, lodging. STI component.",
@@ -234,7 +234,7 @@
       },
       "sector": "Industrials",
       "ticker": "9CI",
-      "yield_pct": 4.5977
+      "yield_pct": 4.6512
     },
     {
       "description": "Asia's leading agribusiness \u2014 edible oils, sugar, grains. Commodity-cycle exposed.",
@@ -260,7 +260,7 @@
       },
       "sector": "Consumer",
       "ticker": "F34",
-      "yield_pct": 3.0966
+      "yield_pct": 4.1298
     },
     {
       "description": "Hong Kong-based pan-Asian conglomerate \u2014 retail, property, automotive, agribusiness, financial services.",
@@ -286,7 +286,7 @@
       },
       "sector": "Industrials",
       "ticker": "J36",
-      "yield_pct": 3.4559
+      "yield_pct": 3.6604
     },
     {
       "description": "Premium commercial property \u2014 Central, Hong Kong + Singapore developments. Steady dividend grower.",
@@ -312,7 +312,7 @@
       },
       "sector": "Industrials",
       "ticker": "H78",
-      "yield_pct": 3.2175
+      "yield_pct": 3.2895
     },
     {
       "description": "Operator of Resorts World Sentosa \u2014 integrated casino + theme park. Tourism-linked dividend.",
@@ -338,7 +338,7 @@
       },
       "sector": "Consumer",
       "ticker": "G13",
-      "yield_pct": 6.7797
+      "yield_pct": 6.7227
     },
     {
       "description": "Electronics manufacturing services \u2014 medical, networking, life sciences customers. Long dividend record.",
@@ -364,7 +364,7 @@
       },
       "sector": "Industrials",
       "ticker": "V03",
-      "yield_pct": 4.1644
+      "yield_pct": 4.4868
     },
     {
       "description": "Asset-light infrastructure, real estate, asset management. Spun off offshore marine in 2024.",
@@ -390,7 +390,7 @@
       },
       "sector": "Industrials",
       "ticker": "BN4",
-      "yield_pct": 3.1365
+      "yield_pct": 3.3582
     },
     {
       "description": "China's largest private shipbuilder. STI component, beneficiary of LNG/container newbuild cycle.",
@@ -416,7 +416,7 @@
       },
       "sector": "Industrials",
       "ticker": "BS6",
-      "yield_pct": 29.4054
+      "yield_pct": 5.4945
     },
     {
       "description": "Energy + urban infrastructure conglomerate, transitioning to renewables. Improving dividend trajectory.",
@@ -442,7 +442,7 @@
       },
       "sector": "Business Trusts",
       "ticker": "U96",
-      "yield_pct": 4.0258
+      "yield_pct": 3.962
     },
     {
       "description": "Operator of SGX itself. Diversified across cash equities, derivatives, FX. Monopoly profile.",
@@ -468,7 +468,7 @@
       },
       "sector": "Industrials",
       "ticker": "S68",
-      "yield_pct": 1.8945
+      "yield_pct": 2.028
     },
     {
       "description": "Pan-Asian retailer \u2014 Cold Storage, Giant, Guardian, 7-Eleven HK. Restructuring under Jardine.",
@@ -494,7 +494,7 @@
       },
       "sector": "Consumer",
       "ticker": "D01",
-      "yield_pct": 3.4568
+      "yield_pct": 14.7222
     },
     {
       "description": "Flag-carrier airline. Variable dividend tied to travel-demand cycle, strong post-COVID recovery.",
@@ -520,7 +520,7 @@
       },
       "sector": "Industrials",
       "ticker": "C6L",
-      "yield_pct": 4.0663
+      "yield_pct": 5.6632
     },
     {
       "description": "Property developer + hospitality (Pan Pacific Hotels). Conservative, family-controlled.",
@@ -546,7 +546,7 @@
       },
       "sector": "Industrials",
       "ticker": "U14",
-      "yield_pct": 1.7699
+      "yield_pct": 2.4975
     },
     {
       "description": "Singapore's largest property developer + hospitality (Millennium & Copthorne). Long-cycle dividend.",
@@ -572,7 +572,7 @@
       },
       "sector": "Industrials",
       "ticker": "C09",
-      "yield_pct": 3.034
+      "yield_pct": 3.3453
     },
     {
       "description": "Land transport \u2014 taxi, bus, rail across SG/UK/Australia/China. Defensive but low-growth dividend.",
@@ -598,7 +598,7 @@
       },
       "sector": "Industrials",
       "ticker": "C52",
-      "yield_pct": 6.5891
+      "yield_pct": 6.5385
     },
     {
       "description": "Singapore's largest industrial REIT, with logistics, business space, and data centre assets across SG, Australia, US, Europe.",
@@ -624,7 +624,7 @@
       },
       "sector": "REITs",
       "ticker": "A17U",
-      "yield_pct": 6.1905
+      "yield_pct": 7.4721
     },
     {
       "description": "Largest Singapore retail+office REIT. Anchor assets include Plaza Singapura, Funan, Asia Square. Defensive blue-chip REIT.",
@@ -650,7 +650,7 @@
       },
       "sector": "REITs",
       "ticker": "C38U",
-      "yield_pct": 5.0655
+      "yield_pct": 6.8246
     },
     {
       "description": "Asia-Pacific logistics REIT with 180+ properties across 9 countries. Dividend pressure from rising rates.",
@@ -676,7 +676,7 @@
       },
       "sector": "REITs",
       "ticker": "M44U",
-      "yield_pct": 6.1345
+      "yield_pct": 6.1542
     },
     {
       "description": "Office-retail REIT covering SG, HK, China, Japan, Korea. Higher leverage and FX exposure than peers.",
@@ -702,7 +702,7 @@
       },
       "sector": "REITs",
       "ticker": "N2IU",
-      "yield_pct": 6.25
+      "yield_pct": 6.2756
     },
     {
       "description": "Industrial + data centre REIT. ~55% US data centres, ~40% Singapore industrial. Active capital recycling.",
@@ -728,7 +728,7 @@
       },
       "sector": "REITs",
       "ticker": "ME8U",
-      "yield_pct": 6.5128
+      "yield_pct": 6.5515
     },
     {
       "description": "Australia/Europe-focused logistics + commercial REIT. Higher growth profile but FX-exposed.",
@@ -754,7 +754,7 @@
       },
       "sector": "REITs",
       "ticker": "BUOU",
-      "yield_pct": 5.9898
+      "yield_pct": 5.9596
     },
     {
       "description": "Suburban Singapore retail REIT - Causeway Point, Northpoint City, Tampines 1. Defensive consumer staples mix.",
@@ -780,7 +780,7 @@
       },
       "sector": "REITs",
       "ticker": "J69U",
-      "yield_pct": 5.3982
+      "yield_pct": 5.4013
     },
     {
       "description": "Office + retail REIT centred on Suntec City Mall and One Raffles Quay. Higher debt cost sensitivity.",
@@ -806,7 +806,7 @@
       },
       "sector": "REITs",
       "ticker": "T82U",
-      "yield_pct": 4.7619
+      "yield_pct": 5.074
     },
     {
       "description": "Singapore's pure-play data centre REIT, with assets across Asia-Pacific and Europe. Beneficiary of AI/cloud capex.",
@@ -832,7 +832,7 @@
       },
       "sector": "Utilities",
       "ticker": "AJBU",
-      "yield_pct": 3.4211
+      "yield_pct": 4.5241
     },
     {
       "description": "Asia's largest listed healthcare REIT - Singapore + Japan hospitals/nursing homes. CPI-linked rentals.",
@@ -858,7 +858,7 @@
       },
       "sector": "REITs",
       "ticker": "C2PU",
-      "yield_pct": 4.42
+      "yield_pct": 3.8417
     },
     {
       "description": "China retail + business park REIT. Subject to China property/consumer sentiment headwinds.",
@@ -884,7 +884,7 @@
       },
       "sector": "REITs",
       "ticker": "AU8U",
-      "yield_pct": 7.2727
+      "yield_pct": 7.4729
     },
     {
       "description": "Asia's largest lodging trust \u2014 serviced residences and hotels across 40+ cities. Recovery beneficiary post-pandemic.",
@@ -910,7 +910,7 @@
       },
       "sector": "REITs",
       "ticker": "HMN",
-      "yield_pct": 6.7778
+      "yield_pct": 6.8179
     },
     {
       "description": "Industrial + logistics REIT, ~25 properties in Singapore + Australia. Higher yield, smaller scale.",
@@ -936,7 +936,7 @@
       },
       "sector": "REITs",
       "ticker": "O5RU",
-      "yield_pct": 6.2658
+      "yield_pct": 6.2342
     },
     {
       "description": "Sasseur Real Estate Investment Trust invests in a portfolio of real estate and related assets. The company operates through four segments: Sasseur (Chongqing Liangjiang) Outlet, Sasseur (Chongqing Bishan) Outlet, Sasseur (Hefei) Outlet, and (Sasseur (Kunming) Outlet. Its property portfolio comprises four retail outlet malls located in the People's Republic of China.",
@@ -963,7 +963,7 @@
       },
       "sector": "REITs",
       "ticker": "CRPU",
-      "yield_pct": 9.1045
+      "yield_pct": 9.1612
     },
     {
       "description": "United Hampshire US Real Estate Investment Trust Listed on the Main Board of the Singapore Exchange. UHREIT is a Singapore real estate investment trust established with the principal investment strategy of investing in a diversified portfolio of stabilized income-producing (i) grocery-anchored and necessity-based retail properties, and (ii) modern, climate-controlled self-storage facilities, locat\u2026",
@@ -990,7 +990,7 @@
       },
       "sector": "REITs",
       "ticker": "ODBU",
-      "yield_pct": 8.5437
+      "yield_pct": 8.4423
     },
     {
       "description": "Combined commercial + hospitality REIT \u2014 OUE Bayfront, Mandarin Orchard, Crowne Plaza Changi. Tourism-linked.",
@@ -1016,7 +1016,7 @@
       },
       "sector": "REITs",
       "ticker": "TS0U",
-      "yield_pct": 6.2857
+      "yield_pct": 6.3714
     },
     {
       "description": "Retail + office REIT \u2014 313@somerset, Jem in Singapore + Sky Complex in Milan. Smaller-cap REIT.",
@@ -1042,7 +1042,7 @@
       },
       "sector": "REITs",
       "ticker": "CY6U",
-      "yield_pct": 13.3981
+      "yield_pct": 9.2178
     },
     {
       "description": "First Real Estate Investment Trust is a healthcare real estate investment trust focused on investing in income producing real estate properties which are primarily used for healthcare and healthcare related purposes. First REIT is managed by First REIT Management Limited (the Manager), which is headquartered in Singapore.",
@@ -1069,7 +1069,7 @@
       },
       "sector": "REITs",
       "ticker": "AW9U",
-      "yield_pct": 9.5652
+      "yield_pct": 8.8936
     },
     {
       "description": "Far East Hospitality Trust is a Singapore-Focused Hotel and Serviced Residence Hospitality Trust listed on the Main Board of The Singapore Exchange Securities Trading Limited. Comprising Far East Hospitality Real Estate Investment Trust and Far East Hospitality Business Trust (Far East H-BT), Far East H-Trust was listed on the SGX-ST on 27 August 2012 and has a portfolio of 13 properties totaling\u2026",
@@ -1122,7 +1122,7 @@
       },
       "sector": "REITs",
       "ticker": "P40U",
-      "yield_pct": 6.789
+      "yield_pct": 6.6972
     },
     {
       "description": "Lendlease Global Commercial REIT (Lendlease REIT) is established with the principal investment strategy of investing. It does it directly or indirectly in a diversified portfolio of stabilized income producing real estate assets located globally, which are used primarily for retail and/or office purposes.",
@@ -1149,7 +1149,7 @@
       },
       "sector": "REITs",
       "ticker": "JYEU",
-      "yield_pct": 6.5487
+      "yield_pct": 6.5582
     },
     {
       "description": "",
@@ -1175,16 +1175,16 @@
       },
       "sector": "REITs",
       "ticker": "OVQ",
-      "yield_pct": 3.74
+      "yield_pct": 3.716
     },
     {
       "description": "Hutchison Port Holdings Trust invests in, develops, operates, and manages deep-water container ports in Guangdong Province of the People's Republic of China, Hong Kong, and Macau. The company invests in other types of port assets, such as river ports;",
       "div_history_5y": [
-        0.01608138,
-        0.016789507000000002,
-        0.0180979026,
-        0.019905739999999998,
-        0.019205427
+        0.016084147,
+        0.0167923965,
+        0.018101017,
+        0.019909164,
+        0.01920873
       ],
       "industry": "Business Trusts",
       "industry_detail": "Marine Shipping",
@@ -1202,7 +1202,7 @@
       },
       "sector": "Business Trusts",
       "ticker": "NS8U",
-      "yield_pct": 0.5476
+      "yield_pct": 7.0233
     },
     {
       "description": "Prime office REIT with assets in Singapore, Australia, South Korea, Japan. Anchor exposure to Singapore CBD Grade-A.",
@@ -1228,7 +1228,7 @@
       },
       "sector": "REITs",
       "ticker": "K71U",
-      "yield_pct": 5.8757
+      "yield_pct": 6.002
     },
     {
       "description": "Owner of Singapore's nationwide fibre broadband network. Regulated returns, defensive yield play.",
@@ -1254,7 +1254,7 @@
       },
       "sector": "Utilities",
       "ticker": "CJLU",
-      "yield_pct": 4.3655
+      "yield_pct": 5.4472
     },
     {
       "description": "Micro-Mechanics (Holdings) Ltd. designs, manufactures, and markets precision parts and tools for the wafer-fabrication, assembly, and testing processes of the semiconductor industry. The company offers die attach-pick-up products, such as rubber tips, high-temp plastic tools, tungsten carbide die collets, sensor assemblies, and vacuum wand tools;",
@@ -1281,7 +1281,7 @@
       },
       "sector": "Industrials",
       "ticker": "5DD",
-      "yield_pct": 1.8405
+      "yield_pct": 1.9108
     },
     {
       "description": "Alpha Integrated Real Estate Investment Trust is a Singapore-listed real estate investment trust. It is focused on high-quality industrial assets. Listed on the Singapore Exchange Securities Trading Limited since 26 November 2010, AI-REIT invests in high quality income-producing industrial properties.",
@@ -1308,7 +1308,7 @@
       },
       "sector": "REITs",
       "ticker": "M1GU",
-      "yield_pct": 7.2165
+      "yield_pct": 7.3542
     },
     {
       "description": "Hong Leong Finance Limited operates as a financial services company for consumer, and small and medium-sized enterprises (SMEs) markets in Singapore. The company offers a range of deposits and savings, which includes fixed deposit and saving accounts, saving accounts, and premium saver accounts, as well as silver 40 plus and golden 55 plus accounts;",
@@ -1335,7 +1335,7 @@
       },
       "sector": "Banks",
       "ticker": "S41",
-      "yield_pct": 3.56
+      "yield_pct": 3.5458
     },
     {
       "description": "Sing Investments & Finance Limited provides financing and related nominee services to individuals and corporations in Singapore. The company offers fixed and savings deposits, current, GIRO saver, GoVault, and conveyancing accounts.",
@@ -1362,7 +1362,7 @@
       },
       "sector": "Banks",
       "ticker": "S35",
-      "yield_pct": 4.8077
+      "yield_pct": 4.8387
     },
     {
       "description": "Singapore's second-largest telecom. Smaller scale than Singtel; dividend cut in recent years as fixed-line revenue declined.",
@@ -1415,7 +1415,7 @@
       },
       "sector": "Industrials",
       "ticker": "Z25",
-      "yield_pct": 8.0292
+      "yield_pct": 1.4706
     },
     {
       "description": "Food Empire Holdings Limited, together with its subsidiaries, operates as a food and beverage manufacturing and distribution company. It offers instant coffee, tea, hot chocolate, and snack food products under the MacCoffee, Caf\u00e9PH?, Petrovskaya Sloboda, Klassno, Hillway, Kracks, MacTea, MacCereal, MacChocolate, MacChoco, Caf\u00e9Rite, NutriRite, FesAroma, Melosa, Assam, Nauryz, Simba, and Indira bran\u2026",
@@ -1442,7 +1442,7 @@
       },
       "sector": "Consumer",
       "ticker": "F03",
-      "yield_pct": 2.0395
+      "yield_pct": 4.0404
     },
     {
       "description": "Penguin International Limited, an investment holding company, designs, builds, owns, and operates high-speed aluminum crafts in Singapore, East Asia, Africa, Europe, the Middle East, rest of Southeast Asia, and internationally. The company operates through two segments, Chartering; and Shipbuilding, Ship Repairs and Maintenance.",
@@ -1522,7 +1522,7 @@
       },
       "sector": "Industrials",
       "ticker": "S20",
-      "yield_pct": 4.9383
+      "yield_pct": 4.878
     },
     {
       "description": "Pacific Century Regional Developments Limited, an investment holding company, engages in management and consultancy service businesses in Singapore, Hong Kong, and Cayman Islands. It has interests in the telecommunications, media, IT solutions, logistics, and property development and investment businesses in the Asia-Pacific region.",
@@ -1603,7 +1603,7 @@
       },
       "sector": "Consumer",
       "ticker": "M01",
-      "yield_pct": 4.2553
+      "yield_pct": 4.2105
     },
     {
       "description": "Hor Kew Corporation Limited, an investment holding company, provides an integrated range of construction related products and services in Singapore. The company operates in Property Investment and Development and Prefabrication segments. The Property Investment and Development segment is involved in the development, sale, and leasing of residential, commercial, and industrial properties.",
@@ -1657,7 +1657,7 @@
       },
       "sector": "Industrials",
       "ticker": "5UF",
-      "yield_pct": 2.963
+      "yield_pct": 3.9944
     },
     {
       "description": "SIA Engineering Company Limited, together with its subsidiaries, engages in the provision of maintenance, repair, and overhaul (MRO) services in Singapore, Philippines, Japan, Malaysia, Cambodia, and the United States of America. The company operates through Airframe and Line Maintenance; and Engine and Component segments.",
@@ -1684,7 +1684,7 @@
       },
       "sector": "Industrials",
       "ticker": "S59",
-      "yield_pct": 3.4591
+      "yield_pct": 2.9968
     },
     {
       "description": "Banyan Tree Holdings Limited, an investment holding company, operates as a hospitality company in Singapore, rest of South East Asia, Indian Oceania, the Middle East, North East Asia, and internationally. It operates through Hotel Investments, Residences, and Fee-Based segments.",
@@ -1711,7 +1711,7 @@
       },
       "sector": "Industrials",
       "ticker": "B58",
-      "yield_pct": 2.3932
+      "yield_pct": 2.3684
     },
     {
       "description": "Samudera Shipping Line Ltd owns and operates ocean-going ships in Southeast Asia, the Indian Sub-continent, the Far East, the Middle East, and internationally. It operates through three segments: Container Shipping, Bulk and Tanker, and Logistics.",
@@ -1738,7 +1738,7 @@
       },
       "sector": "Industrials",
       "ticker": "S56",
-      "yield_pct": 2.8571
+      "yield_pct": 8.2143
     },
     {
       "description": "Singapore supermarket chain \u2014 defensive consumer-staples dividend, no overseas exposure.",
@@ -1764,7 +1764,7 @@
       },
       "sector": "Consumer",
       "ticker": "OV8",
-      "yield_pct": 2.2801
+      "yield_pct": 2.3102
     },
     {
       "description": "GuocoLand Limited, an investment holding company, engages in the property investment and development business. It operates through GuocoLand Singapore, GuocoLand China, and GuocoLand Malaysia segments. The company owns, invests in, and manages a portfolio of commercial, mixed-used, residential, and integrated properties, as well as operates and manages hotels.",
@@ -1845,7 +1845,7 @@
       },
       "sector": "Consumer",
       "ticker": "G92",
-      "yield_pct": 2.0
+      "yield_pct": 2.6383
     },
     {
       "description": "United Overseas Insurance Limited engages in the underwriting general insurance business in Singapore, ASEAN countries, and internationally. The company offers personal insurance products, including travel, motor, accident, and home insurance products; and business property insurance.",
@@ -1872,7 +1872,7 @@
       },
       "sector": "Banks",
       "ticker": "U13",
-      "yield_pct": 2.1951
+      "yield_pct": 3.2317
     },
     {
       "description": "InnoTek Limited, an investment holding company, operates as a precision metal components manufacturer in Hong Kong, the People's Republic of China, Thailand, and Vietnam. It operates through The Precision Components and The precision intelligent manufacturing segments.",
@@ -1899,7 +1899,7 @@
       },
       "sector": "Industrials",
       "ticker": "M14",
-      "yield_pct": 2.9412
+      "yield_pct": 2.9197
     },
     {
       "description": "PropNex Limited, an investment holding company, provides real estate services in Singapore. The company operates through Agency Services, Project Marketing Services, Administrative Support Services, and Training Services segments.",
@@ -1926,7 +1926,7 @@
       },
       "sector": "Industrials",
       "ticker": "OYY",
-      "yield_pct": 5.2198
+      "yield_pct": 5.3371
     },
     {
       "description": "Top Glove Corporation Bhd., an investment holding company, engages in the manufacture, trade, and sale of gloves in Malaysia, Thailand, the People's Republic of China, and internationally. It offers nitrile, latex, surgical, rubber, examination, medical, and vinyl gloves;",
@@ -1953,7 +1953,7 @@
       },
       "sector": "Consumer",
       "ticker": "BVA",
-      "yield_pct": 2.0408
+      "yield_pct": 0.6044
     },
     {
       "description": "Ho Bee Land Limited is a real estate company. Listed on the Mainboard of the Singapore Exchange since 1999, Ho Bee has a global footprint that spans Australia, China, United Kingdom and Europe. Its portfolio covers many quality residential, commercial and high-tech industrial projects since its inception.",
@@ -1980,7 +1980,7 @@
       },
       "sector": "Industrials",
       "ticker": "H13",
-      "yield_pct": 2.439
+      "yield_pct": 2.381
     },
     {
       "description": "Geo Energy Resources Limited, an investment holding company, engages in the mining, production, and trading of coal. The company operates through three segments: Coal Mining, Coal Trading, and Mining Services. The Coal Mining segment engages in the production and sale of coal. The Coal Trading segment is involved in the purchase and sale of coal from third parties.",
@@ -2007,7 +2007,7 @@
       },
       "sector": "Industrials",
       "ticker": "RE4",
-      "yield_pct": 0.6452
+      "yield_pct": 0.8989
     },
     {
       "description": "Credit Bureau Asia Limited, an investment holding company, provides credit and risk information solutions in Singapore, Malaysia, Cambodia, and Myanmar. It operates through two segments: Financial Institution Data and Non-Financial Institution Data segments.",
@@ -2034,16 +2034,16 @@
       },
       "sector": "REITs",
       "ticker": "TCU",
-      "yield_pct": 3.6522
+      "yield_pct": 11.5789
     },
     {
       "description": "Prudential plc, through its subsidiaries, provides life and health insurance, and asset management solutions to individuals in Asia and Africa. It offers savings and investments products; and wealth, health, and protection products. The company was founded in 1848 and is headquartered in Central, Hong Kong.",
       "div_history_5y": [
-        0.24094653,
-        0.2217361,
-        0.20911976399999999,
-        0.19311532999999997,
-        0.155343969
+        0.2410563,
+        0.22183709399999998,
+        0.20921501599999998,
+        0.19320329,
+        0.155414727
       ],
       "industry": "Banks",
       "industry_detail": "Insurance - Life",
@@ -2061,7 +2061,7 @@
       },
       "sector": "Banks",
       "ticker": "K6S",
-      "yield_pct": 1.7161
+      "yield_pct": 1.9011
     },
     {
       "description": "Tracks the FTSE Straits Times Index \u2014 the 30 largest SGX stocks. Most widely held SG ETF.",
@@ -2087,7 +2087,7 @@
       },
       "sector": "Other",
       "ticker": "ES3",
-      "yield_pct": 3.5
+      "yield_pct": 3.4151
     },
     {
       "description": "Alternative STI tracker \u2014 same underlying as ES3 but different fee/structure. Used for SRS investing.",
@@ -2113,7 +2113,7 @@
       },
       "sector": "Other",
       "ticker": "G3B",
-      "yield_pct": 3.65
+      "yield_pct": 3.5558
     },
     {
       "description": "Asian high-yield USD bond exposure. Higher yield, higher credit risk than government bonds.",
@@ -2165,7 +2165,7 @@
       },
       "sector": "Other",
       "ticker": "A35",
-      "yield_pct": 2.32
+      "yield_pct": 2.3144
     },
     {
       "description": "Diversified Singapore REIT ETF \u2014 basket exposure to ~20 S-REITs. One-click REIT diversification.",
@@ -2191,7 +2191,7 @@
       },
       "sector": "Other",
       "ticker": "CLR",
-      "yield_pct": 5.43
+      "yield_pct": 5.4811
     },
     {
       "description": "",
@@ -2217,7 +2217,7 @@
       },
       "sector": "Other",
       "ticker": "CFA",
-      "yield_pct": 5.25
+      "yield_pct": 6.6289
     },
     {
       "description": "",
@@ -2243,7 +2243,7 @@
       },
       "sector": "Other",
       "ticker": "SRT",
-      "yield_pct": 5.89
+      "yield_pct": 5.9459
     },
     {
       "description": "",
@@ -2296,7 +2296,7 @@
       },
       "sector": "Industrials",
       "ticker": "LVR",
-      "yield_pct": 1.8605
+      "yield_pct": 2.3256
     },
     {
       "description": "",
@@ -2375,7 +2375,7 @@
       },
       "sector": "Industrials",
       "ticker": "BTJ",
-      "yield_pct": 0.6957
+      "yield_pct": 0.9009
     },
     {
       "description": "ABR Holdings Limited, an investment holding company, manufactures and sells ice creams in Singapore and Malaysia. It operates through three segments: Food and Beverage, Property Investments, and Others. The company operates ice cream parlors cum restaurants, cafeteria, cafe and snack bars, food and beverage outlets, and other specialty restaurants.",
@@ -2429,15 +2429,15 @@
       },
       "sector": "Industrials",
       "ticker": "541",
-      "yield_pct": 1.9
+      "yield_pct": 1.4286
     },
     {
       "description": "Acrophyte Hospitality Trust (ACRO-HT) is a hospitality stapled group. It comprises the Acrophyte Hospitality Property Trust (ACRO-REIT) and Acrophyte Hospitality Management Trust (ACRO-BT). ACRO-HT invests in income-producing real estate assets used primarily for hospitality and/or hospitality-related purposes located in the United States.",
       "div_history_5y": [
-        0.013175071699999999,
-        0.027775911599999998,
-        0.032836452,
-        0.003768438,
+        0.0131751742,
+        0.027776128299999998,
+        0.032836707,
+        0.0037684673,
         null
       ],
       "industry": "Business Trusts",
@@ -2456,7 +2456,7 @@
       },
       "sector": "Business Trusts",
       "ticker": "XZL",
-      "yield_pct": 4.3902
+      "yield_pct": 3.9487
     },
     {
       "description": "Alliance Healthcare Group Limited, an investment holding company, provides corporate health solutions in Singapore. The company operates through General Practitioner (GP) Clinic Services, Specialist Care Services, Managed Healthcare Solutions, Pharmaceutical Services, Mobile and Digital Health Services, and Others segments.",
@@ -2509,7 +2509,7 @@
       },
       "sector": "Other",
       "ticker": "MBH",
-      "yield_pct": 3.2
+      "yield_pct": 3.1949
     },
     {
       "description": "",
@@ -2535,7 +2535,7 @@
       },
       "sector": "Other",
       "ticker": "ZHS",
-      "yield_pct": 2.12
+      "yield_pct": 3.1193
     },
     {
       "description": "",
@@ -2588,7 +2588,7 @@
       },
       "sector": "Industrials",
       "ticker": "BTX",
-      "yield_pct": 27.5862
+      "yield_pct": 5.1382
     },
     {
       "description": "AnnAik Limited, an investment holding company, manufactures and distributes stainless steel products in Singapore, Malaysia, the People's Republic of China, Indonesia, Australia, China, New Zealand, and internationally. It operates through three segments: Distribution of Stainless Steel Piping Products and Non-Steel Products; Manufacturing of Steel Flanges; and Environmental Business.",
@@ -2642,7 +2642,7 @@
       },
       "sector": "REITs",
       "ticker": "5AU",
-      "yield_pct": 3.6496
+      "yield_pct": 3.7313
     },
     {
       "description": "APAC Realty Limited, an investment holding company, provides real estate services in Singapore, Indonesia, Vietnam, and internationally. It operates in three segments: Real Estate Brokerage Income; Rental Income; and Others.",
@@ -2669,7 +2669,7 @@
       },
       "sector": "Industrials",
       "ticker": "CLN",
-      "yield_pct": 8.1081
+      "yield_pct": 7.5
     },
     {
       "description": "Asia Enterprises Holding Limited, an investment holding company, distributes steel products to industrial end-users in Singapore, Indonesia, Malaysia, and internationally. Its products include shipbuilding plates and high tensile plates; hot-rolled plates and chequered plates; wide-flanged beams; bulb flats; channels; equal angles, unequal angles, and inverted angles;",
@@ -2723,7 +2723,7 @@
       },
       "sector": "Business Trusts",
       "ticker": "S7OU",
-      "yield_pct": 12.7907
+      "yield_pct": 12.2093
     },
     {
       "description": "ASL Marine Holdings Ltd., provides marine services in Singapore, Indonesia, Asia Pacific, South Asia, Europe, the Middle East, and Australia. The company offers shiprepair and conversion, dredge engineering, shipchartering, shipbuilding, and other marine related services.",
@@ -2750,7 +2750,7 @@
       },
       "sector": "Industrials",
       "ticker": "A04",
-      "yield_pct": 0.8571
+      "yield_pct": 0.9706
     },
     {
       "description": "Aspial Corporation Limited, an investment holding company, operates in the real estate, financial service, and jewelry businesses in Singapore, Australia, Malaysia, Greater China, and Europe, and internationally. It operates through Retail Business, Real Estate Business, Financial service Business, and Others segments.",
@@ -2780,33 +2780,6 @@
       "yield_pct": 1.82
     },
     {
-      "description": "Atlantic Navigation Holdings (Singapore) Limited, an investment holding company, provides marine logistic services, ship repair, fabrication, and other marine services in Qatar, Saudi Arabia, Oman, and internationally.",
-      "div_history_5y": [
-        0.0495,
-        0.3078,
-        null,
-        null,
-        null
-      ],
-      "industry": "Industrials",
-      "industry_detail": "Marine Shipping",
-      "lot_size": 100,
-      "market_cap_sgd": 62297946.57137275,
-      "name": "Atlantic Navigation Holdings (Singapore) Limited",
-      "price": 0.11900000274181366,
-      "score": 72,
-      "score_breakdown": {
-        "div_vol": 20,
-        "mcap": 20,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 17
-      },
-      "sector": "Industrials",
-      "ticker": "5UL",
-      "yield_pct": 32.4786
-    },
-    {
       "description": "Attika Group Ltd., an investment holding company, provides electrical works in Singapore. The company offers interior design services and undertakes fitted out works. It is also involved in the design, production, building and project management, servicing, and maintenance of interior fit-out works.",
       "div_history_5y": [
         0.007353,
@@ -2831,7 +2804,7 @@
       },
       "sector": "Industrials",
       "ticker": "53W",
-      "yield_pct": 2.716
+      "yield_pct": 2.7232
     },
     {
       "description": "Audience Analytics Limited creates content and brands in Singapore, Cambodia, China, Hong Kong, India, Indonesia, Macau, Malaysia, the Philippines, South Korea, Sri Lanka, Taiwan, Thailand, the United Arab Emirates, and Vietnam. It operates through Business Impact Assessment and Recognition; Exhibitions; Business Media; and Investment Holding segments.",
@@ -2861,33 +2834,6 @@
       "yield_pct": 6.0
     },
     {
-      "description": "Avarga Limited, an investment holding company, engages in the portfolio investment business in Canada, and the United States. The company operates in two segments: Portfolio Investment and Building Materials Distribution.",
-      "div_history_5y": [
-        1.2,
-        null,
-        null,
-        null,
-        0.162
-      ],
-      "industry": "Industrials",
-      "industry_detail": "Industrial Distribution",
-      "lot_size": 100,
-      "market_cap_sgd": 279118039.57,
-      "name": "Avarga Ltd",
-      "price": 2.69,
-      "score": 62,
-      "score_breakdown": {
-        "div_vol": 10,
-        "mcap": 20,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 17
-      },
-      "sector": "Industrials",
-      "ticker": "X5N",
-      "yield_pct": 44.6097
-    },
-    {
       "description": "Avi-Tech Holdings Limited provides burn-in, manufacturing and printed circuit board assembly, and engineering services in Singapore, the United States, China, Malaysia, the Philippines, Switzerland, Germany, Taiwan, and Vietnam.",
       "div_history_5y": [
         0.0025,
@@ -2912,7 +2858,7 @@
       },
       "sector": "Industrials",
       "ticker": "1R6",
-      "yield_pct": 1.1111
+      "yield_pct": 0.9434
     },
     {
       "description": "Azeus Systems Holdings Ltd., an investment holding company, provides IT products and services in Hong Kong, rest of Asia, the United Kingdom, rest of Europe, Australia, New Zealand, North America, South America, the Middle East, and Africa. It operates in two segments, IT Services and Azeus Products.",
@@ -2939,7 +2885,7 @@
       },
       "sector": "Industrials",
       "ticker": "BBW",
-      "yield_pct": 47.9094
+      "yield_pct": 7.9792
     },
     {
       "description": "Aztech Global Ltd., together with its subsidiaries, engages in the research, development, design, engineering, manufacture, and sale of IoT devices, data-communication products, LED lighting, and other electrical products.",
@@ -2966,34 +2912,7 @@
       },
       "sector": "Industrials",
       "ticker": "8AZ",
-      "yield_pct": 4.21
-    },
-    {
-      "description": "Bacui Technologies International Ltd., an investment holding company, engages in the service outsourcing business in the People's Republic of China. The company offers job outsourcing, labour dispatch, training and improvement, recruitment and employment, talent assessment, and career planning services;",
-      "div_history_5y": [
-        1.1e-05,
-        null,
-        null,
-        null,
-        null
-      ],
-      "industry": "Telco",
-      "industry_detail": "Publishing",
-      "lot_size": 100,
-      "market_cap_sgd": 13074085.889644451,
-      "name": "Bacui Technologies International Ltd.",
-      "price": 0.003000000026077032,
-      "score": 60,
-      "score_breakdown": {
-        "div_vol": 10,
-        "mcap": 20,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 15
-      },
-      "sector": "Telco",
-      "ticker": "YYB",
-      "yield_pct": 55.0
+      "yield_pct": 12.6984
     },
     {
       "description": "Baker Technology Limited, together with its subsidiaries, provides specialized marine offshore equipment and services for the oil and gas industry in the Asia Pacific, Africa, Europe, Singapore, the Middle East, the Americas, and China. It operates through Marine Offshore, Corporate, and Investments segments.",
@@ -3020,7 +2939,7 @@
       },
       "sector": "Industrials",
       "ticker": "BTP",
-      "yield_pct": 3.0303
+      "yield_pct": 3.0
     },
     {
       "description": "BBR Holdings (S) Ltd, an investment holding company, engages in construction business in Singapore and Malaysia. The company operates through five segments: Specialised Engineering, General Construction, Property Development, Green Technology, and Accommodation Business.",
@@ -3128,7 +3047,7 @@
       },
       "sector": "REITs",
       "ticker": "BMGU",
-      "yield_pct": 0.6667
+      "yield_pct": 0.6444
     },
     {
       "description": "Bonvests Holdings Limited, an investment holding company, engages in hotel ownership and management, property development and investment, and waste management and contract cleaning businesses. The company operates through Rental, Hotel, Industrial, Investment, Development, and Others segments. It owns, manages, and lets various commercial and residential properties.",
@@ -3182,7 +3101,7 @@
       },
       "sector": "Industrials",
       "ticker": "F9D",
-      "yield_pct": 2.14
+      "yield_pct": 3.4404
     },
     {
       "description": "BRC Asia Limited, together with its subsidiaries, engages in the prefabrication of steel reinforcement for use in concrete in Singapore, Australia, Brunei, Hong Kong, Indonesia, Malaysia, Thailand, India, and internationally. It operates through three segments: Fabrication and Manufacturing, Trading, and Others.",
@@ -3209,7 +3128,7 @@
       },
       "sector": "Industrials",
       "ticker": "BEC",
-      "yield_pct": 2.8139
+      "yield_pct": 4.3384
     },
     {
       "description": "Brook Crompton Holdings Ltd., an investment holding company, distributes electric motors in the United Kingdom, Continental Europe, the Asia Pacific, and North America. The company offers design and customization services for electric motors, and post-sale customer care service.",
@@ -3263,7 +3182,7 @@
       },
       "sector": "Industrials",
       "ticker": "B61",
-      "yield_pct": 82.0
+      "yield_pct": 4.1408
     },
     {
       "description": "Bumitama Agri Ltd., an investment holding company, engages in the production and trading of crude palm oil (CPO) and palm kernel (PK) in Indonesia. It operates oil palm plantations, palm oil mills, and fertilizer blending plant. The company also cultivates, harvests, and processes fruit from the oil palm trees to produce and sell the CPO and PK.",
@@ -3290,7 +3209,7 @@
       },
       "sector": "Consumer",
       "ticker": "P8Z",
-      "yield_pct": 5.67
+      "yield_pct": 6.1513
     },
     {
       "description": "Bund Center Investment Ltd, an investment holding company, owns a hotel, and owns and manages commercial and retail properties in the People's Republic of China. The company operates through Hotel and Property Leasing segments. It owns The Westin Bund Center Shanghai, a five-star hotel in Shanghai comprising 570 rooms.",
@@ -3371,7 +3290,7 @@
       },
       "sector": "Business Trusts",
       "ticker": "J85",
-      "yield_pct": 6.2338
+      "yield_pct": 6.1538
     },
     {
       "description": "CDW Holding Limited, an investment holding company, produces and supplies precision components in Mainland China, Hong Kong, Japan, and internationally. It operates through LCD Backlight Units, Office Automation, OEM and Accessories, and Others segments.",
@@ -3398,7 +3317,7 @@
       },
       "sector": "Industrials",
       "ticker": "BXE",
-      "yield_pct": 4.5977
+      "yield_pct": 5.9035
     },
     {
       "description": "Centurion Accommodation REIT is a real estate investment trust listed on the Mainboard of the Singapore Exchange Securities Trading Limited on 25 September 2025. CAREIT's principal investment strategy is to invest, directly or indirectly, in a portfolio of income-producing living sector real estate assets, which are used primarily for purpose-built worker accommodation (PBWA), purpose-built studen\u2026",
@@ -3425,7 +3344,7 @@
       },
       "sector": "REITs",
       "ticker": "8C8U",
-      "yield_pct": 3.8532
+      "yield_pct": 1.6252
     },
     {
       "description": "Centurion Corporation Limited, together with its subsidiaries, owns, manages, and operates purpose-built accommodation assets in Singapore, Malaysia, Australia, the United Kingdom, and internationally. The company operates through three segments: Worker Accommodation, Student Accommodation, and Others.",
@@ -3452,7 +3371,7 @@
       },
       "sector": "Consumer",
       "ticker": "OU8",
-      "yield_pct": 2.6316
+      "yield_pct": 2.7211
     },
     {
       "description": "Chemical Industries (Far East) Limited, an investment holding company, manufactures and sells chemicals in Singapore and Myanmar. The company operates in two segments, Industrial Chemicals and Properties. It offers sodium hypochlorite, chlorine, hydrochloric acid, and calcium hydroxide for water treatment chemicals and electronics; and distribution and transportation services.",
@@ -3479,7 +3398,7 @@
       },
       "sector": "Industrials",
       "ticker": "C05",
-      "yield_pct": 90.0
+      "yield_pct": 0.9091
     },
     {
       "description": "China Everbright Water Limited engages in the water environment management business in Mainland China and Germany. It is involved in municipal wastewater treatment, industrial wastewater treatment, water supply, reusable water, sludge treatment and disposal, sponge city construction, river-basin ecological restoration, livestock and poultry manure resources utilization, and research and developmen\u2026",
@@ -3506,7 +3425,7 @@
       },
       "sector": "Utilities",
       "ticker": "U9E",
-      "yield_pct": 45.7778
+      "yield_pct": 7.3043
     },
     {
       "description": "China Sunsine Chemical Holdings Ltd., an investment holding company, manufactures and sells specialty chemicals in the People's Republic of China, rest of Asia, America, Europe, and internationally. The company operates through Rubber Chemicals, Heating Power, and Waste Treatment segments.",
@@ -3533,7 +3452,7 @@
       },
       "sector": "Industrials",
       "ticker": "QES",
-      "yield_pct": 16.391
+      "yield_pct": 4.812
     },
     {
       "description": "Choo Chiang Holdings Ltd., an investment holding company, operates as a retailer and distributor of electrical products and accessories in Singapore. It operates in two segments, Distribution Business and Property Investment Business.",
@@ -3560,7 +3479,7 @@
       },
       "sector": "Industrials",
       "ticker": "42E",
-      "yield_pct": 5.7143
+      "yield_pct": 5.7778
     },
     {
       "description": "Chuan Hup Holdings Limited, an investment holding company, engages in property investment and development in Singapore, Australia, the United States, Europe, and internationally. It operates in two segments, Investment and Property.",
@@ -3587,13 +3506,13 @@
       },
       "sector": "Industrials",
       "ticker": "C33",
-      "yield_pct": 2.1277
+      "yield_pct": 2.9167
     },
     {
       "description": "Civmec Limited, an investment holding company, provides construction and engineering services to the energy, resources, infrastructure, marine, and defense sectors in Australia. It undertakes fabrication projects, such as structural steel, plateworks, tanks, vessels, materials handling equipment, subsea and offshore structures, and pipe spooling services.",
       "div_history_5y": [
-        0.0546534,
-        0.03188115,
+        0.0546402,
+        0.03187345,
         null,
         null,
         null
@@ -3614,12 +3533,12 @@
       },
       "sector": "Industrials",
       "ticker": "P9D",
-      "yield_pct": 4.0
+      "yield_pct": 3.6186
     },
     {
       "description": "China Medical System Holdings Limited, an investment holding company, manufactures, sells, markets, and promotes pharmaceutical products in the People's Republic of China. The company offers cardio-cerebrovascular products include VELPHORO, a sucroferric oxyhydroxide chewable tablets and diazepam nasal spray for seizure clusters;",
       "div_history_5y": [
-        0.02792088,
+        0.02791917,
         null,
         null,
         null,
@@ -3641,7 +3560,7 @@
       },
       "sector": "Consumer",
       "ticker": "8A8",
-      "yield_pct": 16.044
+      "yield_pct": 2.9245
     },
     {
       "description": "CNMC Goldmine Holdings Limited, an investment holding company, engages in the exploration and mining of gold deposits in Malaysia. The company also explores for silver, lead, and zinc deposits. Its flagship project is the Sokor Gold Field project, which covers an area of 2,370 acres located in Tanah Merah, Kelantan.",
@@ -3668,7 +3587,7 @@
       },
       "sector": "Industrials",
       "ticker": "5TP",
-      "yield_pct": 0.6923
+      "yield_pct": 4.2017
     },
     {
       "description": "Coliwoo Holdings Limited, an investment holding company, operates co-living properties in Singapore. It operates furnished residences, serviced apartments, and co-living hotels for rent. The company also provides professional property enhancement and property management services for landlords. In addition, it offers bicycle rental options.",
@@ -3695,34 +3614,7 @@
       },
       "sector": "Industrials",
       "ticker": "W8W",
-      "yield_pct": 6.0606
-    },
-    {
-      "description": "Comba Telecom Systems Holdings Limited, an investment holding company, engages in the research and development, manufacture, and sale of wireless telecommunications network system equipment and related engineering services. It operates in two segments: Wireless Telecommunications Network System Equipment and Services, and Operator Telecommunication Services.",
-      "div_history_5y": [
-        0.00097968,
-        null,
-        0.0037554399,
-        null,
-        null
-      ],
-      "industry": "Industrials",
-      "industry_detail": "Communication Equipment",
-      "lot_size": 100,
-      "market_cap_sgd": 684663448.92,
-      "name": "Comba Telecom Systems Holdings Limited",
-      "price": 0.22,
-      "score": 61,
-      "score_breakdown": {
-        "div_vol": 10,
-        "mcap": 19,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 17
-      },
-      "sector": "Industrials",
-      "ticker": "STC",
-      "yield_pct": 2.7273
+      "yield_pct": 6.0
     },
     {
       "description": "Combine Will International Holdings Limited, an investment holding company, operates as an original design manufacturer, original equipment manufacturer supplier of toys, plush, corporate premiums, and consumer products.",
@@ -3749,7 +3641,7 @@
       },
       "sector": "Consumer",
       "ticker": "N0Z",
-      "yield_pct": 25.25
+      "yield_pct": 4.1667
     },
     {
       "description": "Concord New Energy Group Limited, an investment holding company, engages in the power generation business in the People's Republic of China, North America, Europe, Oceania, Southeast Asia, and internationally. The company operates through Power Generation and Other segments.",
@@ -3803,7 +3695,7 @@
       },
       "sector": "Consumer",
       "ticker": "C41",
-      "yield_pct": 0.5682
+      "yield_pct": 4.5455
     },
     {
       "description": "COSCO SHIPPING International (Singapore) Co., Ltd., an investment holding company, provides integrated logistics services in South and Southeast Asia. It operates through Shipping, Ship Repair and Marine Engineering Activities, Logistics, and Property Management segments.",
@@ -3830,7 +3722,7 @@
       },
       "sector": "Industrials",
       "ticker": "F83",
-      "yield_pct": 0.8547
+      "yield_pct": 0.7607
     },
     {
       "description": "CSC Holdings Limited, an investment holding company, provides foundation and geotechnical, and ground engineering solutions in Singapore, Malaysia, India, Thailand, the Philippines, Vietnam, and internationally. It operates through two segments: Foundation and Geotechnical Engineering, and Sales and Lease of Equipment.",
@@ -3857,7 +3749,7 @@
       },
       "sector": "Industrials",
       "ticker": "C06",
-      "yield_pct": 2.33
+      "yield_pct": 2.5
     },
     {
       "description": "CSE Global Limited, an investment holding company, engages in the provision of integrated industrial automation, information technology, and intelligent transport solutions in the Asia Pacific, the Americas, Europe, the Middle East, and Africa.",
@@ -3884,7 +3776,7 @@
       },
       "sector": "Industrials",
       "ticker": "544",
-      "yield_pct": 1.5116
+      "yield_pct": 1.5663
     },
     {
       "description": "",
@@ -3937,7 +3829,7 @@
       },
       "sector": "REITs",
       "ticker": "DHLU",
-      "yield_pct": 8.7755
+      "yield_pct": 8.7475
     },
     {
       "description": "Delfi Limited, an investment holding company, manufactures, markets, distributes, and sells chocolate, chocolate confectionery, and consumer products in Indonesia, the Philippines, Malaysia, Singapore, and internationally.",
@@ -3964,7 +3856,7 @@
       },
       "sector": "Consumer",
       "ticker": "P34",
-      "yield_pct": 2.7692
+      "yield_pct": 3.6489
     },
     {
       "description": "Dezign Format Group Limited engages in the events, exhibitions, and d\u00e9cor services in Singapore. It operates through The Event, Exhibition and D\u00e9cor Services; The Commercial & Retail Fit-Out; The Immersive Location-Based Entertainment and Experiences (\u0093Immersive LBE\u0094); and Others.",
@@ -3991,7 +3883,7 @@
       },
       "sector": "Industrials",
       "ticker": "UZF",
-      "yield_pct": 1.6216
+      "yield_pct": 1.3514
     },
     {
       "description": "Digital Core REIT is a leading pure-play data center Singapore REIT listed on the Main Board of the Singapore Exchange Securities Trading Limited. It is sponsored by Digital Realty, the largest global data center owner and operator.",
@@ -4018,7 +3910,7 @@
       },
       "sector": "REITs",
       "ticker": "DCRU",
-      "yield_pct": 7.2
+      "yield_pct": 7.2727
     },
     {
       "description": "Duty Free International Limited, an investment holding company, operates as a duty-free retailer under the Zon brand in Malaysia. It operates in Trading of Duty Free Goods and Non-Dutiable Merchandise; and Investment Holding and Others segments.",
@@ -4045,33 +3937,7 @@
       },
       "sector": "Consumer",
       "ticker": "5SO",
-      "yield_pct": 7.3529
-    },
-    {
-      "description": "",
-      "div_history_5y": [
-        null,
-        null,
-        null,
-        null,
-        null
-      ],
-      "industry": "Business Trusts",
-      "lot_size": 100,
-      "market_cap_sgd": null,
-      "name": "Eagle Hospitality Trust",
-      "price": 0.137,
-      "score": 82,
-      "score_breakdown": {
-        "div_vol": 10,
-        "mcap": 20,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 37
-      },
-      "sector": "Business Trusts",
-      "ticker": "LIW",
-      "yield_pct": 43.7956
+      "yield_pct": 2.4265
     },
     {
       "description": "Elite UK REIT operates as a real estate investment trust. It primarily invests in commercial assets and real estate-related assets in the United Kingdom. The company's investment properties comprise freehold properties located in London and South East, North West, Midlands, North East, South West, Yorkshire and Humber, East, Scotland, and Wales.",
@@ -4098,7 +3964,7 @@
       },
       "sector": "REITs",
       "ticker": "MXNU",
-      "yield_pct": 8.8235
+      "yield_pct": 8.9118
     },
     {
       "description": "Elite UK REIT operates as a real estate investment trust. It primarily invests in commercial assets and real estate-related assets in the United Kingdom. The company's investment properties comprise freehold properties located in London and South East, North West, Midlands, North East, South West, Yorkshire and Humber, East, Scotland, and Wales.",
@@ -4151,7 +4017,7 @@
       },
       "sector": "Industrials",
       "ticker": "BIX",
-      "yield_pct": 4.0
+      "yield_pct": 3.8462
     },
     {
       "description": "Emperador Inc., together with its subsidiaries, engages in manufacturing, bottling, and distributing distilled spirits and other alcoholic beverages worldwide. The company operates in two segments, the Brandy and Scotch Whisky.",
@@ -4178,7 +4044,7 @@
       },
       "sector": "Consumer",
       "ticker": "EMI",
-      "yield_pct": 39.1304
+      "yield_pct": 0.7949
     },
     {
       "description": "EnGro Corporation Limited, an investment holding company, engages in the manufacture and sale of building materials and specialty polymers in Singapore, Malaysia, the People's Republic of China, and internationally. It operates through four segments: Cement and Building Materials, Specialty Polymer, Investments, and Food and Beverage.",
@@ -4205,7 +4071,7 @@
       },
       "sector": "Industrials",
       "ticker": "S44",
-      "yield_pct": 3.0151
+      "yield_pct": 4.0
     },
     {
       "description": "ESR-REIT is a leading New Economy and future-ready Asia Pacific S-REIT. Listed on the Singapore Exchange Securities Trading Limited since 25 July 2006, ESR-REIT invests in quality income-producing industrial properties in key gateway markets.",
@@ -4232,7 +4098,7 @@
       },
       "sector": "REITs",
       "ticker": "9A4U",
-      "yield_pct": 9.125
+      "yield_pct": 9.2464
     },
     {
       "description": "Ever Glory United Holdings Limited, an investment holding company, provides mechanical and electrical engineering services for public and private sectors in Singapore. The company engages in the design and build, supply, installation, testing, and commissioning of centralized air-conditioning systems for commercial, institutional, and industrial buildings;",
@@ -4259,7 +4125,7 @@
       },
       "sector": "Industrials",
       "ticker": "ZKX",
-      "yield_pct": 0.9195
+      "yield_pct": 1.1834
     },
     {
       "description": "Far East Group Limited, together with its subsidiaries, manufactures and distributes refrigeration and air-conditioning systems and products for the heating, ventilation, air-conditioning, and refrigeration industry. It operates through three segments: Wholesale and Distribution; Manufacturing; and Engineering Solutions.",
@@ -4286,7 +4152,7 @@
       },
       "sector": "Industrials",
       "ticker": "5TJ",
-      "yield_pct": 1.8692
+      "yield_pct": 1.6822
     },
     {
       "description": "Far East Orchard Limited, an investment holding company, engages in the hotel operations and property investment activities in Singapore, Australia, the United Kingdom, Japan, Malaysia, Germany, and Denmark.",
@@ -4313,7 +4179,7 @@
       },
       "sector": "Industrials",
       "ticker": "O10",
-      "yield_pct": 3.2787
+      "yield_pct": 3.3058
     },
     {
       "description": "Federal International (2000) Ltd, an investment holding company, operates as an integrated service provider and procurement specialist in the oil and gas, and energy industries. It operates through Trading; Manufacturing/Design/Research and Development; Marine Logistics; and Corporate and Others.",
@@ -4340,7 +4206,7 @@
       },
       "sector": "REITs",
       "ticker": "BDU",
-      "yield_pct": 1.9608
+      "yield_pct": 3.9216
     },
     {
       "description": "First Resources Limited, an investment holding company, engages in the palm oil production activities in Singapore, Indonesia, China, Malaysia, and internationally. The company operates in two segments, Plantations and Palm Oil Mills, and Refinery and Processing. It is involved in cultivation and maintenance of oil palm plantations, and operation of palm oil mills.",
@@ -4367,7 +4233,7 @@
       },
       "sector": "Consumer",
       "ticker": "EB5",
-      "yield_pct": 4.1007
+      "yield_pct": 5.5056
     },
     {
       "description": "First Sponsor Group Limited, an investment holding company, invests in, develops, and sells residential and commercial properties in the People's Republic of China, Europe, and internationally. The company operates through Property Development, Property Investment, Property Financing, and Hotel Operations segments.",
@@ -4394,7 +4260,7 @@
       },
       "sector": "Industrials",
       "ticker": "ADN",
-      "yield_pct": 4.8
+      "yield_pct": 4.6961
     },
     {
       "description": "Fortress Minerals Limited, an investment holding company, engages in the exploration, mining, production, and sale of iron ore concentrates. It holds interest in the Bukit Besi mine located in Terengganu, Malaysia. The company is involved in the acquisition of mines, mining rights, metalliferous land, and quarries; trading of minerals.",
@@ -4421,7 +4287,7 @@
       },
       "sector": "Industrials",
       "ticker": "OAJ",
-      "yield_pct": 1.6
+      "yield_pct": 1.8776
     },
     {
       "description": "Frasers Property Limited, an investment holding company, develops, invests in, and manages a portfolio of real estate assets in Singapore. It also does this in Australia, Europe, China, Thailand, and internationally.",
@@ -4448,7 +4314,7 @@
       },
       "sector": "Industrials",
       "ticker": "TQ5",
-      "yield_pct": 3.9823
+      "yield_pct": 4.0179
     },
     {
       "description": "Frencken Group Limited, an investment holding company, provides original design, original equipment, and diversified integrated manufacturing solutions in Singapore, the Netherlands, People's Republic of China, and Malaysia. The company operates through the Mechatronics and Integrated Manufacturing Services (IMS) segments.",
@@ -4475,7 +4341,7 @@
       },
       "sector": "Industrials",
       "ticker": "E28",
-      "yield_pct": 0.9121
+      "yield_pct": 0.8871
     },
     {
       "description": "Fuji Offset Plates Manufacturing Ltd manufactures and sells rotogravure printing cylinders and related services for the printing industry in Singapore, Malaysia, and internationally. It operates through three segments: Printing Cylinders; Investment Holding; and Investment in Property Development Companies.",
@@ -4556,7 +4422,7 @@
       },
       "sector": "Telco",
       "ticker": "XJB",
-      "yield_pct": 5.618
+      "yield_pct": 1.1236
     },
     {
       "description": "GKE Corporation Limited, an investment holding company, provides warehousing and logistic services in Singapore, the People's Republic of China, and internationally. It operates through Warehousing and Logistics; Infrastructural Materials and Services; and Agriculture segments.",
@@ -4583,7 +4449,7 @@
       },
       "sector": "Industrials",
       "ticker": "595",
-      "yield_pct": 5.1948
+      "yield_pct": 5.0
     },
     {
       "description": "Global Investments Limited is an open ended balanced mutual fund launched and managed by Singapore Consortium Investment Management Limited. The fund invests in the public equity and fixed income markets across the globe. It invests in stocks of companies operating across diversified sectors.",
@@ -4637,7 +4503,7 @@
       },
       "sector": "Industrials",
       "ticker": "AYN",
-      "yield_pct": 3.03
+      "yield_pct": 4.9618
     },
     {
       "description": "Golden Agri-Resources Ltd, an investment holding company, operates as an integrated palm oil plantation company in China, Indonesia, India, rest of Asia, Europe, and internationally. The company operates through Plantations and Palm Oil Mills; and Palm, Laurics and Others segments.",
@@ -4664,7 +4530,7 @@
       },
       "sector": "Consumer",
       "ticker": "E5H",
-      "yield_pct": 3.59
+      "yield_pct": 3.5259
     },
     {
       "description": "Goodland Group Limited, an investment holding company, develops real estate properties in Singapore, Cambodia, and Malaysia. The company operates through Property development, Construction, Property investment, and Other segments. It develops and sells properties; constructs residential and commercial properties; and invests in properties and shares.",
@@ -4691,7 +4557,7 @@
       },
       "sector": "Industrials",
       "ticker": "5PC",
-      "yield_pct": 1.6807
+      "yield_pct": 1.2605
     },
     {
       "description": "Goodwill Entertainment Holding Limited, an investment holding company, operates multi-entertainment venues primarily in Singapore. The company engages in live performances, nightlife concepts, and food & beverage establishments business. It also operates Japanese restaurant under the Yakitori ONE brand name, as well as cafes and bars.",
@@ -4745,7 +4611,7 @@
       },
       "sector": "Industrials",
       "ticker": "G20",
-      "yield_pct": 5.9459
+      "yield_pct": 5.8559
     },
     {
       "description": "Grand Banks Yachts Limited, together with its subsidiaries, manufactures and sells luxury recreational motor yachts in the United States, Australia, Europe, and Asia. The company offers its yachts under the Grand Banks, Eastbay, and Palm Beach brand names. It also engages in the boat brokerage and servicing activities; sells stock boats, trade-in boats, and parts; and owns properties and marinas.",
@@ -4772,7 +4638,7 @@
       },
       "sector": "Consumer",
       "ticker": "G50",
-      "yield_pct": 2.1429
+      "yield_pct": 2.1583
     },
     {
       "description": "Global Resource Construction Ltd., an investment holding company, engages in construction, and property development and investment activities. The company was formerly known as GRC Limited and changed its name to Global Resource Construction Ltd. in November 2025. The company is headquartered in Singapore.",
@@ -4799,7 +4665,7 @@
       },
       "sector": "Industrials",
       "ticker": "S3N",
-      "yield_pct": 1.14
+      "yield_pct": 1.0078
     },
     {
       "description": "Great Eastern Holdings Limited, an investment holding company, provides insurance products in Singapore, Malaysia, and rest of Asia. It operates through Life Insurance, Non-Life Insurance, and Shareholders segments.",
@@ -4826,34 +4692,7 @@
       },
       "sector": "Banks",
       "ticker": "G07",
-      "yield_pct": 3.481
-    },
-    {
-      "description": "GSH Corporation Limited, an investment holding company, engages in the development and sale of properties in Malaysia and China. The company operates through three segments: Hospitality, Property, and Others. It leases and sells properties; and operates resorts, hotels, and golf and marina clubs.",
-      "div_history_5y": [
-        0.0025,
-        null,
-        0.0125,
-        0.01,
-        0.0005
-      ],
-      "industry": "Industrials",
-      "industry_detail": "Conglomerates",
-      "lot_size": 100,
-      "market_cap_sgd": 481701594.174,
-      "name": "GSH Corporation Limited",
-      "price": 0.199,
-      "score": 62,
-      "score_breakdown": {
-        "div_vol": 10,
-        "mcap": 20,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 17
-      },
-      "sector": "Industrials",
-      "ticker": "BDX",
-      "yield_pct": 0.5025
+      "yield_pct": 3.501
     },
     {
       "description": "Hafary Holdings Limited, an investment holding company, engages in import, export, dealing, distribution, wholesale, and trading in building materials. It operates through four segments: General, Project, Manufacturing, and Others segments. The General segment offers its products for architecture, interior design, and renovation firms for home renovation or small property development.",
@@ -4880,7 +4719,7 @@
       },
       "sector": "Industrials",
       "ticker": "5VS",
-      "yield_pct": 3.0612
+      "yield_pct": 5.6122
     },
     {
       "description": "Haw Par Corporation Limited, together with its subsidiaries, manufactures, markets, and trades in healthcare products in Singapore, The Association of Southeast Asian Nations countries, other Asian countries, and internationally. It manufactures and distributes topical analgesic products under the Tiger Balm and Kwan Loong brands; and invests in quoted securities.",
@@ -4907,7 +4746,7 @@
       },
       "sector": "Consumer",
       "ticker": "H02",
-      "yield_pct": 2.4272
+      "yield_pct": 2.511
     },
     {
       "description": "HC Surgical Specialists Limited, an investment holding company, provides medical services primarily in Singapore. The company provides endoscopic procedures, including gastroscopies and colonoscopies; and general surgery services with a focus on colorectal procedures in a network of clinics.",
@@ -4934,7 +4773,7 @@
       },
       "sector": "Consumer",
       "ticker": "1B1",
-      "yield_pct": 5.5263
+      "yield_pct": 5.6216
     },
     {
       "description": "Heeton Holdings Limited, an investment holding company, engages in the hospitality business in Singapore, the United Kingdom, Japan, and internationally. It operates through Property Investment, Property Development, and Hospitality segments. The company owns, operates, and manages hotels.",
@@ -4961,13 +4800,13 @@
       },
       "sector": "Consumer",
       "ticker": "5DP",
-      "yield_pct": 2.0
+      "yield_pct": 1.9608
     },
     {
       "description": "Helens International Holdings Company Limited, an investment holding company, engages in the bar operations and franchise business in the People's Republic of China and Hong Kong. It offers alcoholic drinks, such as spirituous drinks and beers, as well as snacks under the Helen's brand name, as well as third party brand alcoholic drinks and other products.",
       "div_history_5y": [
-        0.039078944000000004,
-        0.028093956,
+        0.039081337,
+        0.028095676,
         null,
         null,
         null
@@ -4988,7 +4827,7 @@
       },
       "sector": "Consumer",
       "ticker": "HLS",
-      "yield_pct": 0.861
+      "yield_pct": 17.1519
     },
     {
       "description": "HG Metal Manufacturing Limited, an investment holding company, trades in steel products in Indonesia, Malaysia, Myanmar, and Singapore. The company operates through Trading, Manufacturing, and Others segments.",
@@ -5015,7 +4854,7 @@
       },
       "sector": "Industrials",
       "ticker": "BTG",
-      "yield_pct": 3.7037
+      "yield_pct": 2.7778
     },
     {
       "description": "Hiap Hoe Limited, an investment holding company, engages in the development of portfolio of hospitality, retail, commercial, and residential assets in Australia, the United Kingdom, and Singapore. The company operates through four segments: Rental Income; Leisure Business; Hotel Operations, and Other Investments.",
@@ -5042,7 +4881,7 @@
       },
       "sector": "Consumer",
       "ticker": "5JK",
-      "yield_pct": 1.9259
+      "yield_pct": 1.938
     },
     {
       "description": "Hiap Seng Industries Limited, an investment holding company, provides engineering, procurement, construction, and plant maintenance services for oil and gas, and energy sectors in Singapore. The company offers building and plant construction, process piping, pressure vessels, process equipment installation, modular compression, and tanks and terminals services for oil and gas, petrochemical and ch\u2026",
@@ -5069,7 +4908,7 @@
       },
       "sector": "Industrials",
       "ticker": "1L2",
-      "yield_pct": 59.0
+      "yield_pct": 0.5882
     },
     {
       "description": "Hiap Tong Corporation Ltd., together with its subsidiaries, engages in the provision of hydraulic lifting and haulage services to the marine, petrochemical, and construction industries in Singapore and Malaysia. The company operates through Lifting and Haulage Services, and Manpower Services segments.",
@@ -5096,7 +4935,7 @@
       },
       "sector": "Industrials",
       "ticker": "5PO",
-      "yield_pct": 84.0
+      "yield_pct": 0.8772
     },
     {
       "description": "Hock Lian Seng Holdings Limited, an investment holding company, primarily provides civil engineering services to public and private sectors in Singapore. The company operates through three segments: Civil Engineering, Properties Development, and Properties Investment.",
@@ -5123,7 +4962,7 @@
       },
       "sector": "Industrials",
       "ticker": "J2T",
-      "yield_pct": 2.8205
+      "yield_pct": 2.8846
     },
     {
       "description": "Hong Fok Corporation Limited, an investment holding company, engages in property investment, construction, development, and management activities in Singapore. The company invests in offices, shops, restaurant, hotel, car park, residential, retail, and commercial properties. It also offers investment trading, holding, and management services, as well as maintenance services.",
@@ -5150,7 +4989,7 @@
       },
       "sector": "Industrials",
       "ticker": "H30",
-      "yield_pct": 1.0363
+      "yield_pct": 1.0309
     },
     {
       "description": "Hong Leong Asia Ltd., an investment holding company, manufactures and distributes powertrain solutions and related products, building materials, and rigid packaging products in the People's Republic of China, Singapore, Malaysia, and internationally. It operates through Powertrain Solutions and Building Materials segments.",
@@ -5177,7 +5016,7 @@
       },
       "sector": "Consumer",
       "ticker": "H22",
-      "yield_pct": 1.4409
+      "yield_pct": 1.4881
     },
     {
       "description": "Hosen Group Ltd., an investment holding company, engages in the development, trading, and distribution of canned seafood products, canned fruits and vegetables, canned meat products, and chocolate products in Singapore, Malaysia, China, and internationally. It operates through two segments, House Brands and Non-House Brands.",
@@ -5204,7 +5043,7 @@
       },
       "sector": "Consumer",
       "ticker": "5EV",
-      "yield_pct": 3.1746
+      "yield_pct": 3.0769
     },
     {
       "description": "Hotel Grand Central Limited, together with its subsidiaries, owns, operates, and manages hotels in Singapore, Malaysia, Australia, New Zealand, and China. It offers marketing and support, as well as management services; and invests in commercial properties. The company was incorporated in 1968 and is based in Singapore.",
@@ -5231,7 +5070,7 @@
       },
       "sector": "Consumer",
       "ticker": "H18",
-      "yield_pct": 2.0
+      "yield_pct": 2.069
     },
     {
       "description": "Hotel Royal Limited, an investment holding company, operates in the hotelier business in Singapore, Malaysia, Thailand, and New Zealand. It operates through Hotel Operations, Property Investments, and Financial Investments segments.",
@@ -5258,7 +5097,7 @@
       },
       "sector": "Consumer",
       "ticker": "H12",
-      "yield_pct": 1.3699
+      "yield_pct": 1.3825
     },
     {
       "description": "Hotung Investment Holdings Limited operates as a venture capital investment company in Taiwan, China, Israel, the United States, the United Kingdom, and internationally. The company operates through the Investments and Fund Management segments. It invests in listed, over the counter, and unlisted companies. The company also provides consultancy services.",
@@ -5285,7 +5124,7 @@
       },
       "sector": "Banks",
       "ticker": "BLS",
-      "yield_pct": 1.5938
+      "yield_pct": 6.519
     },
     {
       "description": "Hutchison Port Holdings Trust invests in, develops, operates, and manages deep-water container ports in Guangdong Province of the People's Republic of China, Hong Kong, and Macau. The company invests in other types of port assets, such as river ports;",
@@ -5312,7 +5151,7 @@
       },
       "sector": "Business Trusts",
       "ticker": "P7VU",
-      "yield_pct": 43.3962
+      "yield_pct": 7.1109
     },
     {
       "description": "Hotel Properties Limited, an investment holding company, owns, manages, and operates hotels in Singapore and internationally. It operates through Hotels, Properties, and Others segments. The company engages in the rental and sale of residential properties and commercial units; property development and project management activities; trading in quoted investments and share dealing;",
@@ -5393,7 +5232,7 @@
       },
       "sector": "Industrials",
       "ticker": "41B",
-      "yield_pct": 1.7647
+      "yield_pct": 1.8634
     },
     {
       "description": "Hyphens Pharma International Limited, together with its subsidiaries, operates as a specialty pharmaceutical and consumer healthcare company primarily in Singapore, Vietnam, Malaysia, and internationally. It operates through Pharmaceutical and Medical Aesthetics; Proprietary Brands; and Digital Platform and E-Pharmacy segments.",
@@ -5446,7 +5285,7 @@
       },
       "sector": "Other",
       "ticker": "CYC",
-      "yield_pct": 1.5
+      "yield_pct": 2.9564
     },
     {
       "description": "",
@@ -5499,7 +5338,7 @@
       },
       "sector": "Industrials",
       "ticker": "AIY",
-      "yield_pct": 1.0265
+      "yield_pct": 1.0276
     },
     {
       "description": "IFS Capital Limited, together with its subsidiaries, provides private credit origination, insurance, and asset management services to SMEs, consumers, and investors in Singapore, Hong Kong, Thailand, Malaysia, and Indonesia. It operates in four segments: Private Credit, Insurance, Private Equity and Other Investments, and Asset Management.",
@@ -5553,7 +5392,7 @@
       },
       "sector": "Consumer",
       "ticker": "Q0F",
-      "yield_pct": 3.6082
+      "yield_pct": 1.183
     },
     {
       "description": "Indofood Agri Resources Ltd., together with its subsidiaries, operates as a vertically integrated agribusiness company in Singapore, Indonesia, China, Nigeria, Timor Leste, and internationally. The company operates in two segments, Plantations, and Edible Oils and Fats.",
@@ -5580,7 +5419,7 @@
       },
       "sector": "Consumer",
       "ticker": "5JS",
-      "yield_pct": 3.24
+      "yield_pct": 3.2432
     },
     {
       "description": "Infinity Development Holdings Company Limited, an investment holding company, manufactures and sells adhesives, primers, hardeners, and other adhesive related products mainly used by footwear manufacturers. It also engages in provision of administrative support services, as well as acts as the distribution agent for chemical products.",
@@ -5607,7 +5446,7 @@
       },
       "sector": "Industrials",
       "ticker": "ZBA",
-      "yield_pct": 50.0
+      "yield_pct": 4.0527
     },
     {
       "description": "Info-Tech Systems Ltd. engages in the sale of cloud-based accounting software and human resource management software (HRMS) in Malaysia, and Singapore. Its accounting software enables to manage accounting work, such as tracking, creating and sending bills, analyzing profits, and retrieving reports.",
@@ -5634,7 +5473,7 @@
       },
       "sector": "Industrials",
       "ticker": "ITS",
-      "yield_pct": 3.8462
+      "yield_pct": 3.8251
     },
     {
       "description": "Interra Resources Limited, an investment holding company, engages in the exploration and operation of oil fields for crude petroleum production in Myanmar. It holds 60% interests in two onshore producing oil fields in the Chauk and Yenangyaung covering an area of approximately 1,800 square kilometers located on the north of Yangon and a 72.75% interest in the Kuala Pambuang block covering an area\u2026",
@@ -5688,7 +5527,7 @@
       },
       "sector": "Industrials",
       "ticker": "I06",
-      "yield_pct": 2.1053
+      "yield_pct": 1.9737
     },
     {
       "description": "IREIT Global which was listed on 13 August 2014, is the first Singapore-listed real estate investment trust with the investment strategy of principally investing, directly or indirectly, in a portfolio of income-producing real estate in Europe which is or will be primarily used for office, retail, industrial (including logistics and business parks), hospitality, hospitality related and other accom\u2026",
@@ -5720,10 +5559,10 @@
     {
       "description": "IREIT Global which was listed on 13 August 2014, is the first Singapore-listed real estate investment trust with the investment strategy of principally investing, directly or indirectly, in a portfolio of income-producing real estate in Europe which is or will be primarily used for office, retail, industrial (including logistics and business parks), hospitality, hospitality related and other accom\u2026",
       "div_history_5y": [
-        0.0245112455,
-        0.028225070499999998,
-        0.032610355,
-        0.028339456,
+        0.0245058,
+        0.028218801,
+        0.032603112000000004,
+        0.028333161000000003,
         0.044205999999999995
       ],
       "industry": "REITs",
@@ -5742,7 +5581,7 @@
       },
       "sector": "REITs",
       "ticker": "UD1U",
-      "yield_pct": 4.6809
+      "yield_pct": 6.8888
     },
     {
       "description": "",
@@ -5794,7 +5633,7 @@
       },
       "sector": "Other",
       "ticker": "N6M",
-      "yield_pct": 4.98
+      "yield_pct": 4.9445
     },
     {
       "description": "",
@@ -5820,7 +5659,7 @@
       },
       "sector": "Other",
       "ticker": "O9P",
-      "yield_pct": 7.33
+      "yield_pct": 7.2808
     },
     {
       "description": "ISDN Holdings Limited, together with its subsidiaries, provides motion control and industrial computing solutions in Singapore, China, Hong Kong, Malaysia, Indonesia, Vietnam, and internationally. It offers conceptualization, design, development, prototyping, production, testing, installation, and after-sales technical support services for motion control systems;",
@@ -5847,7 +5686,7 @@
       },
       "sector": "Industrials",
       "ticker": "I07",
-      "yield_pct": 73.0
+      "yield_pct": 0.6963
     },
     {
       "description": "ISEC Healthcare Ltd., an investment holding company, provides medical care, consultancy, treatment, and surgery services in the field of ophthalmology in Singapore, Malaysia, and Myanmar. It operates in two segments, Specialised Health Services and General Health Services.",
@@ -5874,7 +5713,169 @@
       },
       "sector": "Consumer",
       "ticker": "40T",
-      "yield_pct": 1.81
+      "yield_pct": 1.8125
+    },
+    {
+      "description": "ISOTeam Ltd. operates in the building maintenance and estate upgrading industry in Singapore. It operates through Repair and Redecoration; Addition and Alteration; Coatings and Paintings; and Others segments.",
+      "div_history_5y": [
+        0.0008,
+        0.0008,
+        null,
+        null,
+        null
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Engineering & Construction",
+      "lot_size": 100,
+      "market_cap_sgd": 63238238.91046643,
+      "name": "ISOTeam Ltd.",
+      "price": 0.07900000363588333,
+      "score": 62,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "5WF",
+      "yield_pct": 1.0127
+    },
+    {
+      "description": "Jason Marine Group Limited, an investment holding company, provides marine electronic equipment and communication integration solutions for offshore vessels. It operates through Sale of Goods, Rendering of Services, and Airtime Revenue segments.",
+      "div_history_5y": [
+        0.005,
+        0.0025,
+        0.0075,
+        0.0125,
+        0.0075
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Scientific & Technical Instruments",
+      "lot_size": 100,
+      "market_cap_sgd": 18868914.0,
+      "name": "Jason Marine Group Limited",
+      "price": 0.18,
+      "score": 72,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "5PF",
+      "yield_pct": 2.7778
+    },
+    {
+      "description": "JB Foods Limited, an investment holding company, engages in the production and sale of cocoa ingredient products primarily in Singapore, Malaysia, Indonesia, the People's Republic of China, and the United States. The company offers cocoa mass, cocoa butter, and cocoa powder under the JB Cocoa brand.",
+      "div_history_5y": [
+        0.0505,
+        0.001995,
+        0.017952,
+        0.014960000000000001,
+        0.016954
+      ],
+      "industry": "Consumer",
+      "industry_detail": "Confectioners",
+      "lot_size": 100,
+      "market_cap_sgd": 249490267.0338521,
+      "name": "JB Foods Limited",
+      "price": 0.7200000286102295,
+      "score": 77,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Consumer",
+      "ticker": "BEW",
+      "yield_pct": 7.0139
+    },
+    {
+      "description": "Jumbo Group Limited, an investment holding company, operates and manages restaurants in Singapore, the People's Republic of China, Taiwan, and South Korea. It operates food and beverages (F&B) outlets under the JUMBO Signatures, JUMBO Seafood, JUMBO Premium, Xing Yue Xuan, Mutiara Seafood, Ng Ah Sio Bak Kut The, Zui Teochew Cuisine, Chao Ting, Kok Kee Wonton Noodle, Tsui Wah, and Singapore Seafood\u2026",
+      "div_history_5y": [
+        0.01,
+        0.015,
+        null,
+        null,
+        null
+      ],
+      "industry": "Consumer",
+      "industry_detail": "Restaurants",
+      "lot_size": 100,
+      "market_cap_sgd": 168423316.04000002,
+      "name": "Jumbo Group Limited",
+      "price": 0.28,
+      "score": 77,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Consumer",
+      "ticker": "42R",
+      "yield_pct": 4.4643
+    },
+    {
+      "description": "Karin Technology Holdings Limited, an investment holding company, distributes electronic components, provides computer data storage management solutions and services, and distributes and retails consumer electronics products in Hong Kong, Mainland China, and internationally. It operates through three segments: Components Distribution, IT Infrastructure, and Consumer Electronics Products.",
+      "div_history_5y": [
+        0.014967,
+        0.015009000000000002,
+        0.035106,
+        0.043429999999999996,
+        0.023541
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Information Technology Services",
+      "lot_size": 100,
+      "market_cap_sgd": 54080850.0,
+      "name": "Karin Technology Holdings Limited",
+      "price": 0.25,
+      "score": 77,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "K29",
+      "yield_pct": 2.6108
+    },
+    {
+      "description": "Kencana Agri Limited, together with its subsidiaries, operates as a plantation company in Indonesia, Malaysia, and internationally. The company engages in the cultivation of oil palms; and processing of fresh fruit bunches into crude palm oil (CPO), crude palm kernel oil, palm kernel cake, and palm kernel, as well as provision of bulking services.",
+      "div_history_5y": [
+        0.0052,
+        0.008,
+        0.01,
+        0.008,
+        0.012
+      ],
+      "industry": "Consumer",
+      "industry_detail": "Farm Products",
+      "lot_size": 100,
+      "market_cap_sgd": 140635479.46715188,
+      "name": "Kencana Agri Limited",
+      "price": 0.49000000953674316,
+      "score": 82,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Consumer",
+      "ticker": "BNE",
+      "yield_pct": 3.0612
     }
   ]
 }

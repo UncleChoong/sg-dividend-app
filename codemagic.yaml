@@ -67,15 +67,19 @@ workflows:
         script: xcode-project use-profiles
       - name: Flutter iOS build
         script: |
-          # Use commit count + offset as build number. Offset (100) ensures we
-          # stay permanently ahead of any historical TestFlight upload — if a
-          # build was previously uploaded with N as the raw commit count, the
-          # +100 keeps us clear without manual coordination. App Store Connect
-          # rejects (409 ENTITY_ERROR.ATTRIBUTE.INVALID.DUPLICATE) if the same
-          # CFBundleVersion is uploaded twice.
-          BUILD_OFFSET=100
-          NEXT_BUILD=$(($(git rev-list --count HEAD) + $BUILD_OFFSET))
-          echo "Building with --build-number=$NEXT_BUILD (commit count + $BUILD_OFFSET)"
+          # Use Unix timestamp as the build number. Two CFBundleVersion
+          # constraints we have to satisfy:
+          #   1. App Store Connect rejects (409 DUPLICATE) any value that
+          #      has been uploaded before.
+          #   2. Each new upload must be strictly greater than the previous.
+          # `date +%s` (seconds since epoch) satisfies both: it strictly
+          # increases each second and is guaranteed never to repeat, even
+          # if Codemagic is triggered twice on the same git commit (which
+          # is exactly the case the prior +100 offset failed on).
+          # Apple accepts integer values up to 2^32-1, so a ~1.78e9 epoch
+          # value fits comfortably.
+          NEXT_BUILD=$(date +%s)
+          echo "Building with --build-number=$NEXT_BUILD"
           flutter build ipa --release \
             --build-name=0.1.0 \
             --build-number=$NEXT_BUILD \

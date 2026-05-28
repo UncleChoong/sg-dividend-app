@@ -65,7 +65,8 @@ class _YieldMethodologyContent extends StatelessWidget {
 
             // Headline
             Text(
-              'All yields shown are annualized full-year run-rate estimates.',
+              'Yields are smoothed using the last 3 years of actual dividend '
+              'payments — not just the most recent year.',
               style: GoogleFonts.inter(
                 color: AppColors.textPrimary,
                 fontSize: 14,
@@ -78,29 +79,31 @@ class _YieldMethodologyContent extends StatelessWidget {
             // Methodology block
             const _MethodologyRule(
               number: '1',
-              title: 'For stocks already paying in 2026',
+              title: '3-year average dividend ÷ current price',
               body:
-                  'We take the dividends paid year-to-date and scale them up '
-                  'using the prior year\'s payment pattern. A quarterly payer '
-                  'that has paid Q1 gets multiplied by roughly 4×; a '
-                  'semi-annual payer ~2×; an annual payer 1×.',
+                  'We add up each company\'s total dividends in 2023, 2024 '
+                  'and 2025, take the average, and divide by today\'s share '
+                  'price. That gives a more representative figure than a '
+                  'single year — special dividends and short-term spikes '
+                  'don\'t inflate the number.',
             ),
             const SizedBox(height: 14),
             const _MethodologyRule(
               number: '2',
-              title: 'For stocks not yet paying in 2026',
+              title: 'Eligibility — must be currently paying',
               body:
-                  'We use the full 2025 dividend payout as a benchmark — what '
-                  'the company most recently paid for a complete year.',
+                  'A company must have paid at least one dividend in 2025 or '
+                  '2026 to appear here. Stocks that stopped paying years ago '
+                  '(but still show a stale yield on Yahoo) are excluded.',
             ),
             const SizedBox(height: 14),
             const _MethodologyRule(
               number: '3',
-              title: 'Special dividends are filtered out',
+              title: 'Newer listings use available history',
               body:
-                  'If the annualized estimate would be more than 1.5× the prior '
-                  'year\'s payout, we assume the partial-year amount includes a '
-                  'one-off special dividend and fall back to the 2025 total.',
+                  'A company that only has 1-2 years of payment history is '
+                  'averaged over the years it has — we don\'t pretend to know '
+                  'what it would have paid before it started.',
             ),
             const SizedBox(height: 20),
 
@@ -122,7 +125,7 @@ class _YieldMethodologyContent extends StatelessWidget {
                     const Icon(Icons.lightbulb_outline,
                         color: AppColors.secondary, size: 16),
                     const SizedBox(width: 6),
-                    Text('Example: DBS Group (D05)',
+                    Text('Example: Aztech Global (8AZ)',
                         style: GoogleFonts.inter(
                           color: AppColors.secondary,
                           fontSize: 12,
@@ -132,10 +135,9 @@ class _YieldMethodologyContent extends StatelessWidget {
                   ]),
                   const SizedBox(height: 10),
                   Text(
-                    'DBS pays quarterly. By May 2026 they\'ve paid their Q1 '
-                    'dividend of about S\$0.54. We scale it to a full year (×4) '
-                    'using their 2025 quarterly cadence, giving roughly S\$2.16 '
-                    'expected annual income per share.',
+                    'Aztech paid S\$0.045 in 2023, S\$0.10 in 2024 and S\$0.11 '
+                    'in 2025. Their 3-year average is S\$0.085. On a S\$0.945 '
+                    'share price, that\'s a 9% yield.',
                     style: GoogleFonts.inter(
                       color: AppColors.textSecondary,
                       fontSize: 13,
@@ -144,8 +146,9 @@ class _YieldMethodologyContent extends StatelessWidget {
                   ),
                   const SizedBox(height: 8),
                   Text(
-                    'On a S\$62 share price, that\'s a 3.5% yield — what DBS is '
-                    'actually paying right now, not last year\'s number.',
+                    'A naive last-year-only number would show 11.6% — '
+                    'misleading because it ignores that Aztech is paying out '
+                    '~77% of earnings, which can\'t grow much further.',
                     style: GoogleFonts.inter(
                       color: AppColors.textSecondary,
                       fontSize: 13,
@@ -159,8 +162,9 @@ class _YieldMethodologyContent extends StatelessWidget {
 
             // Caveat
             Text(
-              'Stocks that have not paid a dividend in either 2025 or 2026 '
-              'are excluded from the universe entirely.',
+              'Past dividends are not a guarantee of future payments. The '
+              'simulator\'s projections assume the 3-year average continues '
+              '— a company can always cut, suspend or grow its dividend.',
               style: GoogleFonts.inter(
                 color: AppColors.textTertiary,
                 fontSize: 12,

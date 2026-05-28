@@ -84,7 +84,7 @@ class _HomeContent extends StatelessWidget {
         // ── Featured / Top yielders horizontal scroller ───────────────
         _SectionHeader(
           title: 'Top Yielders',
-          subtitle: 'Annualised FY26',
+          subtitle: '3-year average',
           showYieldInfo: true,
           actionLabel: 'See all',
           onAction: () {

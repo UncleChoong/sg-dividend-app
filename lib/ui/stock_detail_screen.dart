@@ -126,7 +126,7 @@ class StockDetailScreen extends StatelessWidget {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Row(children: [
-                                Text('YIELD (ANNUALISED)',
+                                Text('YIELD (3-YR AVG)',
                                     style: GoogleFonts.inter(
                                         color: AppColors.textTertiary,
                                         fontSize: 10,

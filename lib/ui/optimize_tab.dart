@@ -6,6 +6,7 @@ import 'package:sg_dividend/data/models.dart';
 import 'package:sg_dividend/theme.dart';
 import 'package:sg_dividend/ui/result_screen.dart';
 import 'package:sg_dividend/ui/splash_screen.dart';
+import 'package:sg_dividend/ui/widgets/branded_app_bar.dart';
 
 const _kAllIndustries = [
   'Banks',
@@ -45,7 +46,7 @@ class _OptimizeTabState extends ConsumerState<OptimizeTab> {
     final async = ref.watch(universeProvider);
     return Scaffold(
       backgroundColor: AppColors.background,
-      appBar: AppBar(title: const Text('Optimize')),
+      appBar: const BrandedAppBar(subtitle: 'Optimize'),
       body: async.when(
         loading: () => const Center(child: CircularProgressIndicator()),
         error: (e, _) => Center(child: Text('Error: $e')),

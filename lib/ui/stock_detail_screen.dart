@@ -5,6 +5,7 @@ import 'package:intl/intl.dart';
 import 'package:sg_dividend/data/models.dart';
 import 'package:sg_dividend/theme.dart';
 import 'package:sg_dividend/ui/widgets/industry_badge.dart';
+import 'package:sg_dividend/ui/widgets/yield_methodology_dialog.dart';
 
 class StockDetailScreen extends StatelessWidget {
   final Ticker ticker;
@@ -124,11 +125,15 @@ class StockDetailScreen extends StatelessWidget {
                         child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
-                              Text('YIELD',
-                                  style: GoogleFonts.inter(
-                                      color: AppColors.textTertiary,
-                                      fontSize: 10,
-                                      letterSpacing: 0.8)),
+                              Row(children: [
+                                Text('YIELD (ANNUALISED)',
+                                    style: GoogleFonts.inter(
+                                        color: AppColors.textTertiary,
+                                        fontSize: 10,
+                                        letterSpacing: 0.8)),
+                                const SizedBox(width: 2),
+                                const YieldInfoButton(),
+                              ]),
                               const SizedBox(height: 4),
                               Text('${t.yieldPct.toStringAsFixed(2)}%',
                                   style: GoogleFonts.inter(

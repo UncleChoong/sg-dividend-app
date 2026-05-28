@@ -7,6 +7,7 @@ import 'package:sg_dividend/ui/splash_screen.dart';
 import 'package:sg_dividend/ui/stock_detail_screen.dart';
 import 'package:sg_dividend/ui/widgets/branded_app_bar.dart';
 import 'package:sg_dividend/ui/widgets/industry_badge.dart';
+import 'package:sg_dividend/ui/widgets/yield_methodology_dialog.dart';
 
 enum _SortMode { yieldDesc, scoreAsc, alpha, priceDesc }
 
@@ -219,14 +220,19 @@ class _StocksTabState extends ConsumerState<StocksTab> {
                 ),
                 SizedBox(
                   width: 80,
-                  child: Text('YIELD',
-                      textAlign: TextAlign.right,
-                      style: GoogleFonts.inter(
-                        color: AppColors.textSecondary,
-                        fontSize: 11,
-                        fontWeight: FontWeight.w600,
-                        letterSpacing: 0.6,
-                      )),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    children: [
+                      Text('YIELD',
+                          style: GoogleFonts.inter(
+                            color: AppColors.textSecondary,
+                            fontSize: 11,
+                            fontWeight: FontWeight.w600,
+                            letterSpacing: 0.6,
+                          )),
+                      const YieldInfoButton(),
+                    ],
+                  ),
                 ),
               ]),
             ),

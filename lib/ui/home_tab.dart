@@ -9,6 +9,7 @@ import 'package:sg_dividend/ui/splash_screen.dart';
 import 'package:sg_dividend/ui/stock_detail_screen.dart';
 import 'package:sg_dividend/ui/widgets/branded_app_bar.dart';
 import 'package:sg_dividend/ui/widgets/industry_badge.dart';
+import 'package:sg_dividend/ui/widgets/yield_methodology_dialog.dart';
 
 class HomeTab extends ConsumerWidget {
   const HomeTab({super.key});
@@ -83,6 +84,8 @@ class _HomeContent extends StatelessWidget {
         // ── Featured / Top yielders horizontal scroller ───────────────
         _SectionHeader(
           title: 'Top Yielders',
+          subtitle: 'Annualised FY26',
+          showYieldInfo: true,
           actionLabel: 'See all',
           onAction: () {
             final shell = context.findAncestorStateOfType<MainShellState>();
@@ -200,12 +203,15 @@ class _GradientHero extends StatelessWidget {
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Text('Avg Yield',
-                        style: GoogleFonts.inter(
-                          color: AppColors.textTertiary,
-                          fontSize: 11,
-                          letterSpacing: 0.5,
-                        )),
+                    Row(children: [
+                      Text('Avg Yield',
+                          style: GoogleFonts.inter(
+                            color: AppColors.textTertiary,
+                            fontSize: 11,
+                            letterSpacing: 0.5,
+                          )),
+                      const YieldInfoButton(),
+                    ]),
                     const SizedBox(height: 4),
                     Text('${avgYield.toStringAsFixed(2)}%',
                         style: GoogleFonts.inter(
@@ -450,20 +456,44 @@ class _FeaturedCard extends StatelessWidget {
 // ═════════════════════════════════════════════════════════════════════
 class _SectionHeader extends StatelessWidget {
   final String title;
+  final String? subtitle;
+  final bool showYieldInfo;
   final String? actionLabel;
   final VoidCallback? onAction;
-  const _SectionHeader({required this.title, this.actionLabel, this.onAction});
+  const _SectionHeader({
+    required this.title,
+    this.subtitle,
+    this.showYieldInfo = false,
+    this.actionLabel,
+    this.onAction,
+  });
 
   @override
   Widget build(BuildContext context) {
     return Row(children: [
-      Text(title,
-          style: GoogleFonts.inter(
-            color: AppColors.textPrimary,
-            fontSize: 15,
-            fontWeight: FontWeight.w700,
-            letterSpacing: -0.2,
-          )),
+      Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          Row(children: [
+            Text(title,
+                style: GoogleFonts.inter(
+                  color: AppColors.textPrimary,
+                  fontSize: 15,
+                  fontWeight: FontWeight.w700,
+                  letterSpacing: -0.2,
+                )),
+            if (showYieldInfo) const YieldInfoButton(),
+          ]),
+          if (subtitle != null)
+            Text(subtitle!,
+                style: GoogleFonts.inter(
+                  color: AppColors.textTertiary,
+                  fontSize: 11,
+                  fontWeight: FontWeight.w500,
+                )),
+        ],
+      ),
       const Spacer(),
       if (actionLabel != null)
         InkWell(

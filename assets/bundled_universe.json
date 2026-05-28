@@ -1,8 +1,9 @@
 {
-  "generated_at": "2026-05-28T01:28:17.088593+08:00",
+  "generated_at": "2026-05-28T18:01:05.704230+08:00",
   "schema_version": 1,
   "universe": [
     {
+      "description": "Singapore's largest bank by assets, with operations across Asia. A consistent dividend payer with strong CET-1 capital ratios.",
       "div_history_5y": [
         2.85,
         2.1109090000000004,
@@ -10,9 +11,11 @@
         1.309092,
         0.927272
       ],
+      "industry": "Banks",
       "lot_size": 100,
+      "market_cap_sgd": 175000000000,
       "name": "DBS Group",
-      "price": 62.0,
+      "price": 61.93000030517578,
       "score": 17,
       "score_breakdown": {
         "div_vol": 0,
@@ -23,12 +26,10 @@
       },
       "sector": "Banks",
       "ticker": "D05",
-      "yield_pct": 4.0528,
-      "description": "Singapore's largest bank by assets, with operations across Asia. A consistent dividend payer with strong CET-1 capital ratios.",
-      "market_cap_sgd": 175000000000,
-      "industry": "Banks"
+      "yield_pct": 4.0645
     },
     {
+      "description": "Second-largest Singapore bank, with strong presence in Greater China and Southeast Asia. Steady semi-annual dividend record.",
       "div_history_5y": [
         0.98,
         0.86,
@@ -36,9 +37,11 @@
         0.56,
         0.40900000000000003
       ],
+      "industry": "Banks",
       "lot_size": 100,
+      "market_cap_sgd": 105000000000,
       "name": "OCBC",
-      "price": 23.36,
+      "price": 23.15999984741211,
       "score": 17,
       "score_breakdown": {
         "div_vol": 0,
@@ -49,12 +52,10 @@
       },
       "sector": "Banks",
       "ticker": "O39",
-      "yield_pct": 3.6,
-      "description": "Second-largest Singapore bank, with strong presence in Greater China and Southeast Asia. Steady semi-annual dividend record.",
-      "market_cap_sgd": 105000000000,
-      "industry": "Banks"
+      "yield_pct": 3.6
     },
     {
+      "description": "Third local bank, with major Southeast Asia regional franchise. Reliable dividend, conservative balance sheet.",
       "div_history_5y": [
         2.27,
         1.73,
@@ -62,9 +63,11 @@
         1.2,
         0.99
       ],
+      "industry": "Banks",
       "lot_size": 100,
+      "market_cap_sgd": 63000000000,
       "name": "United Overseas Bank",
-      "price": 37.72,
+      "price": 37.689998626708984,
       "score": 17,
       "score_breakdown": {
         "div_vol": 0,
@@ -75,12 +78,10 @@
       },
       "sector": "Banks",
       "ticker": "U11",
-      "yield_pct": 4.115,
-      "description": "Third local bank, with major Southeast Asia regional franchise. Reliable dividend, conservative balance sheet.",
-      "market_cap_sgd": 63000000000,
-      "industry": "Banks"
+      "yield_pct": 4.1357
     },
     {
+      "description": "Largest Singapore telco, with regional stakes in Optus (Australia), Bharti Airtel (India), and others. Yield-focused after asset rationalisation.",
       "div_history_5y": [
         0.182,
         0.089,
@@ -88,9 +89,11 @@
         0.119,
         0.069
       ],
+      "industry": "Telco",
       "lot_size": 100,
+      "market_cap_sgd": 74000000000,
       "name": "Singtel",
-      "price": 4.48,
+      "price": 4.360000133514404,
       "score": 40,
       "score_breakdown": {
         "div_vol": 10,
@@ -101,464 +104,22 @@
       },
       "sector": "Telco",
       "ticker": "Z74",
-      "yield_pct": 4.0749,
-      "description": "Largest Singapore telco, with regional stakes in Optus (Australia), Bharti Airtel (India), and others. Yield-focused after asset rationalisation.",
-      "market_cap_sgd": 74000000000,
-      "industry": "Telco"
+      "yield_pct": 4.1295
     },
     {
-      "div_history_5y": [
-        0.062,
-        0.07200000000000001,
-        0.05,
-        0.064,
-        0.05
-      ],
-      "lot_size": 100,
-      "name": "StarHub",
-      "price": 1.02,
-      "score": 64,
-      "score_breakdown": {
-        "div_vol": 20,
-        "mcap": 14,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 15
-      },
-      "sector": "Telco",
-      "ticker": "CC3",
-      "yield_pct": 5.8824,
-      "description": "Singapore's second-largest telecom. Smaller scale than Singtel; dividend cut in recent years as fixed-line revenue declined.",
-      "market_cap_sgd": 1800000000,
-      "industry": "Telco"
-    },
-    {
-      "div_history_5y": [
-        0.059278,
-        0.128084,
-        0.10056,
-        0.08421000000000001,
-        0.109655
-      ],
-      "lot_size": 100,
-      "name": "Keppel DC REIT",
-      "price": 2.28,
-      "score": 45,
-      "score_breakdown": {
-        "div_vol": 20,
-        "mcap": 0,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 10
-      },
-      "sector": "Utilities",
-      "ticker": "AJBU",
-      "yield_pct": 3.4061,
-      "description": "Singapore's pure-play data centre REIT, with assets across Asia-Pacific and Europe. Beneficiary of AI/cloud capex.",
-      "market_cap_sgd": 4500000000,
-      "industry": "Utilities"
-    },
-    {
-      "div_history_5y": [
-        0.0539,
-        0.0533,
-        0.0527,
-        0.0519,
-        0.0511
-      ],
-      "lot_size": 100,
-      "name": "NetLink NBN Trust",
-      "price": 0.985,
-      "score": 30,
-      "score_breakdown": {
-        "div_vol": 0,
-        "mcap": 5,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 10
-      },
-      "sector": "Utilities",
-      "ticker": "CJLU",
-      "yield_pct": 4.3748,
-      "description": "Owner of Singapore's nationwide fibre broadband network. Regulated returns, defensive yield play.",
-      "market_cap_sgd": 3800000000,
-      "industry": "Utilities"
-    },
-    {
-      "div_history_5y": [
-        0.15158,
-        0.14965,
-        0.15644,
-        0.15471000000000001,
-        0.09338
-      ],
-      "lot_size": 100,
-      "name": "Ascendas REIT",
-      "price": 2.52,
-      "score": 52,
-      "score_breakdown": {
-        "div_vol": 10,
-        "mcap": 0,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 27
-      },
-      "sector": "REITs",
-      "ticker": "A17U",
-      "yield_pct": 6.1905,
-      "description": "Singapore's largest industrial REIT, with logistics, business space, and data centre assets across SG, Australia, US, Europe.",
-      "market_cap_sgd": 11500000000,
-      "industry": "REITs"
-    },
-    {
-      "div_history_5y": [
-        0.1026,
-        0.130118,
-        0.106324,
-        0.055755,
-        0.117395
-      ],
-      "lot_size": 100,
-      "name": "CapitaLand Integrated Commercial Trust",
-      "price": 2.29,
-      "score": 62,
-      "score_breakdown": {
-        "div_vol": 20,
-        "mcap": 0,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 27
-      },
-      "sector": "REITs",
-      "ticker": "C38U",
-      "yield_pct": 5.0655,
-      "description": "Largest Singapore retail+office REIT. Anchor assets include Plaza Singapura, Funan, Asia Square. Defensive blue-chip REIT.",
-      "market_cap_sgd": 15000000000,
-      "industry": "REITs"
-    },
-    {
-      "div_history_5y": [
-        0.07585,
-        0.08559,
-        0.09034,
-        0.07508,
-        0.093877
-      ],
-      "lot_size": 100,
-      "name": "Mapletree Logistics Trust",
-      "price": 1.19,
-      "score": 67,
-      "score_breakdown": {
-        "div_vol": 25,
-        "mcap": 0,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 27
-      },
-      "sector": "REITs",
-      "ticker": "M44U",
-      "yield_pct": 6.1345,
-      "description": "Asia-Pacific logistics REIT with 180+ properties across 9 countries. Dividend pressure from rising rates.",
-      "market_cap_sgd": 6800000000,
-      "industry": "REITs"
-    },
-    {
-      "div_history_5y": [
-        0.0797,
-        0.0856,
-        0.0909,
-        0.1008,
-        0.09709999999999999
-      ],
-      "lot_size": 100,
-      "name": "Mapletree Pan Asia Commercial Trust",
-      "price": 1.28,
-      "score": 67,
-      "score_breakdown": {
-        "div_vol": 25,
-        "mcap": 0,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 27
-      },
-      "sector": "REITs",
-      "ticker": "N2IU",
-      "yield_pct": 6.25,
-      "description": "Office-retail REIT covering SG, HK, China, Japan, Korea. Higher leverage and FX exposure than peers.",
-      "market_cap_sgd": 6700000000,
-      "industry": "REITs"
-    },
-    {
-      "div_history_5y": [
-        0.13219999999999998,
-        0.1352,
-        0.1343,
-        0.1383,
-        0.133779
-      ],
-      "lot_size": 100,
-      "name": "Mapletree Industrial Trust",
-      "price": 1.95,
-      "score": 62,
-      "score_breakdown": {
-        "div_vol": 20,
-        "mcap": 0,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 27
-      },
-      "sector": "REITs",
-      "ticker": "ME8U",
-      "yield_pct": 6.5128,
-      "description": "Industrial + data centre REIT. ~55% US data centres, ~40% Singapore industrial. Active capital recycling.",
-      "market_cap_sgd": 6400000000,
-      "industry": "REITs"
-    },
-    {
-      "div_history_5y": [
-        0.06503,
-        0.06488,
-        0.07259,
-        0.09174,
-        0.08647
-      ],
-      "lot_size": 100,
-      "name": "Suntec REIT",
-      "price": 1.47,
-      "score": 65,
-      "score_breakdown": {
-        "div_vol": 20,
-        "mcap": 3,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 27
-      },
-      "sector": "REITs",
-      "ticker": "T82U",
-      "yield_pct": 4.7619,
-      "description": "Office + retail REIT centred on Suntec City Mall and One Raffles Quay. Higher debt cost sensitivity.",
-      "market_cap_sgd": 4200000000,
-      "industry": "REITs"
-    },
-    {
-      "div_history_5y": [
-        0.12113,
-        0.12002600000000001,
-        0.121102,
-        0.12187,
-        0.119139
-      ],
-      "lot_size": 100,
-      "name": "Frasers Centrepoint Trust",
-      "price": 2.26,
-      "score": 64,
-      "score_breakdown": {
-        "div_vol": 20,
-        "mcap": 2,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 27
-      },
-      "sector": "REITs",
-      "ticker": "J69U",
-      "yield_pct": 5.3982,
-      "description": "Suburban Singapore retail REIT - Causeway Point, Northpoint City, Tampines 1. Defensive consumer staples mix.",
-      "market_cap_sgd": 4100000000,
-      "industry": "REITs"
-    },
-    {
-      "div_history_5y": [
-        0.0595,
-        0.068,
-        0.0704,
-        0.07619999999999999,
-        0.07680000000000001
-      ],
-      "lot_size": 100,
-      "name": "Frasers Logistics & Commercial Trust",
-      "price": 0.985,
-      "score": 73,
-      "score_breakdown": {
-        "div_vol": 25,
-        "mcap": 6,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 27
-      },
-      "sector": "REITs",
-      "ticker": "BUOU",
-      "yield_pct": 6.0204,
-      "description": "Australia/Europe-focused logistics + commercial REIT. Higher growth profile but FX-exposed.",
-      "market_cap_sgd": 3600000000,
-      "industry": "REITs"
-    },
-    {
-      "div_history_5y": [
-        0.1003,
-        0.2002,
-        0.1461,
-        0.1063,
-        0.13369999999999999
-      ],
-      "lot_size": 100,
-      "name": "Parkway Life REIT",
-      "price": 4.0,
-      "score": 73,
-      "score_breakdown": {
-        "div_vol": 20,
-        "mcap": 11,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 27
-      },
-      "sector": "REITs",
-      "ticker": "C2PU",
-      "yield_pct": 4.42,
-      "description": "Asia's largest listed healthcare REIT - Singapore + Japan hospitals/nursing homes. CPI-linked rentals.",
-      "market_cap_sgd": 2700000000,
-      "industry": "REITs"
-    },
-    {
-      "div_history_5y": [
-        0.0513,
-        0.0601,
-        0.0714,
-        0.059,
-        0.0751
-      ],
-      "lot_size": 100,
-      "name": "CapitaLand China Trust",
-      "price": 0.66,
-      "score": 84,
-      "score_breakdown": {
-        "div_vol": 25,
-        "mcap": 17,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 27
-      },
-      "sector": "REITs",
-      "ticker": "AU8U",
-      "yield_pct": 7.2727,
-      "description": "China retail + business park REIT. Subject to China property/consumer sentiment headwinds.",
-      "market_cap_sgd": 1300000000,
-      "industry": "REITs"
-    },
-    {
-      "div_history_5y": [
-        0.0322,
-        0.0249,
-        0.030699999999999998,
-        0.0316,
-        0.0377
-      ],
-      "lot_size": 100,
-      "name": "Mapletree Industrial Trust (units)",
-      "price": 0.485,
-      "score": 87,
-      "score_breakdown": {
-        "div_vol": 25,
-        "mcap": 20,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 27
-      },
-      "sector": "REITs",
-      "ticker": "M1GU",
-      "yield_pct": 7.2165,
-      "description": "Alternative Mapletree industrial-focused REIT vehicle. Smaller scale than M44U.",
-      "market_cap_sgd": 1500000000,
-      "industry": "REITs"
-    },
-    {
-      "div_history_5y": [
-        0.26,
-        0.14,
-        0.13,
-        0.07,
-        0.06
-      ],
-      "lot_size": 100,
-      "name": "Sembcorp Industries",
-      "price": 6.21,
-      "score": 52,
-      "score_breakdown": {
-        "div_vol": 0,
-        "mcap": 0,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 37
-      },
-      "sector": "Business Trusts",
-      "ticker": "U96",
-      "yield_pct": 4.0193,
-      "description": "Energy + urban infrastructure conglomerate, transitioning to renewables. Improving dividend trajectory.",
-      "market_cap_sgd": 11000000000,
-      "industry": "Industrials"
-    },
-    {
-      "div_history_5y": [
-        0.05500000000000001,
-        0.03,
-        null,
-        null,
-        null
-      ],
-      "lot_size": 100,
-      "name": "SATS",
-      "price": 3.56,
-      "score": 62,
-      "score_breakdown": {
-        "div_vol": 10,
-        "mcap": 0,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 37
-      },
-      "sector": "Business Trusts",
-      "ticker": "S58",
-      "yield_pct": 2.0772,
-      "description": "Airline ground handling + in-flight catering. Recovering post-COVID with WFS acquisition.",
-      "market_cap_sgd": 3900000000,
-      "industry": "Industrials"
-    },
-    {
-      "div_history_5y": [
-        0.17,
-        0.16,
-        0.16,
-        0.22,
-        0.15000000000000002
-      ],
-      "lot_size": 100,
-      "name": "ST Engineering",
-      "price": 11.1,
-      "score": 42,
-      "score_breakdown": {
-        "div_vol": 10,
-        "mcap": 0,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 17
-      },
-      "sector": "Industrials",
-      "ticker": "S63",
-      "yield_pct": 1.6057,
-      "description": "Defence, aerospace, smart-cities conglomerate. Stable order book, reliable dividend grower.",
-      "market_cap_sgd": 13400000000,
-      "industry": "Industrials"
-    },
-    {
+      "description": "Thailand's largest beverage producer (Chang Beer). Stable cash flows, listed on SGX.",
       "div_history_5y": [
         0.024622,
         0.0224,
-        0.02334,
-        0.019449999,
-        0.019839000000000002
+        0.0233160004,
+        0.0194300004,
+        0.0198186004
       ],
+      "industry": "Consumer",
       "lot_size": 100,
+      "market_cap_sgd": 11500000000,
       "name": "Thai Beverage",
-      "price": 0.45,
+      "price": 0.44999998807907104,
       "score": 57,
       "score_breakdown": {
         "div_vol": 20,
@@ -569,22 +130,22 @@
       },
       "sector": "Consumer",
       "ticker": "Y92",
-      "yield_pct": 1.3626,
-      "description": "Thailand's largest beverage producer (Chang Beer). Stable cash flows, listed on SGX.",
-      "market_cap_sgd": 11500000000,
-      "industry": "Consumer"
+      "yield_pct": 1.3778
     },
     {
+      "description": "Astra International (Indonesia) majority owner. Auto, financial services, agribusiness exposure.",
       "div_history_5y": [
-        1.4308448,
-        1.5074972,
-        1.4180694,
-        1.149786,
-        0.66432081
+        1.4327488,
+        1.5095030999999999,
+        1.4199564,
+        1.151316,
+        0.6652048399999999
       ],
+      "industry": "Consumer",
       "lot_size": 100,
+      "market_cap_sgd": 7000000000,
       "name": "Jardine Cycle & Carriage",
-      "price": 30.0,
+      "price": 30.06999969482422,
       "score": 47,
       "score_breakdown": {
         "div_vol": 10,
@@ -595,22 +156,48 @@
       },
       "sector": "Consumer",
       "ticker": "C07",
-      "yield_pct": 3.601,
-      "description": "Astra International (Indonesia) majority owner. Auto, financial services, agribusiness exposure.",
-      "market_cap_sgd": 7000000000,
-      "industry": "Consumer"
+      "yield_pct": 3.7667
     },
     {
+      "description": "Airline ground handling + in-flight catering. Recovering post-COVID with WFS acquisition.",
       "div_history_5y": [
-        0.33999999999999997,
-        0.33999999999999997,
-        0.32999999999999996,
-        0.36,
-        0.19
+        0.05500000000000001,
+        0.03,
+        null,
+        null,
+        null
       ],
+      "industry": "Industrials",
       "lot_size": 100,
-      "name": "Keppel Corp",
-      "price": 10.84,
+      "market_cap_sgd": 3900000000,
+      "name": "SATS",
+      "price": 3.799999952316284,
+      "score": 62,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 37
+      },
+      "sector": "Business Trusts",
+      "ticker": "S58",
+      "yield_pct": 1.9663
+    },
+    {
+      "description": "Defence, aerospace, smart-cities conglomerate. Stable order book, reliable dividend grower.",
+      "div_history_5y": [
+        0.17,
+        0.16,
+        0.16,
+        0.22,
+        0.15000000000000002
+      ],
+      "industry": "Industrials",
+      "lot_size": 100,
+      "market_cap_sgd": 13400000000,
+      "name": "ST Engineering",
+      "price": 11.039999961853027,
       "score": 42,
       "score_breakdown": {
         "div_vol": 10,
@@ -620,13 +207,37 @@
         "sector": 17
       },
       "sector": "Industrials",
-      "ticker": "BN4",
-      "yield_pct": 3.0714,
-      "description": "Asset-light infrastructure, real estate, asset management. Spun off offshore marine in 2024.",
-      "market_cap_sgd": 12500000000,
-      "industry": "Industrials"
+      "ticker": "S63",
+      "yield_pct": 1.6216
     },
     {
+      "description": "Real estate asset manager \u2014 ~S$130bn AUM across REITs, private funds, lodging. STI component.",
+      "div_history_5y": [
+        0.12,
+        0.12,
+        0.12,
+        0.15,
+        null
+      ],
+      "industry": "Industrials",
+      "lot_size": 100,
+      "market_cap_sgd": 13500000000,
+      "name": "CapitaLand Investment",
+      "price": 2.5799999237060547,
+      "score": 52,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "9CI",
+      "yield_pct": 4.5977
+    },
+    {
+      "description": "Asia's leading agribusiness \u2014 edible oils, sugar, grains. Commodity-cycle exposed.",
       "div_history_5y": [
         0.14,
         0.16999999999999998,
@@ -634,9 +245,11 @@
         0.16499999999999998,
         0.20500000000000002
       ],
+      "industry": "Consumer",
       "lot_size": 100,
+      "market_cap_sgd": 18000000000,
       "name": "Wilmar International",
-      "price": 3.52,
+      "price": 3.390000104904175,
       "score": 57,
       "score_breakdown": {
         "div_vol": 20,
@@ -647,12 +260,192 @@
       },
       "sector": "Consumer",
       "ticker": "F34",
-      "yield_pct": 3.0447,
-      "description": "Asia's leading agribusiness - edible oils, sugar, grains. Commodity-cycle exposed.",
-      "market_cap_sgd": 18000000000,
-      "industry": "Consumer"
+      "yield_pct": 3.0966
     },
     {
+      "description": "Hong Kong-based pan-Asian conglomerate \u2014 retail, property, automotive, agribusiness, financial services.",
+      "div_history_5y": [
+        2.25,
+        2.25,
+        2.2,
+        2.1100000000000003,
+        1.72
+      ],
+      "industry": "Industrials",
+      "lot_size": 100,
+      "market_cap_sgd": 17000000000,
+      "name": "Jardine Matheson",
+      "price": 64.19999694824219,
+      "score": 32,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "J36",
+      "yield_pct": 3.4559
+    },
+    {
+      "description": "Premium commercial property \u2014 Central, Hong Kong + Singapore developments. Steady dividend grower.",
+      "div_history_5y": [
+        0.23,
+        0.22,
+        0.22,
+        0.22,
+        0.22
+      ],
+      "industry": "Industrials",
+      "lot_size": 100,
+      "market_cap_sgd": 13000000000,
+      "name": "Hongkong Land",
+      "price": 7.599999904632568,
+      "score": 32,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "H78",
+      "yield_pct": 3.2175
+    },
+    {
+      "description": "Operator of Resorts World Sentosa \u2014 integrated casino + theme park. Tourism-linked dividend.",
+      "div_history_5y": [
+        0.04,
+        0.04,
+        0.035,
+        0.02,
+        0.01
+      ],
+      "industry": "Consumer",
+      "lot_size": 100,
+      "market_cap_sgd": 11000000000,
+      "name": "Genting Singapore",
+      "price": 0.5950000286102295,
+      "score": 37,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Consumer",
+      "ticker": "G13",
+      "yield_pct": 6.7797
+    },
+    {
+      "description": "Electronics manufacturing services \u2014 medical, networking, life sciences customers. Long dividend record.",
+      "div_history_5y": [
+        0.8,
+        0.75,
+        0.75,
+        0.75,
+        0.75
+      ],
+      "industry": "Industrials",
+      "lot_size": 100,
+      "market_cap_sgd": 4000000000,
+      "name": "Venture Corp",
+      "price": 17.829999923706055,
+      "score": 32,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "V03",
+      "yield_pct": 4.1644
+    },
+    {
+      "description": "Asset-light infrastructure, real estate, asset management. Spun off offshore marine in 2024.",
+      "div_history_5y": [
+        0.33999999999999997,
+        0.33999999999999997,
+        0.32999999999999996,
+        0.36,
+        0.19
+      ],
+      "industry": "Industrials",
+      "lot_size": 100,
+      "market_cap_sgd": 12500000000,
+      "name": "Keppel",
+      "price": 10.720000267028809,
+      "score": 42,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "BN4",
+      "yield_pct": 3.1365
+    },
+    {
+      "description": "China's largest private shipbuilder. STI component, beneficiary of LNG/container newbuild cycle.",
+      "div_history_5y": [
+        0.12,
+        0.065,
+        0.05,
+        0.05,
+        0.045
+      ],
+      "industry": "Industrials",
+      "lot_size": 100,
+      "market_cap_sgd": 11000000000,
+      "name": "Yangzijiang Shipbuilding",
+      "price": 3.640000104904175,
+      "score": 32,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "BS6",
+      "yield_pct": 29.4054
+    },
+    {
+      "description": "Energy + urban infrastructure conglomerate, transitioning to renewables. Improving dividend trajectory.",
+      "div_history_5y": [
+        0.26,
+        0.14,
+        0.13,
+        0.07,
+        0.06
+      ],
+      "industry": "Industrials",
+      "lot_size": 100,
+      "market_cap_sgd": 11000000000,
+      "name": "Sembcorp Industries",
+      "price": 6.309999942779541,
+      "score": 52,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 37
+      },
+      "sector": "Business Trusts",
+      "ticker": "U96",
+      "yield_pct": 4.0258
+    },
+    {
+      "description": "Operator of SGX itself. Diversified across cash equities, derivatives, FX. Monopoly profile.",
       "div_history_5y": [
         0.39249999999999996,
         0.35,
@@ -660,9 +453,11 @@
         0.32,
         0.32
       ],
+      "industry": "Industrials",
       "lot_size": 100,
+      "market_cap_sgd": 13500000000,
       "name": "Singapore Exchange",
-      "price": 21.8,
+      "price": 21.450000762939453,
       "score": 32,
       "score_breakdown": {
         "div_vol": 0,
@@ -673,12 +468,1603 @@
       },
       "sector": "Industrials",
       "ticker": "S68",
-      "yield_pct": 1.8528,
-      "description": "Operator of SGX itself. Diversified across cash equities, derivatives, FX. Monopoly profile.",
-      "market_cap_sgd": 13500000000,
-      "industry": "Industrials"
+      "yield_pct": 1.8945
     },
     {
+      "description": "Pan-Asian retailer \u2014 Cold Storage, Giant, Guardian, 7-Eleven HK. Restructuring under Jardine.",
+      "div_history_5y": [
+        0.548,
+        0.085,
+        0.05,
+        0.075,
+        0.14500000000000002
+      ],
+      "industry": "Consumer",
+      "lot_size": 100,
+      "market_cap_sgd": 4700000000,
+      "name": "DFI Retail Group",
+      "price": 3.9600000381469727,
+      "score": 57,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Consumer",
+      "ticker": "D01",
+      "yield_pct": 3.4568
+    },
+    {
+      "description": "Flag-carrier airline. Variable dividend tied to travel-demand cycle, strong post-COVID recovery.",
+      "div_history_5y": [
+        0.38,
+        0.48,
+        0.38,
+        0.1,
+        null
+      ],
+      "industry": "Industrials",
+      "lot_size": 100,
+      "market_cap_sgd": 19000000000,
+      "name": "Singapore Airlines",
+      "price": 6.710000038146973,
+      "score": 52,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "C6L",
+      "yield_pct": 4.0663
+    },
+    {
+      "description": "Property developer + hospitality (Pan Pacific Hotels). Conservative, family-controlled.",
+      "div_history_5y": [
+        0.18,
+        0.2,
+        0.18,
+        0.15,
+        0.15
+      ],
+      "industry": "Industrials",
+      "lot_size": 100,
+      "market_cap_sgd": 5000000000,
+      "name": "UOL Group",
+      "price": 10.010000228881836,
+      "score": 42,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "U14",
+      "yield_pct": 1.7699
+    },
+    {
+      "description": "Singapore's largest property developer + hospitality (Millennium & Copthorne). Long-cycle dividend.",
+      "div_history_5y": [
+        0.11,
+        0.08,
+        0.2,
+        0.32999999999999996,
+        0.15
+      ],
+      "industry": "Industrials",
+      "lot_size": 100,
+      "market_cap_sgd": 5000000000,
+      "name": "City Developments",
+      "price": 8.369999885559082,
+      "score": 52,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "C09",
+      "yield_pct": 3.034
+    },
+    {
+      "description": "Land transport \u2014 taxi, bus, rail across SG/UK/Australia/China. Defensive but low-growth dividend.",
+      "div_history_5y": [
+        0.0816,
+        0.0728,
+        0.0712,
+        0.0636,
+        0.0353
+      ],
+      "industry": "Industrials",
+      "lot_size": 100,
+      "market_cap_sgd": 3200000000,
+      "name": "ComfortDelGro",
+      "price": 1.2999999523162842,
+      "score": 42,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 10,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "C52",
+      "yield_pct": 6.5891
+    },
+    {
+      "description": "Singapore's largest industrial REIT, with logistics, business space, and data centre assets across SG, Australia, US, Europe.",
+      "div_history_5y": [
+        0.15158,
+        0.14965,
+        0.15644,
+        0.15471000000000001,
+        0.09338
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": 11500000000,
+      "name": "Ascendas REIT",
+      "price": 2.509999990463257,
+      "score": 52,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "A17U",
+      "yield_pct": 6.1905
+    },
+    {
+      "description": "Largest Singapore retail+office REIT. Anchor assets include Plaza Singapura, Funan, Asia Square. Defensive blue-chip REIT.",
+      "div_history_5y": [
+        0.1026,
+        0.130118,
+        0.106324,
+        0.055755,
+        0.117395
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": 15000000000,
+      "name": "CapitaLand Integrated Commercial Trust",
+      "price": 2.2799999713897705,
+      "score": 62,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "C38U",
+      "yield_pct": 5.0655
+    },
+    {
+      "description": "Asia-Pacific logistics REIT with 180+ properties across 9 countries. Dividend pressure from rising rates.",
+      "div_history_5y": [
+        0.07585,
+        0.08559,
+        0.09034,
+        0.07508,
+        0.093877
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": 6800000000,
+      "name": "Mapletree Logistics Trust",
+      "price": 1.1799999475479126,
+      "score": 67,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "M44U",
+      "yield_pct": 6.1345
+    },
+    {
+      "description": "Office-retail REIT covering SG, HK, China, Japan, Korea. Higher leverage and FX exposure than peers.",
+      "div_history_5y": [
+        0.0797,
+        0.0856,
+        0.0909,
+        0.1008,
+        0.09709999999999999
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": 6700000000,
+      "name": "Mapletree Pan Asia Commercial Trust",
+      "price": 1.2699999809265137,
+      "score": 67,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "N2IU",
+      "yield_pct": 6.25
+    },
+    {
+      "description": "Industrial + data centre REIT. ~55% US data centres, ~40% Singapore industrial. Active capital recycling.",
+      "div_history_5y": [
+        0.13219999999999998,
+        0.1352,
+        0.1343,
+        0.1383,
+        0.133779
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": 6400000000,
+      "name": "Mapletree Industrial Trust",
+      "price": 1.940000057220459,
+      "score": 62,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "ME8U",
+      "yield_pct": 6.5128
+    },
+    {
+      "description": "Australia/Europe-focused logistics + commercial REIT. Higher growth profile but FX-exposed.",
+      "div_history_5y": [
+        0.0595,
+        0.068,
+        0.0704,
+        0.07619999999999999,
+        0.07680000000000001
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": 3600000000,
+      "name": "Frasers Logistics & Commercial Trust",
+      "price": 0.9900000095367432,
+      "score": 72,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 5,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "BUOU",
+      "yield_pct": 5.9898
+    },
+    {
+      "description": "Suburban Singapore retail REIT - Causeway Point, Northpoint City, Tampines 1. Defensive consumer staples mix.",
+      "div_history_5y": [
+        0.12113,
+        0.12002600000000001,
+        0.121102,
+        0.12187,
+        0.119139
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": 4100000000,
+      "name": "Frasers Centrepoint Trust",
+      "price": 2.240000009536743,
+      "score": 64,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 2,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "J69U",
+      "yield_pct": 5.3982
+    },
+    {
+      "description": "Office + retail REIT centred on Suntec City Mall and One Raffles Quay. Higher debt cost sensitivity.",
+      "div_history_5y": [
+        0.06503,
+        0.06488,
+        0.07259,
+        0.09174,
+        0.08647
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": 4200000000,
+      "name": "Suntec REIT",
+      "price": 1.4600000381469727,
+      "score": 65,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 3,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "T82U",
+      "yield_pct": 4.7619
+    },
+    {
+      "description": "Singapore's pure-play data centre REIT, with assets across Asia-Pacific and Europe. Beneficiary of AI/cloud capex.",
+      "div_history_5y": [
+        0.059278,
+        0.128084,
+        0.10056,
+        0.08421000000000001,
+        0.109655
+      ],
+      "industry": "Utilities",
+      "lot_size": 100,
+      "market_cap_sgd": 4500000000,
+      "name": "Keppel DC REIT",
+      "price": 2.2899999618530273,
+      "score": 45,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 10
+      },
+      "sector": "Utilities",
+      "ticker": "AJBU",
+      "yield_pct": 3.4211
+    },
+    {
+      "description": "Asia's largest listed healthcare REIT - Singapore + Japan hospitals/nursing homes. CPI-linked rentals.",
+      "div_history_5y": [
+        0.1003,
+        0.2002,
+        0.1461,
+        0.1063,
+        0.13369999999999999
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": 2700000000,
+      "name": "Parkway Life REIT",
+      "price": 3.9800000190734863,
+      "score": 73,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 11,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "C2PU",
+      "yield_pct": 4.42
+    },
+    {
+      "description": "China retail + business park REIT. Subject to China property/consumer sentiment headwinds.",
+      "div_history_5y": [
+        0.0513,
+        0.0601,
+        0.0714,
+        0.059,
+        0.0751
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": 1300000000,
+      "name": "CapitaLand China Trust",
+      "price": 0.6449999809265137,
+      "score": 84,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 17,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "AU8U",
+      "yield_pct": 7.2727
+    },
+    {
+      "description": "Asia's largest lodging trust \u2014 serviced residences and hotels across 40+ cities. Recovery beneficiary post-pandemic.",
+      "div_history_5y": [
+        0.060759999999999995,
+        0.05642,
+        0.05734,
+        0.05136,
+        0.045759999999999995
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": 3500000000,
+      "name": "CapitaLand Ascott Trust",
+      "price": 0.8949999809265137,
+      "score": 59,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 7,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "HMN",
+      "yield_pct": 6.7778
+    },
+    {
+      "description": "Industrial + logistics REIT, ~25 properties in Singapore + Australia. Higher yield, smaller scale.",
+      "div_history_5y": [
+        0.0965,
+        0.0938,
+        0.098853,
+        0.093944,
+        0.09684
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": 1000000000,
+      "name": "AIMS APAC REIT",
+      "price": 1.5800000429153442,
+      "score": 78,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 16,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "O5RU",
+      "yield_pct": 6.2658
+    },
+    {
+      "description": "Sasseur Real Estate Investment Trust invests in a portfolio of real estate and related assets. The company operates through four segments: Sasseur (Chongqing Liangjiang) Outlet, Sasseur (Chongqing Bishan) Outlet, Sasseur (Hefei) Outlet, and (Sasseur (Kunming) Outlet. Its property portfolio comprises four retail outlet malls located in the People's Republic of China.",
+      "div_history_5y": [
+        0.059840000000000004,
+        0.04568,
+        0.06006,
+        0.07148,
+        0.07139000000000001
+      ],
+      "industry": "REITs",
+      "industry_detail": "REIT - Retail",
+      "lot_size": 100,
+      "market_cap_sgd": 847353751.3070762,
+      "name": "Sasseur Real Estate Investment Trust",
+      "price": 0.6700000166893005,
+      "score": 80,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 18,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "CRPU",
+      "yield_pct": 9.1045
+    },
+    {
+      "description": "United Hampshire US Real Estate Investment Trust Listed on the Main Board of the Singapore Exchange. UHREIT is a Singapore real estate investment trust established with the principal investment strategy of investing in a diversified portfolio of stabilized income-producing (i) grocery-anchored and necessity-based retail properties, and (ii) modern, climate-controlled self-storage facilities, locat\u2026",
+      "div_history_5y": [
+        0.0414,
+        0.041499999999999995,
+        0.0562,
+        0.0421,
+        0.07830000000000001
+      ],
+      "industry": "REITs",
+      "industry_detail": "REIT - Retail",
+      "lot_size": 100,
+      "market_cap_sgd": 316253827.07987833,
+      "name": "United Hampshire US Real Estate Investment Trust",
+      "price": 0.5199999809265137,
+      "score": 87,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "ODBU",
+      "yield_pct": 8.5437
+    },
+    {
+      "description": "Combined commercial + hospitality REIT \u2014 OUE Bayfront, Mandarin Orchard, Crowne Plaza Changi. Tourism-linked.",
+      "div_history_5y": [
+        0.0211,
+        0.0197,
+        0.020900000000000002,
+        0.0245,
+        0.0263
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": 1800000000,
+      "name": "OUE REIT",
+      "price": 0.3499999940395355,
+      "score": 81,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 14,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "TS0U",
+      "yield_pct": 6.2857
+    },
+    {
+      "description": "Retail + office REIT \u2014 313@somerset, Jem in Singapore + Sky Complex in Milan. Smaller-cap REIT.",
+      "div_history_5y": [
+        0.0717,
+        0.0673,
+        0.072408,
+        0.078212,
+        0.083274
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": 1200000000,
+      "name": "Lendlease Global Commercial REIT",
+      "price": 1.0099999904632568,
+      "score": 83,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 16,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "CY6U",
+      "yield_pct": 13.3981
+    },
+    {
+      "description": "First Real Estate Investment Trust is a healthcare real estate investment trust focused on investing in income producing real estate properties which are primarily used for healthcare and healthcare related purposes. First REIT is managed by First REIT Management Limited (the Manager), which is headquartered in Singapore.",
+      "div_history_5y": [
+        0.0223,
+        0.024,
+        0.0252,
+        0.0264,
+        0.027899999999999998
+      ],
+      "industry": "REITs",
+      "industry_detail": "REIT - Healthcare Facilities",
+      "lot_size": 100,
+      "market_cap_sgd": 498020045.84183794,
+      "name": "First Real Estate Investment Trust",
+      "price": 0.23499999940395355,
+      "score": 87,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "AW9U",
+      "yield_pct": 9.5652
+    },
+    {
+      "description": "Far East Hospitality Trust is a Singapore-Focused Hotel and Serviced Residence Hospitality Trust listed on the Main Board of The Singapore Exchange Securities Trading Limited. Comprising Far East Hospitality Real Estate Investment Trust and Far East Hospitality Business Trust (Far East H-BT), Far East H-Trust was listed on the SGX-ST on 27 August 2012 and has a portfolio of 13 properties totaling\u2026",
+      "div_history_5y": [
+        0.0433,
+        0.0413,
+        0.0365,
+        0.030699999999999998,
+        0.0248
+      ],
+      "industry": "REITs",
+      "industry_detail": "REIT - Diversified",
+      "lot_size": 100,
+      "market_cap_sgd": 1180566755.8744302,
+      "name": "Far East Hospitality Trust",
+      "price": 0.574999988079071,
+      "score": 59,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 17,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "Q5T",
+      "yield_pct": 6.4348
+    },
+    {
+      "description": "Retail-focused REIT \u2014 Ngee Ann City + Wisma Atria on Orchard Road, plus assets in Australia, China, Japan.",
+      "div_history_5y": [
+        0.0365,
+        0.0363,
+        0.038000000000000006,
+        0.038,
+        0.0395
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": 1000000000,
+      "name": "Starhill Global REIT",
+      "price": 0.5450000166893005,
+      "score": 79,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 17,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "P40U",
+      "yield_pct": 6.789
+    },
+    {
+      "description": "Lendlease Global Commercial REIT (Lendlease REIT) is established with the principal investment strategy of investing. It does it directly or indirectly in a diversified portfolio of stabilized income producing real estate assets located globally, which are used primarily for retail and/or office purposes.",
+      "div_history_5y": [
+        0.049114000000000005,
+        0.038528,
+        0.046804,
+        0.047636,
+        0.045214
+      ],
+      "industry": "REITs",
+      "industry_detail": "REIT - Diversified",
+      "lot_size": 100,
+      "market_cap_sgd": 1838920965.8840766,
+      "name": "Lendlease Global Commercial REIT",
+      "price": 0.5550000071525574,
+      "score": 76,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 14,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "JYEU",
+      "yield_pct": 6.5487
+    },
+    {
+      "description": "",
+      "div_history_5y": [
+        0.047,
+        0.040999999999999995,
+        0.038000000000000006,
+        0.035,
+        0.02
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": null,
+      "name": "Phillip Sing Income ETF",
+      "price": 1.5069999694824219,
+      "score": 62,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "OVQ",
+      "yield_pct": 3.74
+    },
+    {
+      "description": "Hutchison Port Holdings Trust invests in, develops, operates, and manages deep-water container ports in Guangdong Province of the People's Republic of China, Hong Kong, and Macau. The company invests in other types of port assets, such as river ports;",
+      "div_history_5y": [
+        0.016083391,
+        0.016791607,
+        0.018100166,
+        0.019908228,
+        0.0192078285
+      ],
+      "industry": "Business Trusts",
+      "industry_detail": "Marine Shipping",
+      "lot_size": 100,
+      "market_cap_sgd": 1829331157.505571,
+      "name": "Hutchison Port Holdings Trust",
+      "price": 0.20999999344348907,
+      "score": 91,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 14,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 37
+      },
+      "sector": "Business Trusts",
+      "ticker": "NS8U",
+      "yield_pct": 0.5476
+    },
+    {
+      "description": "Prime office REIT with assets in Singapore, Australia, South Korea, Japan. Anchor exposure to Singapore CBD Grade-A.",
+      "div_history_5y": [
+        0.071363,
+        0.056889999999999996,
+        0.058387,
+        0.058386999999999994,
+        0.058587
+      ],
+      "industry": "REITs",
+      "lot_size": 100,
+      "market_cap_sgd": 3500000000,
+      "name": "Keppel REIT",
+      "price": 0.8700000047683716,
+      "score": 65,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 3,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "K71U",
+      "yield_pct": 5.8757
+    },
+    {
+      "description": "Owner of Singapore's nationwide fibre broadband network. Regulated returns, defensive yield play.",
+      "div_history_5y": [
+        0.0539,
+        0.0533,
+        0.0527,
+        0.0519,
+        0.0511
+      ],
+      "industry": "Utilities",
+      "lot_size": 100,
+      "market_cap_sgd": 3800000000,
+      "name": "NetLink NBN Trust",
+      "price": 0.9950000047683716,
+      "score": 30,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 5,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 10
+      },
+      "sector": "Utilities",
+      "ticker": "CJLU",
+      "yield_pct": 4.3655
+    },
+    {
+      "description": "Micro-Mechanics (Holdings) Ltd. designs, manufactures, and markets precision parts and tools for the wafer-fabrication, assembly, and testing processes of the semiconductor industry. The company offers die attach-pick-up products, such as rubber tips, high-temp plastic tools, tungsten carbide die collets, sensor assemblies, and vacuum wand tools;",
+      "div_history_5y": [
+        0.06,
+        0.06,
+        0.09,
+        0.14,
+        0.14
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Semiconductor Equipment & Materials",
+      "lot_size": 100,
+      "market_cap_sgd": 436560120.92502475,
+      "name": "Micro-Mechanics (Holdings) Ltd.",
+      "price": 3.140000104904175,
+      "score": 72,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "5DD",
+      "yield_pct": 1.8405
+    },
+    {
+      "description": "Alpha Integrated Real Estate Investment Trust is a Singapore-listed real estate investment trust. It is focused on high-quality industrial assets. Listed on the Singapore Exchange Securities Trading Limited since 26 November 2010, AI-REIT invests in high quality income-producing industrial properties.",
+      "div_history_5y": [
+        0.0322,
+        0.0249,
+        0.030699999999999998,
+        0.0316,
+        0.0377
+      ],
+      "industry": "REITs",
+      "industry_detail": "REIT - Industrial",
+      "lot_size": 100,
+      "market_cap_sgd": 540026504.0894668,
+      "name": "Alpha Integrated Real Estate Investment Trust",
+      "price": 0.47999998927116394,
+      "score": 87,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "M1GU",
+      "yield_pct": 7.2165
+    },
+    {
+      "description": "Hong Leong Finance Limited operates as a financial services company for consumer, and small and medium-sized enterprises (SMEs) markets in Singapore. The company offers a range of deposits and savings, which includes fixed deposit and saving accounts, saving accounts, and premium saver accounts, as well as silver 40 plus and golden 55 plus accounts;",
+      "div_history_5y": [
+        0.1275,
+        0.1275,
+        0.1675,
+        0.12,
+        0.0925
+      ],
+      "industry": "Banks",
+      "industry_detail": "Banks - Regional",
+      "lot_size": 100,
+      "market_cap_sgd": 1129244748.7894354,
+      "name": "Hong Leong Finance Limited",
+      "price": 2.509999990463257,
+      "score": 44,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 17,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 2
+      },
+      "sector": "Banks",
+      "ticker": "S41",
+      "yield_pct": 3.56
+    },
+    {
+      "description": "Sing Investments & Finance Limited provides financing and related nominee services to individuals and corporations in Singapore. The company offers fixed and savings deposits, current, GIRO saver, GoVault, and conveyancing accounts.",
+      "div_history_5y": [
+        0.065,
+        0.06,
+        0.066667,
+        0.053333,
+        0.024
+      ],
+      "industry": "Banks",
+      "industry_detail": "Credit Services",
+      "lot_size": 100,
+      "market_cap_sgd": 366479854.3757279,
+      "name": "Sing Investments & Finance Limited",
+      "price": 1.5499999523162842,
+      "score": 47,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 2
+      },
+      "sector": "Banks",
+      "ticker": "S35",
+      "yield_pct": 4.8077
+    },
+    {
+      "description": "Singapore's second-largest telecom. Smaller scale than Singtel; dividend cut in recent years as fixed-line revenue declined.",
+      "div_history_5y": [
+        0.062,
+        0.07200000000000001,
+        0.05,
+        0.064,
+        0.05
+      ],
+      "industry": "Telco",
+      "lot_size": 100,
+      "market_cap_sgd": 1800000000,
+      "name": "StarHub",
+      "price": 1.0199999809265137,
+      "score": 64,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 14,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 15
+      },
+      "sector": "Telco",
+      "ticker": "CC3",
+      "yield_pct": 5.8824
+    },
+    {
+      "description": "Yanlord Land Group Limited is a real estate developer. It is focusing on developing high-end fully-fitted residential, commercial and integrated property projects in strategically selected key and high-growth cities in the PRC and Singapore. Yanlord has been listed on the Mainboard of the Singapore Exchange since June 2006.",
+      "div_history_5y": [
+        0.068,
+        0.068,
+        0.068,
+        0.068,
+        0.068
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Real Estate - Development",
+      "lot_size": 100,
+      "market_cap_sgd": 1313444069.4954176,
+      "name": "Yanlord Land Group Limited",
+      "price": 0.6800000071525574,
+      "score": 48,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 16,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "Z25",
+      "yield_pct": 8.0292
+    },
+    {
+      "description": "Food Empire Holdings Limited, together with its subsidiaries, operates as a food and beverage manufacturing and distribution company. It offers instant coffee, tea, hot chocolate, and snack food products under the MacCoffee, Caf\u00e9PH?, Petrovskaya Sloboda, Klassno, Hillway, Kracks, MacTea, MacCereal, MacChocolate, MacChoco, Caf\u00e9Rite, NutriRite, FesAroma, Melosa, Assam, Nauryz, Simba, and Indira bran\u2026",
+      "div_history_5y": [
+        0.11,
+        0.1,
+        0.044,
+        0.022,
+        0.022
+      ],
+      "industry": "Consumer",
+      "industry_detail": "Beverages - Non-Alcoholic",
+      "lot_size": 100,
+      "market_cap_sgd": 1637107826.2403805,
+      "name": "Food Empire Holdings Limited",
+      "price": 2.9700000286102295,
+      "score": 52,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 15,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Consumer",
+      "ticker": "F03",
+      "yield_pct": 2.0395
+    },
+    {
+      "description": "Penguin International Limited, an investment holding company, designs, builds, owns, and operates high-speed aluminum crafts in Singapore, East Asia, Africa, Europe, the Middle East, rest of Southeast Asia, and internationally. The company operates through two segments, Chartering; and Shipbuilding, Ship Repairs and Maintenance.",
+      "div_history_5y": [
+        0.0484,
+        0.0342,
+        0.0225,
+        0.0225,
+        null
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Aerospace & Defense",
+      "lot_size": 100,
+      "market_cap_sgd": 317044487.1582155,
+      "name": "Penguin International Limited",
+      "price": 1.440000057220459,
+      "score": 62,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "BTM",
+      "yield_pct": 3.4722
+    },
+    {
+      "description": "Beverages (100Plus, F&N) + dairies + publishing. Stable F&B cash flows.",
+      "div_history_5y": [
+        0.055,
+        0.055,
+        0.05,
+        0.05,
+        0.05
+      ],
+      "industry": "Consumer",
+      "lot_size": 100,
+      "market_cap_sgd": 1500000000,
+      "name": "Fraser and Neave (F&N)",
+      "price": 1.4299999475479126,
+      "score": 50,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 13,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Consumer",
+      "ticker": "F99",
+      "yield_pct": 3.8462
+    },
+    {
+      "description": "The Straits Trading Company Limited, a conglomerate-investment company, engages in the resources, property, and hospitality businesses. The company operates in four segments: Resources, Real Estate, Hospitality, and Others. It engages in the smelting of tin concentrates and tin bearing materials.",
+      "div_history_5y": [
+        0.08,
+        0.08,
+        0.08,
+        0.08,
+        0.06
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Other Industrial Metals & Mining",
+      "lot_size": 100,
+      "market_cap_sgd": 768965356.4525989,
+      "name": "The Straits Trading Company Limited",
+      "price": 1.6399999856948853,
+      "score": 51,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 19,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "S20",
+      "yield_pct": 4.9383
+    },
+    {
+      "description": "Pacific Century Regional Developments Limited, an investment holding company, engages in management and consultancy service businesses in Singapore, Hong Kong, and Cayman Islands. It has interests in the telecommunications, media, IT solutions, logistics, and property development and investment businesses in the Asia-Pacific region.",
+      "div_history_5y": [
+        0.0816,
+        0.053200000000000004,
+        0.009,
+        0.0348,
+        0.0813
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Asset Management",
+      "lot_size": 100,
+      "market_cap_sgd": 1243877650.8450687,
+      "name": "Pacific Century Regional Developments Limited",
+      "price": 0.4699999988079071,
+      "score": 69,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 17,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "P15",
+      "yield_pct": 12.1277
+    },
+    {
+      "description": "Olam Group Limited engages in sourcing, processing, packaging, and merchandising of agricultural products worldwide. It operates through Olam Food Ingredients, Olam Global Agri, and Remaining Olam Group segments.",
+      "div_history_5y": [
+        0.05,
+        0.07,
+        0.075,
+        0.08499999999999999,
+        0.07868800000000001
+      ],
+      "industry": "Consumer",
+      "industry_detail": "Food Distribution",
+      "lot_size": 100,
+      "market_cap_sgd": 4489947906.236527,
+      "name": "Olam Group Limited",
+      "price": 1.190000057220459,
+      "score": 64,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 2,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Consumer",
+      "ticker": "VC2",
+      "yield_pct": 1.6807
+    },
+    {
+      "description": "Metro Holdings Limited engages in the retail, and property development and investment businesses in Singapore, the People's Republic of China, Indonesia, the United Kingdom, and Australia. The company operates in two segments, Property and Retail. It leases shopping and office spaces, as well as invests in property-related investments; and retails and operates department stores.",
+      "div_history_5y": [
+        0.02,
+        0.02,
+        0.0225,
+        0.03,
+        0.0225
+      ],
+      "industry": "Consumer",
+      "industry_detail": "Department Stores",
+      "lot_size": 100,
+      "market_cap_sgd": 393317035.2145216,
+      "name": "Metro Holdings Limited",
+      "price": 0.4749999940395355,
+      "score": 77,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Consumer",
+      "ticker": "M01",
+      "yield_pct": 4.2553
+    },
+    {
+      "description": "Hor Kew Corporation Limited, an investment holding company, provides an integrated range of construction related products and services in Singapore. The company operates in Property Investment and Development and Prefabrication segments. The Property Investment and Development segment is involved in the development, sale, and leasing of residential, commercial, and industrial properties.",
+      "div_history_5y": [
+        0.03,
+        null,
+        null,
+        null,
+        null
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Engineering & Construction",
+      "lot_size": 100,
+      "market_cap_sgd": 61438985.66,
+      "name": "Hor Kew Corporation Limited",
+      "price": 1.18,
+      "score": 62,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "BBP",
+      "yield_pct": 1.2712
+    },
+    {
+      "description": "Aspial Lifestyle Limited, an investment holding company, retails and trades in jewelry and branded merchandise in Singapore and internationally. It operates through four segments: Pawnbroking; Secured Lending; and Retail and Trading of Jewellery and Branded Merchandise, and Others segments.",
+      "div_history_5y": [
+        0.007789000000000001,
+        0.007789000000000001,
+        0.007988,
+        0.012483000000000001,
+        0.020971
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Luxury Goods",
+      "lot_size": 100,
+      "market_cap_sgd": 788229698.5595872,
+      "name": "Aspial Lifestyle Limited",
+      "price": 0.39500001072883606,
+      "score": 76,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 19,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "5UF",
+      "yield_pct": 2.963
+    },
+    {
+      "description": "SIA Engineering Company Limited, together with its subsidiaries, engages in the provision of maintenance, repair, and overhaul (MRO) services in Singapore, Philippines, Japan, Malaysia, Cambodia, and the United States of America. The company operates through Airframe and Line Maintenance; and Engine and Component segments.",
+      "div_history_5y": [
+        0.095,
+        0.08,
+        0.075,
+        null,
+        null
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Airports & Air Services",
+      "lot_size": 100,
+      "market_cap_sgd": 3547350643.6458263,
+      "name": "SIA Engineering Company Limited",
+      "price": 3.1700000762939453,
+      "score": 48,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 6,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "S59",
+      "yield_pct": 3.4591
+    },
+    {
+      "description": "Banyan Tree Holdings Limited, an investment holding company, operates as a hospitality company in Singapore, rest of South East Asia, Indian Oceania, the Middle East, North East Asia, and internationally. It operates through Hotel Investments, Residences, and Fee-Based segments.",
+      "div_history_5y": [
+        0.013,
+        0.012,
+        null,
+        null,
+        null
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Resorts & Casinos",
+      "lot_size": 100,
+      "market_cap_sgd": 494557762.3541179,
+      "name": "Banyan Tree Holdings Limited",
+      "price": 0.5699999928474426,
+      "score": 62,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "B58",
+      "yield_pct": 2.3932
+    },
+    {
+      "description": "Samudera Shipping Line Ltd owns and operates ocean-going ships in Southeast Asia, the Indian Sub-continent, the Far East, the Middle East, and internationally. It operates through three segments: Container Shipping, Bulk and Tanker, and Logistics.",
+      "div_history_5y": [
+        0.083,
+        0.09999999999999999,
+        0.27,
+        0.20500000000000002,
+        0.0155
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Marine Shipping",
+      "lot_size": 100,
+      "market_cap_sgd": 527277446.26226425,
+      "name": "Samudera Shipping Line Ltd",
+      "price": 0.9800000190734863,
+      "score": 72,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "S56",
+      "yield_pct": 2.8571
+    },
+    {
+      "description": "Singapore supermarket chain \u2014 defensive consumer-staples dividend, no overseas exposure.",
+      "div_history_5y": [
+        0.064,
+        0.064,
+        0.061200000000000004,
+        0.0625,
+        0.061
+      ],
+      "industry": "Consumer",
+      "lot_size": 100,
+      "market_cap_sgd": 2600000000,
+      "name": "Sheng Siong Group",
+      "price": 3.0299999713897705,
+      "score": 49,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 2,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Consumer",
+      "ticker": "OV8",
+      "yield_pct": 2.2801
+    },
+    {
+      "description": "GuocoLand Limited, an investment holding company, engages in the property investment and development business. It operates through GuocoLand Singapore, GuocoLand China, and GuocoLand Malaysia segments. The company owns, invests in, and manages a portfolio of commercial, mixed-used, residential, and integrated properties, as well as operates and manages hotels.",
+      "div_history_5y": [
+        0.07,
+        0.06,
+        0.06,
+        0.06,
+        0.06
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Real Estate - Development",
+      "lot_size": 100,
+      "market_cap_sgd": 2616999537.3508787,
+      "name": "GuocoLand Limited",
+      "price": 2.2699999809265137,
+      "score": 43,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 11,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "F17",
+      "yield_pct": 3.0837
+    },
+    {
+      "description": "Old Chang Kee Ltd., an investment holding company, engages in the manufacture and distribution of food products under the Old Chang Kee brand in Singapore, Australia, and Malaysia. The company offers traditional, seafood, and chicken products; and desserts and breakfast set products.",
+      "div_history_5y": [
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02
+      ],
+      "industry": "Consumer",
+      "industry_detail": "Restaurants",
+      "lot_size": 100,
+      "market_cap_sgd": 143222139.63364363,
+      "name": "Old Chang Kee Ltd.",
+      "price": 1.1799999475479126,
+      "score": 57,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Consumer",
+      "ticker": "5ML",
+      "yield_pct": 1.6949
+    },
+    {
+      "description": "China Aviation Oil (Singapore) Corporation Ltd trades in and supplies jet fuel to civil aviation industry worldwide. It operates through three segments: Middle Distillates, Other Oil Products, and Investments in Oil-Related Assets. The company offers gas oil, fuel oil, crude oil, gasoline, and naphtha products. It also invests in oil-related assets.",
+      "div_history_5y": [
+        0.0372,
+        0.0505,
+        0.016,
+        0.019,
+        0.0258
+      ],
+      "industry": "Consumer",
+      "industry_detail": "Oil & Gas Refining & Marketing",
+      "lot_size": 100,
+      "market_cap_sgd": 1617145216.5383248,
+      "name": "China Aviation Oil (Singapore) Corporation Ltd",
+      "price": 1.8799999952316284,
+      "score": 77,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 15,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Consumer",
+      "ticker": "G92",
+      "yield_pct": 2.0
+    },
+    {
+      "description": "United Overseas Insurance Limited engages in the underwriting general insurance business in Singapore, ASEAN countries, and internationally. The company offers personal insurance products, including travel, motor, accident, and home insurance products; and business property insurance.",
+      "div_history_5y": [
+        0.215,
+        0.21000000000000002,
+        0.21000000000000002,
+        0.25,
+        0.21000000000000002
+      ],
+      "industry": "Banks",
+      "industry_detail": "Insurance - Property & Casualty",
+      "lot_size": 100,
+      "market_cap_sgd": 501470988.33560944,
+      "name": "United Overseas Insurance Limited",
+      "price": 8.199999809265137,
+      "score": 47,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 2
+      },
+      "sector": "Banks",
+      "ticker": "U13",
+      "yield_pct": 2.1951
+    },
+    {
+      "description": "InnoTek Limited, an investment holding company, operates as a precision metal components manufacturer in Hong Kong, the People's Republic of China, Thailand, and Vietnam. It operates through The Precision Components and The precision intelligent manufacturing segments.",
+      "div_history_5y": [
+        0.02,
+        0.02,
+        0.02,
+        0.02,
+        0.02
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Metal Fabrication",
+      "lot_size": 100,
+      "market_cap_sgd": 176647800.61483383,
+      "name": "InnoTek Limited",
+      "price": 0.6850000023841858,
+      "score": 52,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "M14",
+      "yield_pct": 2.9412
+    },
+    {
+      "description": "PropNex Limited, an investment holding company, provides real estate services in Singapore. The company operates through Agency Services, Project Marketing Services, Administrative Support Services, and Training Services segments.",
+      "div_history_5y": [
+        0.10500000000000001,
+        0.0575,
+        0.10500000000000001,
+        0.0625,
+        0.0475
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Real Estate Services",
+      "lot_size": 100,
+      "market_cap_sgd": 1317199978.8284302,
+      "name": "PropNex Limited",
+      "price": 1.7799999713897705,
+      "score": 58,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 16,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "OYY",
+      "yield_pct": 5.2198
+    },
+    {
+      "description": "Top Glove Corporation Bhd., an investment holding company, engages in the manufacture, trade, and sale of gloves in Malaysia, Thailand, the People's Republic of China, and internationally. It offers nitrile, latex, surgical, rubber, examination, medical, and vinyl gloves;",
+      "div_history_5y": [
+        0.0015412801,
+        null,
+        null,
+        null,
+        0.159907803
+      ],
+      "industry": "Consumer",
+      "industry_detail": "Medical Instruments & Supplies",
+      "lot_size": 100,
+      "market_cap_sgd": 2044581440.4323559,
+      "name": "Top Glove Corporation Bhd.",
+      "price": 0.2549999952316284,
+      "score": 60,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 13,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Consumer",
+      "ticker": "BVA",
+      "yield_pct": 2.0408
+    },
+    {
+      "description": "Ho Bee Land Limited is a real estate company. Listed on the Mainboard of the Singapore Exchange since 1999, Ho Bee has a global footprint that spans Australia, China, United Kingdom and Europe. Its portfolio covers many quality residential, commercial and high-tech industrial projects since its inception.",
+      "div_history_5y": [
+        0.04,
+        0.03,
+        0.08,
+        0.1,
+        0.1
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Real Estate - Diversified",
+      "lot_size": 100,
+      "market_cap_sgd": 1394434376.6744614,
+      "name": "Ho Bee Land Limited",
+      "price": 2.0999999046325684,
+      "score": 68,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 16,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "H13",
+      "yield_pct": 2.439
+    },
+    {
+      "description": "Geo Energy Resources Limited, an investment holding company, engages in the mining, production, and trading of coal. The company operates through three segments: Coal Mining, Coal Trading, and Mining Services. The Coal Mining segment engages in the production and sale of coal. The Coal Trading segment is involved in the purchase and sale of coal from third parties.",
+      "div_history_5y": [
+        0.0085,
+        0.012,
+        0.054,
+        0.1,
+        0.048
+      ],
+      "industry": "Industrials",
+      "industry_detail": "Thermal Coal",
+      "lot_size": 100,
+      "market_cap_sgd": 792695631.328874,
+      "name": "Geo Energy Resources Limited",
+      "price": 0.4449999928474426,
+      "score": 76,
+      "score_breakdown": {
+        "div_vol": 25,
+        "mcap": 19,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 17
+      },
+      "sector": "Industrials",
+      "ticker": "RE4",
+      "yield_pct": 0.6452
+    },
+    {
+      "description": "Credit Bureau Asia Limited, an investment holding company, provides credit and risk information solutions in Singapore, Malaysia, Cambodia, and Myanmar. It operates through two segments: Financial Institution Data and Non-Financial Institution Data segments.",
+      "div_history_5y": [
+        0.04,
+        0.04,
+        0.034,
+        0.034,
+        0.017
+      ],
+      "industry": "REITs",
+      "industry_detail": "Financial Data & Stock Exchanges",
+      "lot_size": 100,
+      "market_cap_sgd": 261732596.7156887,
+      "name": "Credit Bureau Asia Limited",
+      "price": 1.1399999856948853,
+      "score": 62,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 27
+      },
+      "sector": "REITs",
+      "ticker": "TCU",
+      "yield_pct": 3.6522
+    },
+    {
+      "description": "Prudential plc, through its subsidiaries, provides life and health insurance, and asset management solutions to individuals in Asia and Africa. It offers savings and investments products; and wealth, health, and protection products. The company was founded in 1848 and is headquartered in Central, Hong Kong.",
+      "div_history_5y": [
+        0.24101751999999999,
+        0.22180145,
+        0.209181364,
+        0.19317222,
+        0.155389745
+      ],
+      "industry": "Banks",
+      "industry_detail": "Insurance - Life",
+      "lot_size": 100,
+      "market_cap_sgd": 34743535974.302216,
+      "name": "Prudential plc",
+      "price": 13.869999885559082,
+      "score": 17,
+      "score_breakdown": {
+        "div_vol": 0,
+        "mcap": 0,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 2
+      },
+      "sector": "Banks",
+      "ticker": "K6S",
+      "yield_pct": 1.7161
+    },
+    {
+      "description": "Tracks the FTSE Straits Times Index \u2014 the 30 largest SGX stocks. Most widely held SG ETF.",
       "div_history_5y": [
         0.18,
         0.15899999999999997,
@@ -686,9 +2072,11 @@
         0.11199999999999999,
         0.09
       ],
+      "industry": "Other",
       "lot_size": 100,
+      "market_cap_sgd": 1700000000,
       "name": "SPDR Straits Times Index ETF",
-      "price": 5.125,
+      "price": 5.09499979019165,
       "score": 57,
       "score_breakdown": {
         "div_vol": 0,
@@ -699,38 +2087,10 @@
       },
       "sector": "Other",
       "ticker": "ES3",
-      "yield_pct": 3.5,
-      "description": "Tracks the FTSE Straits Times Index - the 30 largest SGX stocks. Most widely held SG ETF.",
-      "market_cap_sgd": 1700000000,
-      "industry": "Other"
+      "yield_pct": 3.5
     },
     {
-      "div_history_5y": [
-        0.638462,
-        0.694352,
-        0.65948,
-        0.520626,
-        0.397478
-      ],
-      "lot_size": 100,
-      "name": "iShares USD Asia HY Bond ETF",
-      "price": 8.62,
-      "score": 67,
-      "score_breakdown": {
-        "div_vol": 10,
-        "mcap": 20,
-        "payout": 10,
-        "price_vol": 5,
-        "sector": 22
-      },
-      "sector": "Other",
-      "ticker": "QL3",
-      "yield_pct": 7.3103,
-      "description": "Asian high-yield USD bond exposure. Higher yield, higher credit risk than government bonds.",
-      "market_cap_sgd": 300000000,
-      "industry": "Other"
-    },
-    {
+      "description": "Alternative STI tracker \u2014 same underlying as ES3 but different fee/structure. Used for SRS investing.",
       "div_history_5y": [
         0.1795,
         0.15739999999999998,
@@ -738,9 +2098,11 @@
         0.1046,
         0.1057
       ],
+      "industry": "Other",
       "lot_size": 100,
+      "market_cap_sgd": 800000000,
       "name": "Nikko AM STI ETF",
-      "price": 5.223999977111816,
+      "price": 5.199999809265137,
       "score": 67,
       "score_breakdown": {
         "div_vol": 10,
@@ -751,10 +2113,163 @@
       },
       "sector": "Other",
       "ticker": "G3B",
-      "yield_pct": 3.65,
-      "description": "Alternative STI tracker - same underlying as ES3 but different fee/structure. Used for SRS investing.",
-      "market_cap_sgd": 800000000,
-      "industry": "Other"
+      "yield_pct": 3.65
+    },
+    {
+      "description": "Asian high-yield USD bond exposure. Higher yield, higher credit risk than government bonds.",
+      "div_history_5y": [
+        0.638462,
+        0.694352,
+        0.65948,
+        0.520626,
+        0.397478
+      ],
+      "industry": "Other",
+      "lot_size": 100,
+      "market_cap_sgd": 300000000,
+      "name": "iShares USD Asia HY Bond ETF",
+      "price": 8.600000381469727,
+      "score": 67,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Other",
+      "ticker": "QL3",
+      "yield_pct": 7.3273
+    },
+    {
+      "description": "Tracks an index of Singapore government + quasi-government bonds. Conservative income play.",
+      "div_history_5y": [
+        0.038400000000000004,
+        0.0248,
+        0.025,
+        0.0245,
+        0.0371
+      ],
+      "industry": "Other",
+      "lot_size": 100,
+      "market_cap_sgd": 1300000000,
+      "name": "ABF Singapore Bond Index Fund",
+      "price": 1.1449999809265137,
+      "score": 77,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Other",
+      "ticker": "A35",
+      "yield_pct": 2.32
+    },
+    {
+      "description": "Diversified Singapore REIT ETF \u2014 basket exposure to ~20 S-REITs. One-click REIT diversification.",
+      "div_history_5y": [
+        0.048,
+        0.043,
+        0.0507,
+        0.05,
+        0.048
+      ],
+      "industry": "Other",
+      "lot_size": 100,
+      "market_cap_sgd": 250000000,
+      "name": "Lion-Phillip S-REIT ETF",
+      "price": 0.8209999799728394,
+      "score": 67,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Other",
+      "ticker": "CLR",
+      "yield_pct": 5.43
+    },
+    {
+      "description": "",
+      "div_history_5y": [
+        0.0552,
+        0.0455,
+        0.0511,
+        0.0501,
+        0.0468
+      ],
+      "industry": "Other",
+      "lot_size": 100,
+      "market_cap_sgd": null,
+      "name": "Amova-StraitsTrading Asia ex Japan REIT Index ETF",
+      "price": 0.7950000166893005,
+      "score": 67,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Other",
+      "ticker": "CFA",
+      "yield_pct": 5.25
+    },
+    {
+      "description": "",
+      "div_history_5y": [
+        0.044,
+        0.047,
+        0.045700000000000005,
+        0.026383,
+        null
+      ],
+      "industry": "Other",
+      "lot_size": 100,
+      "market_cap_sgd": null,
+      "name": "CSOP iEdge S-REIT Leaders Index ETF",
+      "price": 0.7400000095367432,
+      "score": 77,
+      "score_breakdown": {
+        "div_vol": 20,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Other",
+      "ticker": "SRT",
+      "yield_pct": 5.89
+    },
+    {
+      "description": "",
+      "div_history_5y": [
+        0.04,
+        0.032,
+        0.023,
+        null,
+        null
+      ],
+      "industry": "Other",
+      "lot_size": 100,
+      "market_cap_sgd": null,
+      "name": "Principal S&P Ethical Asia Pacific Dividend ETF",
+      "price": 0.701,
+      "score": 67,
+      "score_breakdown": {
+        "div_vol": 10,
+        "mcap": 20,
+        "payout": 10,
+        "price_vol": 5,
+        "sector": 22
+      },
+      "sector": "Other",
+      "ticker": "P5P",
+      "yield_pct": 5.61
     }
   ]
 }

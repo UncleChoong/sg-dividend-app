@@ -67,9 +67,15 @@ workflows:
         script: xcode-project use-profiles
       - name: Flutter iOS build
         script: |
-          # Use commit count as build number — strictly increases per push, deterministic, no API dependency
-          NEXT_BUILD=$(git rev-list --count HEAD)
-          echo "Building with --build-number=$NEXT_BUILD"
+          # Use commit count + offset as build number. Offset (100) ensures we
+          # stay permanently ahead of any historical TestFlight upload — if a
+          # build was previously uploaded with N as the raw commit count, the
+          # +100 keeps us clear without manual coordination. App Store Connect
+          # rejects (409 ENTITY_ERROR.ATTRIBUTE.INVALID.DUPLICATE) if the same
+          # CFBundleVersion is uploaded twice.
+          BUILD_OFFSET=100
+          NEXT_BUILD=$(($(git rev-list --count HEAD) + $BUILD_OFFSET))
+          echo "Building with --build-number=$NEXT_BUILD (commit count + $BUILD_OFFSET)"
           flutter build ipa --release \
             --build-name=0.1.0 \
             --build-number=$NEXT_BUILD \

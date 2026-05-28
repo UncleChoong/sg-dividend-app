@@ -27,13 +27,17 @@ class MainShellState extends State<MainShell> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: AppColors.background,
-      body: IndexedStack(
-        index: _index,
-        children: const [
-          HomeTab(),
-          StocksTab(),
-          OptimizeTab(),
-        ],
+      body: GestureDetector(
+        behavior: HitTestBehavior.translucent,
+        onTap: () => FocusManager.instance.primaryFocus?.unfocus(),
+        child: IndexedStack(
+          index: _index,
+          children: const [
+            HomeTab(),
+            StocksTab(),
+            OptimizeTab(),
+          ],
+        ),
       ),
       bottomNavigationBar: NavigationBar(
         backgroundColor: AppColors.surface,

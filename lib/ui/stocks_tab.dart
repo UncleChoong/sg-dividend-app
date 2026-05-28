@@ -31,6 +31,27 @@ class _StocksTabState extends ConsumerState<StocksTab> {
   String _query = '';
   final Set<String> _industryFilter = {};
 
+  @override
+  void initState() {
+    super.initState();
+    // After first frame, consume any deep-link filter set from Home tab.
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      _applyPendingFilter();
+    });
+  }
+
+  void _applyPendingFilter() {
+    final pending = ref.read(pendingIndustryFilterProvider);
+    if (pending != null) {
+      setState(() {
+        _industryFilter
+          ..clear()
+          ..add(pending);
+      });
+      ref.read(pendingIndustryFilterProvider.notifier).state = null;
+    }
+  }
+
   List<Ticker> _filterSort(List<Ticker> tickers) {
     var list = tickers.where((t) {
       if (_industryFilter.isNotEmpty &&
@@ -58,6 +79,20 @@ class _StocksTabState extends ConsumerState<StocksTab> {
 
   @override
   Widget build(BuildContext context) {
+    // React to deep-links from Home (sector breakdown taps) — IndexedStack
+    // keeps this State alive, so initState only fires once; ref.listen catches
+    // subsequent changes.
+    ref.listen<String?>(pendingIndustryFilterProvider, (_, next) {
+      if (next != null) {
+        setState(() {
+          _industryFilter
+            ..clear()
+            ..add(next);
+          _query = '';
+        });
+        ref.read(pendingIndustryFilterProvider.notifier).state = null;
+      }
+    });
     final async = ref.watch(universeProvider);
     return Scaffold(
       backgroundColor: AppColors.background,

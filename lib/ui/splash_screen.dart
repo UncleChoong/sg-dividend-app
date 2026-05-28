@@ -11,6 +11,10 @@ final universeProvider = FutureProvider<Universe>((ref) async {
   return ref.read(universeRepoProvider).load();
 });
 
+/// Set by Home when an industry row is tapped; consumed by Stocks tab on next
+/// activation to pre-apply the filter. Null means "no pending filter".
+final pendingIndustryFilterProvider = StateProvider<String?>((_) => null);
+
 class SplashScreen extends ConsumerWidget {
   const SplashScreen({super.key});
 

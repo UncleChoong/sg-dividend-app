@@ -22,7 +22,7 @@ class HomeTab extends ConsumerWidget {
       body: async.when(
         loading: () => const Center(child: CircularProgressIndicator()),
         error: (e, _) => Center(child: Text('Error: $e')),
-        data: (u) => _HomeContent(universe: u),
+        data: (u) => _HomeContent(universe: u, ref: ref),
       ),
     );
   }
@@ -30,7 +30,8 @@ class HomeTab extends ConsumerWidget {
 
 class _HomeContent extends StatelessWidget {
   final Universe universe;
-  const _HomeContent({required this.universe});
+  final WidgetRef ref;
+  const _HomeContent({required this.universe, required this.ref});
 
   @override
   Widget build(BuildContext context) {
@@ -68,7 +69,15 @@ class _HomeContent extends StatelessWidget {
         const SizedBox(height: 20),
 
         // ── Industry breakdown (donut + rows, iFast Summary card) ─────
-        _IndustryBreakdownCard(industries: industries, total: tickers.length),
+        _IndustryBreakdownCard(
+          industries: industries,
+          total: tickers.length,
+          onIndustryTap: (industry) {
+            ref.read(pendingIndustryFilterProvider.notifier).state = industry;
+            final shell = context.findAncestorStateOfType<MainShellState>();
+            shell?.switchToTab(1);
+          },
+        ),
         const SizedBox(height: 16),
 
         // ── Featured / Top yielders horizontal scroller ───────────────
@@ -266,8 +275,12 @@ class _GradientHero extends StatelessWidget {
 class _IndustryBreakdownCard extends StatelessWidget {
   final List<MapEntry<String, int>> industries;
   final int total;
-  const _IndustryBreakdownCard(
-      {required this.industries, required this.total});
+  final ValueChanged<String> onIndustryTap;
+  const _IndustryBreakdownCard({
+    required this.industries,
+    required this.total,
+    required this.onIndustryTap,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -314,41 +327,50 @@ class _IndustryBreakdownCard extends StatelessWidget {
         ),
         const SizedBox(height: 16),
         // iFast-style breakdown rows: vertical color bar + label + % + count
+        // Tappable — links to Stocks tab filtered by the industry.
         ...industries.map((e) {
           final pct = total == 0 ? 0.0 : (e.value / total) * 100;
-          return Padding(
-            padding: const EdgeInsets.only(bottom: 10),
-            child: Row(children: [
-              Container(
-                width: 4,
-                height: 26,
-                decoration: BoxDecoration(
-                  color: IndustryBadge.colorFor(e.key),
-                  borderRadius: BorderRadius.circular(2),
+          return InkWell(
+            onTap: () => onIndustryTap(e.key),
+            borderRadius: BorderRadius.circular(8),
+            child: Padding(
+              padding: const EdgeInsets.symmetric(vertical: 6, horizontal: 2),
+              child: Row(children: [
+                Container(
+                  width: 4,
+                  height: 26,
+                  decoration: BoxDecoration(
+                    color: IndustryBadge.colorFor(e.key),
+                    borderRadius: BorderRadius.circular(2),
+                  ),
                 ),
-              ),
-              const SizedBox(width: 10),
-              Expanded(
-                child: Text(e.key,
+                const SizedBox(width: 10),
+                Expanded(
+                  child: Text(e.key,
+                      style: GoogleFonts.inter(
+                          color: AppColors.textPrimary,
+                          fontSize: 13,
+                          fontWeight: FontWeight.w500)),
+                ),
+                Text('${pct.toStringAsFixed(1)}%',
                     style: GoogleFonts.inter(
                         color: AppColors.textPrimary,
                         fontSize: 13,
-                        fontWeight: FontWeight.w500)),
-              ),
-              Text('${pct.toStringAsFixed(1)}%',
-                  style: GoogleFonts.inter(
-                      color: AppColors.textPrimary,
-                      fontSize: 13,
-                      fontWeight: FontWeight.w700)),
-              const SizedBox(width: 12),
-              SizedBox(
-                width: 24,
-                child: Text('${e.value}',
-                    textAlign: TextAlign.right,
-                    style: GoogleFonts.inter(
-                        color: AppColors.textTertiary, fontSize: 12)),
-              ),
-            ]),
+                        fontWeight: FontWeight.w700)),
+                const SizedBox(width: 12),
+                SizedBox(
+                  width: 24,
+                  child: Text('${e.value}',
+                      textAlign: TextAlign.right,
+                      style: GoogleFonts.inter(
+                          color: AppColors.textTertiary, fontSize: 12)),
+                ),
+                const SizedBox(width: 4),
+                Icon(Icons.chevron_right_rounded,
+                    color: AppColors.textTertiary.withValues(alpha: 0.7),
+                    size: 18),
+              ]),
+            ),
           );
         }),
       ]),
